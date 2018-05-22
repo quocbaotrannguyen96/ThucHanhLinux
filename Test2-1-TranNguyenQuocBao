@@ -1,0 +1,3183 @@
+Script started on Tue 22 May 2018 04:43:53 AM PDT
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ cc[Kd /etc/inti[K[Kit.d
+]0;baodkpro000@ubuntu: /etc/init.d[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc/init.d[00m$ #pwd: hien thi directory hien hanh
+]0;baodkpro000@ubuntu: /etc/init.d[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc/init.d[00m$ #pa[Kwd -p: hien thi directory hien hang[Kh bo qua sym links
+]0;baodkpro000@ubuntu: /etc/init.d[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc/init.d[00m$ cd / && pwd & cd -p /etc/init.d && pwd &&cd
+[1] 15251
+bash: cd: -p: invalid option
+cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
+/
+]0;baodkpro000@ubuntu: /etc/init.d[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc/init.d[00m$ cd / && pwd & cd -p /etc/init.d && pwd &&cd[C[1P#pwd -p: hien thi directory hien hanh bo qua symllinks[A]0;baodkpro000@ubuntu: /etc/init.d[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc/init.d[00m$ [6Pcd / && pwd & cd - /etc/init.d && pwd &&cd
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@P[1P[C[1@P
+[2] 15256
+/
+/etc/init.d
+[1]   Done                    cd / && pwd  (wd: /etc/init.d)
+(wd now: ~)
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ cd / && pwd & cd -P /etc/init.d && pwd &&cd[C[1P[1@L
+[3] 15257
+/etc/init.d
+/
+[2]   Done                    cd / && pwd  (wd: /etc/init.d)
+(wd now: ~)
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ CD /ETC[K[K[K[K[K[K[Kcd /etc
+[3]+  Done                    cd / && pwd  (wd: ~)
+(wd now: /etc)
+]0;baodkpro000@ubuntu: /etc[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc[00m$ #Bai 5
+]0;baodkpro000@ubuntu: /etc[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc[00m$ date
+Tue May 22 04:47:40 PDT 2018
+]0;baodkpro000@ubuntu: /etc[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc[00m$ pwd
+/etc
+]0;baodkpro000@ubuntu: /etc[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc[00m$ ls
+[0m[01;34macpi[0m                    hostname                 [01;34mppp[0m
+adduser.conf            hosts                    profile
+[01;34malternatives[0m            hosts.allow              [01;34mprofile.d[0m
+anacrontab              hosts.deny               protocols
+apg.conf                [01;34mhp[0m                       [01;34mpulse[0m
+[01;34mapm[0m                     [01;34mifplugd[0m                  [01;34mpython[0m
+[01;34mapparmor[0m                iftab                    [01;34mpython2.7[0m
+[01;34mapparmor.d[0m              [01;34mImageMagick-6[0m            [01;34mpython3[0m
+[01;34mapport[0m                  [01;34minit[0m                     [01;34mpython3.5[0m
+appstream.conf          [01;34minit.d[0m                   [01;34mrc0.d[0m
+[01;34mapt[0m                     [01;34minitramfs-tools[0m          [01;34mrc1.d[0m
+[01;34maptdaemon[0m               inputrc                  [01;34mrc2.d[0m
+[01;34mat-spi2[0m                 [01;34minsserv[0m                  [01;34mrc3.d[0m
+[01;34mavahi[0m                   insserv.conf             [01;34mrc4.d[0m
+bash.bashrc             [01;34minsserv.conf.d[0m           [01;34mrc5.d[0m
+bash_completion         [01;34miproute2[0m                 [01;34mrc6.d[0m
+[01;34mbash_completion.d[0m       issue                    rc.local
+bindresvport.blacklist  issue.net                [01;34mrcS.d[0m
+[01;34mbinfmt.d[0m                [01;34mkbd[0m                      [01;34mresolvconf[0m
+[01;34mbluetooth[0m               [01;34mkernel[0m                   [01;36mresolv.conf[0m
+brlapi.key              kernel-img.conf          [01;32mrmt[0m
+[01;34mbrltty[0m                  kerneloops.conf          rpc
+brltty.conf             [01;34mldap[0m                     rsyslog.conf
+[01;34mca-certificates[0m         ld.so.cache              [01;34mrsyslog.d[0m
+ca-certificates.conf    ld.so.conf               [01;34msane.d[0m
+[01;34mcalendar[0m                [01;34mld.so.conf.d[0m             securetty
+[01;34mchatscripts[0m             legal                    [01;34msecurity[0m
+[01;34mcompizconfig[0m            libao.conf               [01;34mselinux[0m
+[01;34mconsole-setup[0m           libaudit.conf            sensors3.conf
+[01;34mcracklib[0m                [01;34mlibnl-3[0m                  [01;34msensors.d[0m
+[01;34mcron.d[0m                  [01;34mlibpaper.d[0m               services
+[01;34mcron.daily[0m              [01;34mlibreoffice[0m              [01;34msgml[0m
+[01;34mcron.hourly[0m             [01;34mlightdm[0m                  shadow
+[01;34mcron.monthly[0m            lintianrc                shadow-
+crontab                 locale.alias             shells
+[01;34mcron.weekly[0m             locale.gen               signond.conf
+[01;34mcups[0m                    localtime                [01;34msignon-ui[0m
+[01;34mcupshelpers[0m             [01;34mlogcheck[0m                 [01;34mskel[0m
+[01;34mdbus-1[0m                  login.defs               [01;34mspeech-dispatcher[0m
+[01;34mdconf[0m                   logrotate.conf           [01;34mssh[0m
+debconf.conf            [01;34mlogrotate.d[0m              [01;34mssl[0m
+debian_version          lsb-release              subgid
+[01;34mdefault[0m                 ltrace.conf              subgid-
+deluser.conf            machine-id               subuid
+[01;34mdepmod.d[0m                magic                    subuid-
+[01;34mdhcp[0m                    magic.mime               sudoers
+[01;34mdictionaries-common[0m     mailcap                  [01;34msudoers.d[0m
+[01;34mdnsmasq.d[0m               mailcap.order            sysctl.conf
+[01;34mdoc-base[0m                manpath.config           [01;34msysctl.d[0m
+[01;34mdpkg[0m                    mime.types               [01;34msystemd[0m
+drirc                   mke2fs.conf              [01;34mterminfo[0m
+[01;34memacs[0m                   [01;34mmodprobe.d[0m               [01;34mthermald[0m
+environment             modules                  [01;34mthunderbird[0m
+[01;34mfirefox[0m                 [01;34mmodules-load.d[0m           timezone
+[01;34mfonts[0m                   [01;36mmtab[0m                     [01;34mtmpfiles.d[0m
+fstab                   mtools.conf              ucf.conf
+fuse.conf               nanorc                   [01;34mudev[0m
+fwupd.conf              [01;34mnetwork[0m                  [01;34mudisks2[0m
+gai.conf                [01;34mNetworkManager[0m           [01;34mufw[0m
+[01;34mgconf[0m                   networks                 updatedb.conf
+[01;34mgdb[0m                     [01;34mnewt[0m                     [01;34mupdate-manager[0m
+[01;34mghostscript[0m             nsswitch.conf            [01;34mupdate-motd.d[0m
+[01;34mgnome[0m                   [01;34mopt[0m                      [01;34mupdate-notifier[0m
+[01;34mgnome-app-install[0m       [01;36mos-release[0m               [01;34mUPower[0m
+[01;34mgroff[0m                   pam.conf                 upstart-xsessions
+group                   [01;34mpam.d[0m                    usb_modeswitch.conf
+group-                  papersize                [01;34musb_modeswitch.d[0m
+[01;34mgrub.d[0m                  passwd                   [01;34mvim[0m
+gshadow                 passwd-                  [01;34mvmware-tools[0m
+gshadow-                [01;34mpcmcia[0m                   [01;36mvtrgb[0m
+[01;34mgss[0m                     [01;34mperl[0m                     wgetrc
+[01;34mgtk-2.0[0m                 [01;34mpki[0m                      [01;34mwpa_supplicant[0m
+[01;34mgtk-3.0[0m                 [01;34mpm[0m                       [01;34mX11[0m
+[01;34mguest-session[0m           pnm2ppa.conf             [01;34mxdg[0m
+hdparm.conf             [01;34mpolkit-1[0m                 [01;34mxml[0m
+host.conf               popularity-contest.conf  zsh_command_not_found
+]0;baodkpro000@ubuntu: /etc[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc[00m$ who
+baodkpro000 tty7         2018-04-17 04:47 (:0)
+]0;baodkpro000@ubuntu: /etc[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc[00m$ su
+Password: 
+su: Authentication failure
+]0;baodkpro000@ubuntu: /etc[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc[00m$ cal
+      May 2018        
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8  9 10 11 12  
+13 14 15 16 17 18 19  
+20 21 [7m22[27m 23 24 25 26  
+27 28 29 30 31        
+                      
+]0;baodkpro000@ubuntu: /etc[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc[00m$ cat
+pwd   ]0;baodkpro000@ubuntu: /etc[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc[00m$ pe[Kwfd[K[Kd
+/etc
+]0;baodkpro000@ubuntu: /etc[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc[00m$ cat > thegioimang.txt
+bash: thegioimang.txt: Permission denied
+]0;baodkpro000@ubuntu: /etc[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc[00m$ cat > thegioimang.txt[1Phegioimang.txtThegioimang.txt
+bash: Thegioimang.txt: Permission denied
+]0;baodkpro000@ubuntu: /etc[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc[00m$ CD[K[Kcd
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ cdat > Thegioimang.txt
+Chao mung cac ban den voi dien dan Mang May TInh   ing h - W 
+www.Th  thegioimang.org. Noi giao luu trao doi va chia se kien thuc mang    Mang May TInh   inh noi rieng va CNTT noi chung.
+Xh  Chuc cac ban thanh cong va hap nh phuc!!!
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ mkdir athena
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ cd athena/
+]0;baodkpro000@ubuntu: ~/athena[01;32mbaodkpro000@ubuntu[00m:[01;34m~/athena[00m$ cd athena/mkdir athena[K[K[K[K[K[Kclass1
+]0;baodkpro000@ubuntu: ~/athena[01;32mbaodkpro000@ubuntu[00m:[01;34m~/athena[00m$ mkdir class1[2Pcd athena/mkdir class1[K2
+]0;baodkpro000@ubuntu: ~/athena[01;32mbaodkpro000@ubuntu[00m:[01;34m~/athena[00m$ mkdir class2[K3/Linux -p
+]0;baodkpro000@ubuntu: ~/athena[01;32mbaodkpro000@ubuntu[00m:[01;34m~/athena[00m$ mkdir class3/Linux -p[1P[1@4[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[Kccna -p
+]0;baodkpro000@ubuntu: ~/athena[01;32mbaodkpro000@ubuntu[00m:[01;34m~/athena[00m$ mkdir class4/ccna -p[1P[1@n[C[1P -pp -p[C[C[C[1P[1@5
+]0;baodkpro000@ubuntu: ~/athena[01;32mbaodkpro000@ubuntu[00m:[01;34m~/athena[00m$ mkdir class5/ccnp -p[C[C[1P[1@6[C[C[C[C[C[1P -p[1P -p[1P -p[1P -pm -pc -ps -pa -p
+]0;baodkpro000@ubuntu: ~/athena[01;32mbaodkpro000@ubuntu[00m:[01;34m~/athena[00m$ cd class2
+]0;baodkpro000@ubuntu: ~/athena/class2[01;32mbaodkpro000@ubuntu[00m:[01;34m~/athena/class2[00m$ mkdir basic_network
+]0;baodkpro000@ubuntu: ~/athena/class2[01;32mbaodkpro000@ubuntu[00m:[01;34m~/athena/class2[00m$ cd ..
+]0;baodkpro000@ubuntu: ~/athena[01;32mbaodkpro000@ubuntu[00m:[01;34m~/athena[00m$ cd class6
+]0;baodkpro000@ubuntu: ~/athena/class6[01;32mbaodkpro000@ubuntu[00m:[01;34m~/athena/class6[00m$ mkdir ceh
+]0;baodkpro000@ubuntu: ~/athena/class6[01;32mbaodkpro000@ubuntu[00m:[01;34m~/athena/class6[00m$ cd ../../
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ tree
+The program 'tree' is currently not installed. You can install it by typing:
+sudo apt install tree
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ sudo apt install tree
+[sudo] password for baodkpro000: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 2%Reading state information... Done
+The following NEW packages will be installed:
+  tree
+0 upgraded, 1 newly installed, 0 to remove and 20 not upgraded.
+Need to get 40.6 kB of archives.
+After this operation, 138 kB of additional disk space will be used.
+[33m0% [Working][0m[33m0% [Waiting for headers][0m                        Get:1 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 tree amd64 1.7.0-3 [40.6 kB]
+[33m11% [1 tree 5,479 B/40.6 kB 14%][0m[33m                                100% [Working][0m              Fetched 40.6 kB in 0s (41.5 kB/s)
+
+7[0;23r8[1ASelecting previously unselected package tree.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 212135 files and directories currently installed.)
+Preparing to unpack .../tree_1.7.0-3_amd64.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [ 16%][49m[39m [##########................................................] 8Unpacking tree (1.7.0-3) ...
+7[24;0f[42m[30mProgress: [ 33%][49m[39m [####################......................................] 87[24;0f[42m[30mProgress: [ 50%][49m[39m [#############################.............................] 8Processing triggers for man-db (2.7.5-1) ...
+Setting up tree (1.7.0-3) ...
+7[24;0f[42m[30mProgress: [ 66%][49m[39m [#######################################...................] 87[24;0f[42m[30mProgress: [ 83%][49m[39m [#################################################.........] 8
+7[0;24r8[1A[J]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ tree
+[01;34m.[00m
+├── [01;34mathena[00m
+│   ├── [01;34mclass1[00m
+│   ├── [01;34mclass2[00m
+│   │   └── [01;34mbasic_network[00m
+│   ├── [01;34mclass3[00m
+│   │   └── [01;34mLinux[00m
+│   ├── [01;34mclass4[00m
+│   │   └── [01;34mccna[00m
+│   ├── [01;34mclass5[00m
+│   │   └── [01;34mccnp[00m
+│   └── [01;34mclass6[00m
+│       ├── [01;34mceh[00m
+│       └── [01;34mmcsa[00m
+├── [01;34mDesktop[00m
+│   └── [01;32mvd.sh[00m
+├── [01;34mDocuments[00m
+├── [01;34mDownloads[00m
+├── examples.desktop
+├── [01;34mLINUX[00m
+│   ├── vd1.txt
+│   ├── [01;32mvd.sh[00m
+│   └── vd.txt
+├── LinuxFun.pdf
+├── [01;34mMusic[00m
+├── [01;34mPictures[00m
+├── [01;34mPublic[00m
+├── [01;34mPython[00m
+│   ├── chcn.py
+│   ├── chcn.pyc
+│   ├── hcn.py
+│   ├── hcn.pyc
+│   ├── Hello.py
+│   ├── Khoa.py
+│   ├── Khoa.pyc
+│   ├── [01;34m__pycache__[00m
+│   │   └── SinhVien.cpython-35.pyc
+│   └── SinhVien.pyc
+├── [01;34mTemplates[00m
+├── Test1-1
+├── [01;34mTest1-2[00m
+│   ├── Test1-2a
+│   └── Test1-2b
+├── [01;31mTest2-1-QuocBao-57131557.zip[00m
+├── Test2-1-TranNguyenQuocBao
+├── Thegioimang.txt
+└── [01;34mVideos[00m
+
+25 directories, 21 files
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ cp thegioimang.txt athena/class1
+cp: cannot stat 'thegioimang.txt': No such file or directory
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ cp thegioimang.txt athena/class1[C[1P[1@T
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ cp Thegioimang.txt athena/class1[K2
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ cp Thegioimang.txt athena/class2[K3
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ cp Thegioimang.txt athena/class3[K3[K4
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ TOUCH[K[K[K[K[Ktouch qb1.txt.[K qb2.txt
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ cp qp[Kb1.txt athena/class5
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ cp qb1.txt athena/class5[1P[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K6
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ pwd
+/home/baodkpro000
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ rm class1/Thegioimang.txt
+rm: cannot remove 'class1/Thegioimang.txt': No such file or directory
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ rm class1/Thegioimang.txt[1P/Thegioimang.txt3/Thegioimang.txt
+rm: cannot remove 'class3/Thegioimang.txt': No such file or directory
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ cd athena/
+]0;baodkpro000@ubuntu: ~/athena[01;32mbaodkpro000@ubuntu[00m:[01;34m~/athena[00m$ mv class4/ccna class5/ccnp/
+]0;baodkpro000@ubuntu: ~/athena[01;32mbaodkpro000@ubuntu[00m:[01;34m~/athena[00m$ mv class3/Linux class6/ceh
+]0;baodkpro000@ubuntu: ~/athena[01;32mbaodkpro000@ubuntu[00m:[01;34m~/athena[00m$ cd
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ $HOME
+bash: /home/baodkpro000: Is a directory
+]0;baodkpro000@ubuntu: ~[01;32mbaodkpro000@ubuntu[00m:[01;34m~[00m$ cd ../../etc
+]0;baodkpro000@ubuntu: /etc[01;32mbaodkpro000@ubuntu[00m:[01;34m/etc[00m$ cd /usr/lib
+]0;baodkpro000@ubuntu: /usr/lib[01;32mbaodkpro000@ubuntu[00m:[01;34m/usr/lib[00m$ ls -a $HO,E[K[KME
+[0m[01;34m.[0m                 [01;34m.gconf[0m         qb2.txt
+[01;34m..[0m                [01;34m.gnupg[0m         .sudo_as_admin_successful
+[01;34mathena[0m            .ICEauthority  [01;34mTemplates[0m
+.bash_history     [01;34mLINUX[0m          Test1-1
+.bash_logout      LinuxFun.pdf   [01;34mTest1-2[0m
+.bashrc           [01;34m.local[0m         [01;31mTest2-1-QuocBao-57131557.zip[0m
+[01;34m.cache[0m            [01;34m.mozilla[0m       Test2-1-TranNguyenQuocBao
+[01;34m.config[0m           [01;34mMusic[0m          Thegioimang.txt
+[01;34mDesktop[0m           [01;34mPictures[0m       [01;34mVideos[0m
+.dmrc             .profile       .Xauthority
+[01;34mDocuments[0m         [01;34mPublic[0m         .xsession-errors
+[01;34mDownloads[0m         [01;34mPython[0m         .xsession-errors.old
+examples.desktop  qb1.txt
+]0;baodkpro000@ubuntu: /usr/lib[01;32mbaodkpro000@ubuntu[00m:[01;34m/usr/lib[00m$ ls -a $HOME[C[1@R[1P[CR $HOME
+/home/baodkpro000:
+[0m[01;34m.[0m                 [01;34m.gconf[0m         qb2.txt
+[01;34m..[0m                [01;34m.gnupg[0m         .sudo_as_admin_successful
+[01;34mathena[0m            .ICEauthority  [01;34mTemplates[0m
+.bash_history     [01;34mLINUX[0m          Test1-1
+.bash_logout      LinuxFun.pdf   [01;34mTest1-2[0m
+.bashrc           [01;34m.local[0m         [01;31mTest2-1-QuocBao-57131557.zip[0m
+[01;34m.cache[0m            [01;34m.mozilla[0m       Test2-1-TranNguyenQuocBao
+[01;34m.config[0m           [01;34mMusic[0m          Thegioimang.txt
+[01;34mDesktop[0m           [01;34mPictures[0m       [01;34mVideos[0m
+.dmrc             .profile       .Xauthority
+[01;34mDocuments[0m         [01;34mPublic[0m         .xsession-errors
+[01;34mDownloads[0m         [01;34mPython[0m         .xsession-errors.old
+examples.desktop  qb1.txt
+
+/home/baodkpro000/athena:
+[01;34m.[0m  [01;34m..[0m  [01;34mclass1[0m  [01;34mclass2[0m  [01;34mclass3[0m  [01;34mclass4[0m  [01;34mclass5[0m  [01;34mclass6[0m
+
+/home/baodkpro000/athena/class1:
+[01;34m.[0m  [01;34m..[0m  Thegioimang.txt
+
+/home/baodkpro000/athena/class2:
+[01;34m.[0m  [01;34m..[0m  [01;34mbasic_network[0m  Thegioimang.txt
+
+/home/baodkpro000/athena/class2/basic_network:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/athena/class3:
+[01;34m.[0m  [01;34m..[0m  Thegioimang.txt
+
+/home/baodkpro000/athena/class4:
+[01;34m.[0m  [01;34m..[0m  Thegioimang.txt
+
+/home/baodkpro000/athena/class5:
+[01;34m.[0m  [01;34m..[0m  [01;34mccnp[0m  qb1.txt
+
+/home/baodkpro000/athena/class5/ccnp:
+[01;34m.[0m  [01;34m..[0m  [01;34mccna[0m
+
+/home/baodkpro000/athena/class5/ccnp/ccna:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/athena/class6:
+[01;34m.[0m  [01;34m..[0m  [01;34mceh[0m  [01;34mmcsa[0m  qb2.txt
+
+/home/baodkpro000/athena/class6/ceh:
+[01;34m.[0m  [01;34m..[0m  [01;34mLinux[0m
+
+/home/baodkpro000/athena/class6/ceh/Linux:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/athena/class6/mcsa:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.cache:
+[01;34m.[0m
+[01;34m..[0m
+[01;34mcompizconfig-1[0m
+event-sound-cache.tdb.bda25c895363466188a94e37d330d863.x86_64-pc-linux-gnu
+[01;34mevolution[0m
+[01;34mfontconfig[0m
+[01;34mgnome-screenshot[0m
+[01;34mgnome-software[0m
+[01;34mgstreamer-1.0[0m
+[01;34mibus[0m
+[01;34mlogrotate[0m
+[01;34mmozilla[0m
+[01;34mthumbnails[0m
+[01;34mupdate-manager-core[0m
+[01;34mupstart[0m
+[01;34mwallpaper[0m
+zeitgeist-vacuum.stamp
+
+/home/baodkpro000/.cache/compizconfig-1:
+[01;34m.[0m                 decor.pb        mousepoll.pb  snap.pb
+[01;34m..[0m                expo.pb         move.pb       staticswitcher.pb
+animation.pb      ezoom.pb        opengl.pb     switcher.pb
+commands.pb       fade.pb         place.pb      unitymtgrabhandles.pb
+compiztoolbox.pb  gnomecompat.pb  regex.pb      unityshell.pb
+composite.pb      grid.pb         resize.pb     vpswitch.pb
+copytex.pb        imgpng.pb       scale.pb      wall.pb
+core.pb           matecompat.pb   session.pb    workarounds.pb
+
+/home/baodkpro000/.cache/evolution:
+[01;34m.[0m  [01;34m..[0m  [01;34maddressbook[0m  [01;34mcalendar[0m  [01;34mmail[0m  [01;34mmemos[0m  [01;34msources[0m  [01;34mtasks[0m
+
+/home/baodkpro000/.cache/evolution/addressbook:
+[01;34m.[0m  [01;34m..[0m  [01;34mtrash[0m
+
+/home/baodkpro000/.cache/evolution/addressbook/trash:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.cache/evolution/calendar:
+[01;34m.[0m  [01;34m..[0m  [01;34mtrash[0m
+
+/home/baodkpro000/.cache/evolution/calendar/trash:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.cache/evolution/mail:
+[01;34m.[0m  [01;34m..[0m  [01;34mtrash[0m
+
+/home/baodkpro000/.cache/evolution/mail/trash:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.cache/evolution/memos:
+[01;34m.[0m  [01;34m..[0m  [01;34mtrash[0m
+
+/home/baodkpro000/.cache/evolution/memos/trash:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.cache/evolution/sources:
+[01;34m.[0m  [01;34m..[0m  [01;34mtrash[0m
+
+/home/baodkpro000/.cache/evolution/sources/trash:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.cache/evolution/tasks:
+[01;34m.[0m  [01;34m..[0m  [01;34mtrash[0m
+
+/home/baodkpro000/.cache/evolution/tasks/trash:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.cache/fontconfig:
+[01;34m.[0m  [01;34m..[0m  a41116dafaf8b233ac2c61cb73f2ea5f-le64.cache-6  CACHEDIR.TAG
+
+/home/baodkpro000/.cache/gnome-screenshot:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.cache/gnome-software:
+[01;34m.[0m  [01;34m..[0m  [01;34m3.20[0m
+
+/home/baodkpro000/.cache/gnome-software/3.20:
+[01;34m.[0m  [01;34m..[0m  [01;34mfirmware[0m
+
+/home/baodkpro000/.cache/gnome-software/3.20/firmware:
+[01;34m.[0m  [01;34m..[0m  [01;31mfirmware.xml.gz[0m  firmware.xml.gz.asc
+
+/home/baodkpro000/.cache/gstreamer-1.0:
+[01;34m.[0m  [01;34m..[0m  registry.x86_64.bin
+
+/home/baodkpro000/.cache/ibus:
+[01;34m.[0m  [01;34m..[0m  [01;34mbus[0m
+
+/home/baodkpro000/.cache/ibus/bus:
+[01;34m.[0m  [01;34m..[0m  registry
+
+/home/baodkpro000/.cache/logrotate:
+[01;34m.[0m  [01;34m..[0m  status
+
+/home/baodkpro000/.cache/mozilla:
+[01;34m.[0m  [01;34m..[0m  [01;34mfirefox[0m
+
+/home/baodkpro000/.cache/mozilla/firefox:
+[01;34m.[0m  [01;34m..[0m  [01;34mkyl0ccrd.default[0m
+
+/home/baodkpro000/.cache/mozilla/firefox/kyl0ccrd.default:
+[01;34m.[0m                              [01;34mcache2[0m               [01;34msafebrowsing[0m
+[01;34m..[0m                             directoryLinks.json  [01;34mstartupCache[0m
+activity-stream.tippytop.json  [01;34mOfflineCache[0m         [01;34mthumbnails[0m
+
+/home/baodkpro000/.cache/mozilla/firefox/kyl0ccrd.default/cache2:
+[01;34m.[0m  [01;34m..[0m  [01;34mdoomed[0m  [01;34mentries[0m  index  index.log
+
+/home/baodkpro000/.cache/mozilla/firefox/kyl0ccrd.default/cache2/doomed:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.cache/mozilla/firefox/kyl0ccrd.default/cache2/entries:
+[01;34m.[0m
+[01;34m..[0m
+00255088125E1FAF73A487AD70AE4155E7209203
+003BFBC95B56170E4097DA6982E412CED2084F34
+0076772C7DA7884DC41BE7EF5B43E14269A5CCBA
+0076E16945B3D1CCB9499771709AC4457B867C6D
+0086A83FBB500ABF289B7E0D056D1B6674DD0EF0
+00B02F4964FDF67820F6713EB2A668BCBD5B1F12
+00FB7CABB0E697A874616291E92B4BFB0B1A45F8
+0131DEF17189C48E873B6640905A1B639E47E96B
+01AA696A5CFCDA19CA28B80C88A64C3B100D31F2
+01B70AFAA77B0944FFBD0849BE6CCDEBD511A080
+020306EE221240572A77CBD9116ADA2599AEB269
+02ABD00ED4A4FD6AE4F52DE4382F135A72A2131C
+02BEEADC28A3499B7F97CE058849BFAF1CB5479D
+02D2DC8F4C6560F9F3859D9A5AD59CA297473AF7
+030C6C358D992A22472BE9B4887E1BB54320C242
+03860978365DDA8C997741DAD058987D69DCC53F
+03E8C7B7C177973ADA73A03BE64DA2DC89FFBE19
+041DC715A1C1755F3D9E5950EF1EC30DE945E49B
+0442ED56D30F469814EDE3335ACCB75865138656
+04808EE9F3AD385F4C34953B8B03F84268C5A11A
+04A15CD009D08D2C7683A1EBB906D2B096CD3E04
+04BF220CE71636B4794C0D68DD40286ABA5E8481
+053182D0EE8B944FDA1CC3A9873D550AB0954D20
+05582FF5C196A4485F189490FEC9ECEA0890DA32
+056C38D3D5E1DA23719BD5DB9E0B9CD83B3DF05A
+058521345C6EAABCE86BA902A37DFB521923EB46
+05AEDAE69A7AD95804C4FFBD33532DD3CACF02DB
+06231B2D6578E2FCBC41831854902C8C5A148BAE
+0673E481AA1DD7750D0EAAE00B0F2DA30F46E869
+0693163162F469F7C011113D518FA4D2E3730378
+069CD52BF82A7B8D4FD01DA88A9A226297744CC9
+06A87FBDCF7BDA00DCC6E6BC79E82B147994649B
+06A8D12E8F7A7701D5053F8021870C6F2E082583
+06C134F3D555EE7818943FA66F6F04AD460A137A
+06FC24580243EDF2FD667C4C4E1C0A17E88E06D0
+070772FFCF1CBED0351C2D8A22FD6795025A0805
+074B531090E957962AC811EE847C17FF58AF9183
+07DCF057F6A7E2B5FBF947605E7B89DAACD57BBD
+07E80D56E20A13F7AE0E0F8E840561AEA69911E7
+07F8F819C2C445D4C92C7759487AA74651D6C5F2
+08466061172A47A4E5DD9321153FD7A60D9BDC63
+08F40410DA985D9DB230C884A3F8BA654209A470
+090BD44117125D8136C2D0B7232D5D0375E54036
+09A84B0901ACEB85CAEFDD4344DAFB50F2E22A52
+09BFD24CDAF2EE288549793F959A2C26F38BD478
+09FFF8D591846F00FBDD214AB85ECB7EEEEA0DEE
+0A29D61463392274DBEBB42534F901340DFC9E2A
+0A5CCC550BE44706EE7125FBE9B0BA7752192273
+0A9BEF46D03893161A00F58592C036382CF6CCD8
+0AB1BE712BE7745C73A5EFA8DFC4780205FD18D7
+0ACBD10626D40D86F01E147A022613D2E460B29F
+0ACDA3FEA6B79BE0E616EB452A972C07F9EF94B4
+0B19EE642FA28A99451D31EF29358A489851C6AD
+0BCF411667BF879D5B5FBECC03E932E1432CAA6F
+0C14809B02D149EC4A77AE1C9D0672F553F52D1A
+0C20DEF51A6D115D394DE9AEC3E8C0DDEBD6AB63
+0C25D3004E71E9B26BE1B4F0B1863A8493DE4803
+0C3BC7B6FD7C48333F62B2437111FB58CAC1A992
+0C43CD8188467708D3541A55B972656C14FEF3C0
+0C54B6A7950ABA478B0237312DFEF33F44BB2ED4
+0C7DCC8FAA4E0F974167E29B50CB27E3701A4071
+0C7F59BD111C1250CF719746D3F390C864F7079E
+0C8500E64A3601E9C89207EEB219054042269CEB
+0DB2ECB8DBCAEFE7CFF1C6F74D7B0C95851F7276
+0E09ED404D898F59D8C43F75F35B224AF2725E41
+0E3372518C7766BE2A93283CD02F2C19D3ACF9C4
+0EABD28BE2D3652F98F57F4E4559671DEBD4650F
+0EC4A3275BCCF6D70190AAC6BE7ACC704493EC82
+0EC58B138998B45C1BF7B301D57380E38B3929E3
+0ECB0B8DCD050AA9A3637547277D1D67D8C57366
+0EDDF8C091E2FED62E44BEDDDC1723F5BF38FE4F
+0F286523A7B1DF0139ACD49DAAF3C86E0177DBAC
+0F6EF06BFDC0421F44B62641D4323E9C979E2C4F
+0F72E9CCFFCDD47D63FE8DA4C585A23565570830
+0FA2DB85ED4A7296766C7EA6591F9596963B8BD1
+0FB2056305CD6B0CE2599B79B0F81C31F13C4CF6
+0FEBD8BDBFAC8B82791945DC7E04F675419B2F42
+10004EEF4CFB60AC0E92FC8EA6F95E42B6C08D7B
+1037475555E7F095DBE4A1FCE86C2A0B74D89EF8
+10536600338A282A90B55A8207FD4CDF127157CD
+10CFF92F0FBA61C038706E5B80C01BB3CF1CADEC
+10D611555FA5DF9ABA5A9DFD6DDA51F2D13C8A5D
+1106E06952BB04EAB57FEC720D6A7542F7B9535C
+11265D4688A9B4607C5B46F0567307D7877B4844
+1142353D53B6D918CBB1AB2861988CA86F4DBD80
+116535E5F0219D95F6B97FCD1A1691C4EDF883AF
+1186AE77EA8FA8D8424499F1CE0DAA252906429D
+11E58792D8DC5EA28692ADBF29DD19A7B3AD6516
+11FE8AC69618C00F3DE2D0B989830F5D7C407AC1
+1229DFDB84D177F00C9CEC28BAC2FC34B52B2486
+1234824D99D48E0D1769D95F0D906D64CA5D01CE
+128E7A0E02E2A0A9E097B6BED200D2A9ED80929C
+129DBA42ACA3FB0181FED63E3292B6C36FC272C9
+12BF63A136A920912AF40DACC56AA31DC6D7FAC0
+12C5797F729FEAC529B8B47C188D14EB02D8CB76
+1336C362471087534671D6408FACA007284FA546
+1350FBD4C62C8A165C10DD94E4DC2269F07D1713
+135F175832893C5005C5B80C3DC18621D5E964A3
+13B6B1BA274AC60E2BBF033AA422B2D3D3B07FD1
+13F22A6CCB5D456F0E3BE686968D5996AAAEE184
+140F37DD46F112874D3B8B0F9EE7199330A33A7E
+14509891243FD346C73D2D7B4D2F899176121E50
+1461EB3747A236040EE530DC5E778F889254BA68
+1501E83EFCB587D97BC5CF731E75631167814696
+15066E7D215BC70FC3F35C1F53314A6F924926CF
+154E92CBABA71EE8019F66E6C5FD6B1385E2AEDB
+154FA77AEF8E704EADCB97E1E468D0E991A006B5
+156A269E56646D56E50962ADEDFC56EA19C4C903
+15768D8143B356F8A456B336E642F91B599DB2C3
+15A7327DC2F9A140D5C7785B67AE9592C6C7CF9D
+15ADAD4D4A486FDF7BAACE6B257AD394DA55C4F7
+15AE603E91247E4876016191CC4DB86E20859B48
+15CD8458A68437A8B2A8E081E93F7B48E0A6668D
+15ED97733D1631A0D8C5EE59630DF6ABD6F1A045
+16114BA75206B6FA4C51ADC8A73DB4C6635F6AF9
+1613A0CF4E2CB2C9E3CB9AC4AE7387CBAB3191EA
+16329033911D05324BA5C37A5C5A6508C864F84F
+166B15C099E2C1D165904EB67E6314B0435B055E
+166D9E5A72A39FCA103A3C7C7D1B960458A1EDE2
+1679441B8AA7B4D31717C773CC4E86A25B37532B
+167F87485492433653C16E9BCEBDAAF8704BC2AE
+16D19BDC8669A6AFB29142B280172F3C6F272962
+16D6F5D2659287D8A9053496A2ABD5F30F75B7E5
+16E7A9FA831E616E81F7F590AED3CDC0759EB68B
+175BC5E2A61D1022C27A4CC477A2934C25D9BDCD
+1778BFA8E220D394734D2D7816B068B816526953
+17B09A57F2265A1DAC7F14037FD98B757F28FCE6
+17B644F0DA6E0D0720F8E47F9237E6A185A00347
+18561961DC8809012BF71A0AE2E2778593F1E0FF
+186FA73FF6C5088CBBC03091EDFB3AA78F95955D
+18D52D39BB914DA3C040A9AFDFF39ED93165CF99
+19107388A0E2AE11DE806DE8176A00DEF8843EBE
+191396C21EAF768DB4D173D39B68BA78A2606152
+1923D88C44C0CC92BC9E195CC95583AE3D8B770A
+1962892B2A1989CD7304C02D4AE83E0D9775115F
+196BCA845E91608F7B4CA6127A60D20AF55413AC
+1991E8D0AE1AB6A2D46AC8FE691E6C88A1CDCBDB
+1999A7EAFCAFE368A17FF6E6A20FC00DC4DC1569
+19C83797F57242D34622F8163FF75CA9E936C2C6
+19CE54A8F841A0A353A76ABC608F422E8EE25D86
+1A0A0E4CE576A4B07F7BDDA7BE494A1BFCADC100
+1A67AE121C775AB9B6812F306ADB0F4FE7D9BAF1
+1A787BE6F9CC37D59CB2815B7A5E6393EFBBC30A
+1A7B1ECFAE574B5E47C205952C6521733852C3D8
+1AC0324599E1C8CBC7FCB0D8F7CD77988FBE7DA0
+1AC1CECC04F91AD47003C22E08E641231762D6B6
+1AC26B629F8F825D4ED09E0AF2D05F3715CEBF46
+1B3824A11574B7E094CC435664C9991BD3EE8F19
+1B8601BBDF153BCCBDF9CD0AEBBBF1EDDEBA4063
+1BC29CBC5B25677E42A0CC0BFBC476664AF73802
+1C15025C8A0782B106564CDC1C682B7D89D3EDB0
+1C355883BA36902B4D1BF718DEB3CEEF0188C4C1
+1C386A49C43EF40234FA3E6E28393C3BE9302462
+1C58BCC50FD90DA569C25964A2E2FCBF9F9461AA
+1CA4B36FDAFCEE02B73E87A41F46BD822DFB7EF4
+1CD0FE87FE9E682B15BE445296BFCC509011FA33
+1CF6E6E560D6B2B8DC1F7A2CE2B063FD41FCC898
+1CF7DDC774DB9CD8E9539FAC4B48258834EE5BE1
+1CFFAFE4C0C809841BE3593DCABB6365D3EAB255
+1D112152ABF425E3EBBF016C04A13D5A09F4B2F3
+1D3CFA20A255FB928380E2606713FDE7D16303BF
+1D6D6DC3FAE7A6B0AF3755B2BADA6ED656145AF1
+1D8C0ABB064239857712BFEC994B1940C2A1DA6D
+1D9077ADB3A23615315637141F3B8DF6367539BD
+1DA547CB1A11A88B2EC1C7608BA64971D1AE47C3
+1DBE1BDDA8E63A731DB3C739516DAAEC83708F39
+1E4142C36CA5DC8FF9FD8FFFC31AEFE9ABC96FCB
+1E68BE22094152CE498168411B07C6F3FE911667
+1E857119CED1F3924E699A41338C794362045980
+1EB872F43AE7201D5BCF8F527D1F8DB887A191B0
+1ECBDD628953D7DFEBC78716358BCD8D4A03A9C1
+1EF1397D153A57AFD4F186AE28ED6726E122ED45
+1F12D1462CB2B4CF391FEF0E445ECBD43EC51481
+1F2F5253EFE772923C898184BBAC6F45633DFC23
+1F598FFB2F4380C0F286A8D06BC0883B4B02507A
+1F70F99DEAA77743BDAFA31170AFAACFEEC30519
+1FB66A252C3FB8054F556C9204A33FD3551E713D
+203C37C5292FAB43B831EA1A1949F9808D07B889
+2052212B87AD79434D3439616D458A0798324162
+20617404421CEDBA56EE0FA6F45531DCDCB4E51A
+206A9D64F5924D6835D0E24C4F2C190B479D0689
+20DB657ACEFB316BA8D08AEAD84DCFA60D26B513
+20FE4804A09E59A2E0DA147224A8EA3483962510
+21084356DA18DBF7FA91F989DC51129EE1F8A8B5
+217D63521078EB1347865E77CDD0A7C830D208DD
+218640090F69091A933C484557EC2C680B38768A
+22202D0938B51E693244D790792521168BEFCB92
+2275482C5E326A1169264C9937B94104BBAFDE9D
+2278218568727D1A431D3205505B3B304E0AB5AB
+229D9F3AFEDC0BFC4B1A86137A4C3146EDAB3576
+22F5771BD066BAEDD73193687315AD1A6B1F0469
+23195D5131E632AB33F07E224E8DF3973BA131ED
+2325235111B453BCB5DD4712F0257E8C6B2B8222
+23790943EAB4010FA7E027B36E7B39322C46E45F
+239C90A7FD91180884CDDAEF7A0F9D3AA0657703
+23B62DE0C5E7357F89082394E427F16AE5001280
+23F7457FED77D7EBC44C0C79363EF4406C00C79B
+245E8D96676FC15399FDFABC0B3106FCEFCF6EA6
+2461629628A3FF4EA9B69C7123546A1A0BD39A4A
+2534C7BF8658D438A588C5EF9D0814E23262F9B7
+256078635CABC4EF17536AE040D42B3E4AAF9E47
+25669501364A4819B202CEC894E01F6080A5095B
+258109EFDC6AAE88363BD0374B23D2ED482CBF93
+25AED0913C2C6BC5535F74E8CA5F77DE5C7DDD48
+25E596A129E5669E78A72C57D590FD24B2E48638
+25EEDFB6C3911C06C817EF6AB690EC4A3A0A4C5F
+260D35D10A98F1CAB2A641E7529CD06B057D93B6
+26AFF35E402FA8D898E80A0F4E5EA9983AEBA23D
+26C1B664D705DCEEC3EA2474CEF9649FF2321729
+26E9C1813850C2D05677DF141EDF0BE1C81138E6
+26FBC727EC3839D6293719B05A509FC83AF6C7A1
+27187D6E605A3C42FFFA3C7F63B90ECC287F4940
+2732BCC97E7EB9EC9DE3E8EA8F56D7971CBDCD22
+27BC725DA687A1CAEC6BD9B57D8E0E9F3C0548F9
+27DEEE0E3DD27D9383AAD77D2E4D0A175A2C4FEB
+27FE2224B657A3AC06FC58374DCDDE85FA7FBC81
+284EE55FB4C1DDD8823D38976AA87DD051369FCC
+285587C44A970F20F16955AA035E7F0BB451A427
+286DC0E558E054F0E1D90872905FD1EE87AD3E9A
+288A0D50989642C87585302C751F915ECECF30D0
+28B1B4298FAF5436AFDF274A87433E2678ECD4B8
+292838DD7829488C7581AA3CAB9934F16F62D7B9
+2990FECE56B9CD1FB4EB8668F4680EF5334695F6
+29F68B7BF650D5F8B01D50A3B8BA7457BA01E0FF
+29FF33276436B943D6D1DCA69780A44E963ECFD1
+2A5BF1C0E52C33F9013FF66E37F02E9601FB2288
+2A95CC1244CE29F94CB560564E13118A54305AFC
+2ABAEF1F2AD7E729C388DCD354E26F62EC55051B
+2AE26BB8D690BD990A85F54AFBF74B536EB29642
+2B39A6B29818657C52B2A89BC772D7ACE1D1E0F3
+2B481EE12836D310233CD4FF05B27CECFFF34322
+2B5A9DF8CC9ED38824C6239F7F28558C66581664
+2B85307DEB3CBA3CE2BC420D4BD40526C07B8479
+2BA771387DB9BE6C826031C41888805A58C02557
+2C0F0DC3F1279080D4260BECF5EE1558293F3247
+2C1E3DB76B3F07833931606EE9F59FD3F748855F
+2C37F60FBC6938987D4307336A2890A8E1C45191
+2C3ED9630C7904B6E369ECBB607217C48D9C2DD9
+2C5F03006DF32D2061365DEB0B44FF0756EAA7F1
+2C98E54B3BF48C5EB24A792FF1E6FD56B635E3A9
+2C99EC2BEE0C522DDC17877CB2113C8412314098
+2CA6D14E42339E780098D60723D63F7395D8BB07
+2CC298E0C51DAAD3670FC239D02B16267A0FB950
+2D18290CCC53F811794A9079F2A3D6184281038E
+2DA3E368326D152CA9637A18A88DDA475409E909
+2DE812DB68DDDC88043A2C95CB54C91CD066C42C
+2E1B99ED78627E3F34B5B66485B9D9B40313354B
+2E32124FFDA5117148010955BBBBF2DE1E506C09
+2E7077874E3D93954511B155C00CD5AB651E4ABE
+2E7FC74B0AA6308BFD6BAE90A01BDA6A3B15B932
+2E94F76AC25F7446A2DEF636A105F3A46E729AA8
+2F0BDBD0A426461035BBCE11FDD1AD2CFB1B10C5
+2F1140DE509EBCD2E584E9CCDFEF8BDC28AA3953
+2F73D016586277FA41C8FE6ACAA33B435AC8BE99
+2FD2E2A71F89E3A92F68CB796207228217259289
+30784D4FBF253BECBFCB9B30AAB934002131EF9D
+307C349052E5DDD79DE7EC7AA0036576AA44C2A6
+3087A22C94F6036EE42B976577F8775A1AB6FE11
+3095CA3ECD2ECAE9F0A0B016950500816B744785
+310B8E447B914DAE92CE293EC98EF711737D822D
+31543147A04091307A30CA3E32B4FCC4D73A854F
+31E2BD0B0F08CF6C7719CBE4F9F302C43850D188
+31F09A7ACB20A9A561950D59D2E86A5EEC8245FE
+31F1D581996127AE665BA98B713936A478DBB0F4
+32A3F1B8B1E6AD517D90F00343939BD6E21DC24E
+32D56A59AF606A87F674400C053DA634002C1CB1
+32FD3D5878A52DE93A1B5662D261895085F14811
+32FE17FEE3ECEA26118B64F9690FC6B96CF2096F
+33721E2511E33940640F47E90A5C141C046F11A3
+3372B97E10B11AB2E22C773050C07E48644618A5
+33C0539567B395BFB04CB6E5E858C7F67BF70939
+33CBAD927B1617339D77D40491EF26FFDAE9BF75
+33CDD3A0A89F98432646DB49C5AAFD789CB38493
+33D00AE85FF6A3188B0A315A7004048DC944E98A
+33E153F969977C4E366D38F315D229778FC208F2
+33E575E6D77707610178A013FC798E671D600F36
+340AC090D898D9CFEEF08B4C703F047EEA69D0D8
+3421FE7D85ECAE432E96DB94F5D4B6182FD571CA
+342CE54ED89302681FC03F6537048974A291A370
+3437A75721E4B352B2D0E656182AC76BA7E06EF7
+344E4DC9627CD79E1DDFB6B8A94857E60DC43E86
+346C9EE74C77BA17814EF33F4ED903D3353E1672
+34894710EB6550D726B76D264AE4C04EF95B8DF8
+349D693A8AE238D2E5F01C430277013BF78154EE
+35B501868F6D24644549721D757034B32043FFCF
+361A0864BC4929A9F003FEB9425D6F46A32F082A
+36373230C692534C6B706D0C2A3F0F21143B72C2
+36B00D31F6A28A35F1729B8B6D7D180F2D472EEE
+372716F1C6BE710FF5FCFAF1128E587F02515EE1
+3729A391BC33073013D29C78EC2784E73F8D7608
+380D9E2074E5F8097F112C8F3EE338A1FFA49592
+381843B4CC871B7F0AFA43C0161DF439DA1D4226
+386CA176D43AA1A4415467F014FB57C47A112243
+38DF68FB4E826779B92FA634D4D543DFAAEEBDBC
+3908B8E64BA95FF2248C06195A2ABE05C20977B2
+39BEA0601C9C4EB8D79B11F82374B96413739446
+39C1621C6763027D614390D31A517751A4AD91C3
+39CC8AA9054EC6244CA281EEA4BD937517E2861D
+3AD6B76C0FB81896354D15BC23EC586F1BD88B0C
+3B2E0AF010835F7B98DE099EA68831E5074E5F5D
+3B398A656F7BD3CE3694689B19C2C29496C66869
+3B3AA017332617EB057C5E23BA4CBF9AB759F6C4
+3B5DEB616D856FD98919C3CD3D9D79F14406C332
+3B70BD2A05549314021C9C3CE5EE04E84DADE3DA
+3B7A63953EDE88E9176D678E079C6CB0A4AEE6F7
+3B7AC1B55137AF1384E9CA99631563DB3536498F
+3B8D4C679A632D8EA5BCE396CED1F1D75B513022
+3B97A30458F66384A0C598BDF52A074DAA33BE95
+3BA9BE22C1C475186D0B7358D2F62783B3992E26
+3BC8A76B38B22562E55364EC7A01851AE7CA7BE8
+3BE95930D1C6922ADC42FB42D72F21DCE83F7DD6
+3C0A879D64445B28480905155A0E00948503E0C4
+3D65DA41A618F3312DBB5179DEBED0AA0C01DF95
+3DD722A6135D2929500FB27A6065EAC26D1112A0
+3DD98A6CF7B59788A325F333854CF0559774F322
+3DE1033D1165F9D849E6DFD8566ABB9179DB1D0F
+3DE1707B97C503B9B0DF32C0AEAD084D65D1549D
+3DE355B57C2C3C4B06B62783CE657105AC670E2E
+3DE7DB35119592B8CF20D5DC2D3AF12987AF64E4
+3DF33C71914E5E4B5DFD9033D50B4FCA281C2E3D
+3DF88095DFBC893E1A07CB20095EFFB065FE0663
+3E2C7457E5B46674A06179B1076F67CF85A0C1E2
+3E48923B2F09983AEADBE548DE106B865D4A5945
+3EAAF1C9A94D1B69F875BC606B39A00C1908C159
+3EC0C6D2E2186C8403259F7E4C07B83DFDB3B80C
+3F16040BCB7349D03826F8175BF464396F143462
+3F4AB1AAF7BF948637B903C9E120A4FFB0F93D40
+3FDBA7E11C679D1364A45FBD9F574A954E55D014
+3FDEB499BD2C923EAE746CC4D5ED04AD29E3ACA6
+3FE1E0B517BBD56FD5B4A508A6ECF31F1AEEA8EB
+4072CCAD60A85BCD887182EBB64B189F56BDECA8
+40B9E4C44BDA7C37205AFD10204E55DD5914B094
+40C8E2A090BDB756070AE1AAB3C30F7A0B606B4F
+40CBB5543C85B781A024702B8A9AE95D6BFC84A9
+418750A8C8425CB6CF9A4449F09785EB9819CA0D
+419C26638ED7C796457A498FDD5EEA506FFE061C
+41B3E0CFFA5B62DBEE611F66884D0B3662684521
+422157995F1A3CE09480EFA1A67E9C9DC9A8FAA2
+4238786CB87B503754EE13346F30AE3FCE28174F
+426E7EB2529BBFE7FE7E61887DF70595273356E8
+428EE798463EF6DD064A7431CA7168A7A0BB4B69
+42AB979DC69FA2460F264BA12B0532084D4C98A6
+430DEE3C71F93CD3B4DEBF0BBA47781624C95227
+435149B354A022748B6DA8A29CD7AFA61246C837
+4357D7817FE122D701F627013A446AADC23C3B64
+43790378CA5A98718AC9674C202B2668E3F382A9
+43A58BFD09A414D80B75C139085613E65869D15A
+43CF58959BF8413A4E099226C2D886BBAC4EE28F
+43E20C1399072D5E9B96DDEA5666BDF65CEE8127
+43E28A8A5F31D9FEC0773CA3515F64FF4C72ADE3
+441150377969896748ACEE6CEE1B5747F898DC06
+44D80CE52E2181E40F8A28EAFC1A98F8BC2B22E3
+44DBC3AD2380AAB88781E5C5287400EDE9048A8F
+45399BF484E7AED345966E9D177FEA695809DAC2
+453C53A99E0CE3ADA2BADE5DF5E1F3F28AF6720D
+453EEB84BF9243ABEC41346695054BC2ADFF11EA
+4613B437E86D18E98F830433A5E6F7F9ABAF3693
+462E484F3EEE71C04DC06C815C507B8F5892DF00
+467278926FA6BE9CD4598AF97AD16B5222F3D911
+46AE0285848D109314E384FA7DC34FA492534688
+46DB2658F9456DE1A1965B6E7B67889D0CA9A374
+46FEE98CE7CAAB204433AD3A0BEE8DC2D64558A9
+4701D78A4D3D93EDCDBCA8E90A5A65E22D91293B
+470BAD271072260108C6DEE94B8A7062B652CA39
+471B07C4D16D2BC805C7FA697166239795284520
+47415D2A773E6E855CBB14F56E234E15EF6A948E
+4757A081D99E5949E5EE4D49CB4748543D84DE2D
+47C58359D7EF70450E8F379F17B7AD7236CB5ABD
+483BE5382335FD90EAAF5F48C63B29FFF233E6C1
+48585B1FCB32E6650EBE29573D2A878FBCC7A80F
+48681E40BF9456A2BC7A544BE168388D87B50EF3
+4894DC36F6D1881103007DE087D4E2526063F49F
+48C2D9882E06B4BC30BBC4BBBAC6BA1C7C52041D
+48C4DE1EC5CAC601AB987BC05CE22E0A6FBF81FE
+490DE528F73567D2DF02935D1CB202EBF3FB452B
+491C4DEC9D7D3ECB004BD406D33FE211A66BBCD7
+4931AA2FB8C24579D01280B60F852D31641949DC
+4966EE335F8967FC706E89E6D02E8524E946F1B9
+499B8F86D3D7ACD12153BFF4E7D9C21E20E57862
+49A40FA7A2777131BC6AA042AD0BF8FED12E1D11
+49C41CE4C0C04EEDCB75DE39573C10248E6EE68E
+49E3B642E2FF5A3BE63B20E7BD08F4F854B06459
+4A6B48BC3051F4B0A63CA391C5A87BABEF67198C
+4AA00FB791594C95AD58F566ECD4BF322EB8F874
+4BC1B2AF666685CFBD183B249E53694673FD9880
+4BE1BA1B2D63F142E2CFFC9AA56B3747814F5A8C
+4C1F99847F098E2404FD4980C2F609817ED342E7
+4C3FCE9BC49CD0A1C35D8DC13CE9566E094BC359
+4CBDD8D80FD7D59605CEE425DE03E1F27CC872BA
+4CFF0AC27D30B85E490B6C979ADD04E473155C73
+4D45EA93395CAAF03E50527FF913244F595D287D
+4DE8480C465A21C0F01AA2B6F4E13E551F78BBB1
+4E242370B57B3EC2A6D3CAF7A37A2BF78D280CE1
+4E688AF2334B3F15A7033C9C7D0CD5F411824500
+4E83181E964BD40E1FE4C41BAFED645D4BA363B1
+4ECB12ECE091E48B8B61F46540CE048CC9F650EA
+4F09A6DC1EDD2DC5454F3659672BC8C23A980105
+4F5C1F60D426337EBA9FF6576B32C03DDE26EBC4
+4F5C5A090D11E7F3D372403502DFAC60E30BC5C7
+4F8B1DC9DE4F241459829339038BD55A40F69710
+4FA488B1CA9A69488C6C19A762B0A7F0C23D0445
+50110253E547559F5B3AF73FE551B5B909CF3B13
+5028C618340FBD95B97F92B70B56DFB562E3DF36
+50CEACD97606382D8816958294EA25D24E4A1B54
+514A6943E9FDCBA0948E2BA3DE5FCEECE86CD382
+51910992BED1FC1C1A5A0BCD7DAE9CCF6B4DCFC9
+51D219DEC2B6B4559200AFC8B2F1C5E87CDC2BCA
+51DAA4A6ECD032BD7E51FC67D2D02948E39E5892
+51E4A6633BD4D21541B3F40E98043DF60DFD6FA3
+52066886ACBBDB15625BB73787A01512D3108F42
+52247D500AA40F01C4FE7AB1E36A12742993FAD6
+52567DF1838D78501577E15DAC79D62014B80053
+52944A2A306F804E7DA260476F7BE24466FF3EFD
+52B76E2533CC61A44FAD2881F56F0EBFD2B33A38
+52D0C9983C7B69D6C0D16930C96AB77E64BF686B
+53075AAA2139CF1AFA3BC4E523919B05A1D7EFF6
+53865D1124BCAA973DB24E24EE9B514EE11F4E0E
+53B666C3A048869BF0872DA51B15AE4CC6D36523
+53DAE4B1D7BFF6744CCAF7207DE631267F9883DC
+53EBA064D910CDFEA8B3EC7553C11C4ED038CAFB
+542036E00EA217D8C08659CD7342A1FB01818136
+54444E2E549527AC95EC79A7F4423DBF7EC8832B
+54739DBD524B21BA1E514682FFAD422AA488C74B
+54CA40071504C51EE1E1E67AC00FF8AE3FF18654
+54CF6E6640751FC0D913BD3CC65B4D8C62FA49EC
+54EE62B7EB23F11481ED00410BB5510B46D8B5F7
+54FCC3D19FE0E9ACAFB06F5AF714D01D4BA7E1FF
+550F3DFF959A6A29C981F61573BED1539786A23E
+552D7E776EF97053734643ADC0C74EEAE5E0BE4C
+5535955541CAD696731CB2C462A592A325D632EE
+55B3AEE5D6F6ABD7241593A3F270CD73475517AC
+55C715F5244299223EFA1C8701ADD7866B5AEC5B
+55DFC2AFF2F5D88AE91F2A1E093F08176A406E38
+56780B8EDFDEDD1EC58ACD30899FA94967F9F44B
+56CD4685197897BAD482F1A0B4EFF2FFCEB43B7E
+57031A60C6E8D4B83CF55BBB542ADA0C3582B333
+579EBFCFABA890A2380126918975F0FD67E13546
+57E662573FD9E42D3972BE92D3DF0557C7B2E836
+584047973B8BE44CCBD5E9A3422A578C843262AF
+586D70C72E26FB2C1DBB53313AF5F782A1697E5C
+587DE9E3F8EBA3A587DA1CD6F43A65574DC3D2DD
+58BFD433479D0E5948288F7EA3396EA5134487C1
+58DC00D4EA44405D01EE94B66A34F008B0B6C637
+5955BADCE5C7CE261380449145D7C8CC6C823CAA
+5965FF1278A303DB8A3AB95450ECA8A7F13586C9
+597837CEA2C05A69CF8A5C1BB8D65A068425AB39
+599CA71876B96850E4BB381DF16F3E126F14DD89
+59A2018BDA68B948968B07CA93D0D007F03B334F
+59AE3B9FA59ADAEA84F7808E824220283851B686
+59FA69B2936CA34CF83698C24FF5BCF1859578B7
+5A372B6A6A5218DCC64FF3AA93EC4199B6670B23
+5A4CB465D3FF4120EB295F5BCD70AEC0BAD5A56B
+5A593D636E371B7BB77543DA0E59813C885CD118
+5A7C1909C1464495C20580F748A25321B062D0F1
+5A7F24AE9D9B47E5D6715071CF05992ACEDDB6C0
+5A984D4E86F12E38FE989AEFCD0927F854050C4F
+5AD659D89DAB9900A8A5872E51D45299087B51FD
+5AF32675BA17FCC18A01BD72554E8A0769F57AC5
+5AFDDD9DFA2E3DDFA7624F32BBB39CD80CF9FC65
+5B1372C2BCFAEDB6B19A9B5EE3E98BC017554F64
+5B1FC56178FE5E7FFB77C6A2CBFFFD7EF7309B4A
+5B696E8F1F9CF954C3804616E0B5B9C0AC7A20FE
+5BAC8510F66FD0A8FA880237759BCD0E1EE2EF13
+5C019232700024190B93FFEB1D8D9C07E2860D7D
+5C0B806091E2B7597C7B6D872E842D7E991D59A8
+5C86CAF66D78E61DE8A5B21652478435DFD6221A
+5CC6E69299EDF86A0B3DDF457A1734279DC7E804
+5CD6C46F559CD8D18E470EA22AC4136B85826793
+5CE0335FD39E38461CA7F8A141D8E3E11DB3A29B
+5D1817717F7B47FF4488395AFCC9DAAC352C129F
+5D57B1DEDA00832A6B0BFFAAF4CDCFF3A563ECDC
+5D5DB2DFCBE62915DEAA9F4C7DD260D7B39422E5
+5E281E8AEEB88749F3CED2DB4FB37071E345CAF8
+5E4954707B44E5A4B4ACF5F22B52219A1DCA477F
+5EACE2AB4AECC2B820FA15F22FDF62A6383C9E53
+5F0D2BCAF8FD28F0B342488DC25F816923F5262C
+5F172B9C9B405FDBC6704A8E0F128CB2C6B2FDBC
+5F181B7993468B07F74008FC89347B76CB6C5B37
+5F4139F033BC082D20C76F956FD47AC4F648B668
+5F9D0D8E24E6DB57279C88991E4C40A3329A6EEC
+5FA5F476E25F835519EA063510C5BB7894214F83
+5FB57B72E1C3110FC6A29180EB90A300A9C33AB6
+5FC072D86246BAA4F3896CB1549493CB9C7E7746
+5FD9733A25B0482611B22CB482BB8A3F46F0C324
+5FE7BA6148C6C49344CBBDB9F21AA3EC7CEFEBD5
+60059D769D21AB40F945A158C5CFD97C960B626C
+60452D283BBDCA43C213A43B840DACAA232A5ABB
+60CCE3FE2EC310AFD9F86886CAD9F9283499CCBA
+610548205A55C7367AC73EDB83196DD3D82813E1
+615828B3550E91B64652E339075813703BB2DF88
+616B144BF60EA59295FECF0E4881F226FD245354
+61B0C26ED07C7D364F2BEA401AFBF3FFC3E10FAF
+61E1BAEE70692CC3C0C1C9C45EC7C9DDDFC9B8A4
+61E38B77F70EE7DFCDD55A970DAFD2F3E0042C8F
+622AF145661B17A4CF449DD15DF19C2B6E09016F
+62628158AA064D88D5690298F83A3D01EB44E7D4
+627E526949B778836E17E64A5A0EFA8A7EE70231
+628E1B0CE01611773F1979244190534F4512FCD6
+63122C31E183F0FE3D39FB254171C0DE767EF51C
+6381D3319F4054688CA913E58ED2039578AB95C4
+63B34594AC8069FAE125FAEB976B94C590ED735D
+63F1D04B2FFDD9951E9D0C95EE374C9E3C19A32D
+63F48F4F7F1BC3195F5AB831F9794F3DBA2D30E1
+643AC3E4EE2D959A7407A2A288BA2C18691E59B7
+644C19FDA75FCC4E9AFCD910F0D40E78F627FD23
+645857E1A807EBA75E4BE9822B3804D75D83C40B
+64899522B99164D56A994BF00ED52FBC6D434951
+6498AC4448B3FE0CA13D2EAAE5EBCF61B891126D
+64C9E8F8D5F4B6B2AD4E87F145EFE9EC97E22DA7
+64E33271182CE18626ED70E4372EB73791FCF837
+64EB1DC5653977F8C9DA8ED47A4AD4E3ECEEB2D2
+650636FC471157F505CAC01C9CAF59A11D0FA18E
+6517D28E944B7B85E72D74A2DAAA9D2916D3E372
+6548BA64A5A8597AAD1524142F4B3D4386E11780
+65FB89D2A4E4840E5FB4DB6974A69D4FAB437E70
+66391BC06E157BA23AC58713BEECF8C8E0FE02AF
+666DB16DFD9F3FBDB23C9B211CFE1530F2469D4A
+66BB79AC34645DCFE3633F331195EB9F31778A44
+66F684AF9CC570C6247262B47C769C601C2A338B
+6736C60E9AE45431EA707856A85B7D590DF56E13
+67D695475BF648760AEAF1ABBF0D647FB87F58B2
+67EDC7A5C433E8F99CACD2F88A3993EA1E73A67F
+6816341BEFA980973AF1458648B26B669DBF2D40
+6835DB7D5D1E973302382ABF7B8A43EC19FDDE68
+686E9381AA8450FBB434B2142D312B91006964F1
+68A9814D3E321F10CD9D32C59ABBA0AE05F3738E
+68DC2F008CA4276733BEF16E5F8A8AF9D001612F
+6911EBBCB530DA63FDCA9965FDA346D66DFC3FA9
+698AC159A6BCBA0D13FE6F10F1A38E498F826F33
+69E4F378D7F27EE7CE3CA55FB6913BA58A06A48D
+69FD6472B090E96D28D243301E38A7522ADF6847
+6A1101A2D8349B950A57113F418030281874D708
+6B004C2AAAE23D70F851AB9C318D36A568010832
+6B43B8A824A5063A493901761CF5D64475C88D6E
+6C15A549BF51005CE51BCADC4E378FA6883CC8E1
+6C1D68C5309833AEE2FB06B7376E7CE2677F7B13
+6C50E2AFAD2CA5FBAA10734471B7ABB82C0EBC3B
+6C7B10788FDEE53324148DB8398688097A5526C1
+6C9B846926C287B15F67D64CE91F1CFA7D812660
+6D0A498251730E8B1E4396CCFA3DEC17044945C0
+6D7BE371D2338C8FD538AB1939ECF9184315F1D0
+6D9D7BA79CB5F1B2C68A2C4180C79C57B2F8BB56
+6DAF51D7E3D5440EA01FAA7658488526DC45B319
+6DDCCA19FB12BB25DDC87F1A29295CE0E60508F3
+6E07DB7CEAB5DAF03B0FF6EF93B1F1733692DB50
+6E252D909235E8E92E6B40DC6A0744C54141F635
+6E2A5350142C6101DD2CB2155042D70E2A8E46A5
+6E8200A0968A097A90B63A0FABC115030AAD50D8
+6ECC201C2672CFB5A468D1E6C2695BEE0EACE808
+6F2CB4D19293365471718BEF97203C5943978603
+6F41A2E3C6AF040BFAD7DB4A46C6D27097609256
+6F4329502D666EB4EE61AE510BEE0EF77F690BE9
+6F50B0BEC9A941BF9B71ABE774BA942875016C28
+6F5872F85D1F3CB5D8766B34B29F430E90E71131
+6FA0DD0870A4FC892CB35B162130EF4CCD092B77
+700D6A39AE387BB4BF06BA0FD8AF0505FE848C92
+7068B7C02FAABC4D77A4AC884F4D47D5E4CA36A1
+70DBB0D4B0A5C09D4DD3CFDD9162933D5DB0F4DD
+715D541B64CC6450111113F11E05F052D20BD301
+718F4913695DD5D5845AEDEE4600E14C00A62CD2
+71CB29D7C5A8F91AEA7C42891FAFE2DB710947D5
+723D2D7D52AD8AD9A4B8D12D69CBCD97CB4FFC65
+725E775A7DC5F035F2F3B4B94B21D6BBB03A1243
+72832D9FA0E1FF6C6B868A58681FD80BCF6D281F
+72DE50522B968B13511F9BBD98A9D2332A291A70
+73322310DD49C6092F242D2357358D86871AEB76
+7334B5181332109253612FBABC6DFC39B1EC8D0E
+734D55F4AABDBCBA36618D4B435D410A20BECCAB
+73704EED8BA4D1A0D81EFE1BD92262D6A3419081
+737D6351168575989458EF0CEE8DC2B72EDCE1C1
+738FDA23C5658E456F75B03AB3CD87D1FB2B1B4E
+73D0800DE3FC45D50A083F19DF9828C2B8B37C84
+7403EAE2428F62C774AAD41AB25D4DC96AF51155
+74572FF4A4F7E5829E82F007ECA5B2AF8550F31A
+74BAB70C71DFE36A9A498F47F649AB08FF0CE5BE
+74D4E8D07496CE62A641B5EC3FCCAAB30ACDD4BA
+74F63FD2B050B27C695D940C9B39D5A3E1AA9CA6
+750AD884290C5D00FBB2C29BF40F6F3ED0AADA61
+752638E543B6E26C4A360EF02EEF0DFF45FCCAAE
+7578A2CE933CCFBBCAAE753CF5ACE500DBE3C521
+75AA5BACFCEAF4493986536916B99A1624FD292C
+7609535C7D3E99AEEB97FD7596E828532477ACFF
+76462D920FD7B853FDD3B27CD8E2B49953B12036
+764F9287AC8D3D2FA84D89D897F267765E698682
+7683F9F7BF74538B94A678CD57B9CD75F3BE14AF
+768C16FADC1C4D33E1671DD0DD82DAFF39E7A7E5
+76D275BF2601A55EAD4FC1DF8BB08E3AD744505F
+76E2D2D3F4859A9BFB9A22456F959BD6E3B49525
+76E429146388F22F4FE8D5DE2463DDFBB530A806
+776B06B9DBC38A8D20A6BC8EE3FEB9998BEE8C92
+7782E20FAAA227E60FCBC8617A1A2267BFAB67EF
+778DFE01B7E33BDCC9DB95833BFA8DB99B60F56D
+77D07AD1EE18542885E4EFA8C848078B8DD43982
+77F50EE81A52336BEFD4515F845FC7B113BAA65A
+781E9B85303B544AC3AC256CF3777EC3966CA5B3
+78872B96502C9F6F1F578A75BB414F280BCC56D2
+79121518699B73E612FBAB5852F752EDA419A865
+793B27BA59D8A7B2BA6678FEAB19C5DA43E97721
+795251479E63DEA01EEFB0E4DD66221C980410FF
+7956F7F435E2230FF9D871365BF852BCF31AFDC3
+79DFE83F4C38E065974B3E955BFD91D5AAF17F96
+7A79CDF00E660A92E81C0DD144C775B6809FC221
+7A7FE2463E08D7956D398985FD5CD34887F15C7A
+7A8D3A9360CC37F0AD80962D4AEA72B6D0F0B2B3
+7A9EB42BC511B8A67E7092547851235AABFBA3AF
+7AC156C6897FFD32C787EA0FE957DB94CB7D3FD5
+7ACD3C8AA7DA8D591356DAAEDE649591B0A8EA2F
+7AF58F6425D88AD8BA05277538EB243CFD413975
+7B303216787123E2E98A2B9594CDF8211C77C0EA
+7BBD8420865CDEE9615210CC88DDEE6DFAF3FD91
+7BD0769CE9D5C19AD3B3EF5988E374D4A2651393
+7C0F9321EB2C37835B115EE5EC907F9539229A2A
+7C1C384BC0F0D9471DDA16F4B8A4AB463E7A2C24
+7C513D3B9231D93032B6E33E7730BC38EF4ABB8C
+7C589AD91E068FE4FCC590DC00F89172117F7C8D
+7C89C988357D32276C913C532C042C3542701195
+7CC0841F7454963892225C6C140A0BD248F2D9CB
+7CE70FEC0F5A773E45A461D1BD3C858440A277E6
+7D4DE1A6AF85534628ABA9DA30BDE0CA23AB019D
+7D8C1C61233AD37DD176EA91A824D75A24B128BE
+7D9882C82D155429F36CEE3C3776DBA52E923983
+7E18FFFDAC4AFC230B632BE6D981EF32472F4197
+7E58F9150974C15B5C6CDF6D947FCC98EC140A75
+7E794100AB22F0ACBBAA3E755CCCB3E7767F13CD
+7F5645462769D659321BBCDC54DAFB0E124DB186
+7FA88F61C4965F71661B91AFDB97DC0E4E9BCE5A
+7FC807FDF46B2545352AD123E84886498301CDF8
+8013598D0E11E40BC2F80E23E042507790480153
+80185F0CD267B4C51B229DF8E04B45F10AD9226B
+805B4D764B613A20CD8C23E6CF0539BD5A3169A1
+80A8D1EE72758E476D2F28650D732BF61ABCC252
+80E727B69CEB7A8060E9D85AE8B3747515AFFC3D
+80FC511F37F9E054A1A1E563A234A9511103A121
+818B47B5EDACE3F81DDA9642239651A48AD5A96F
+819507E69A7350548301B67E4C1A82450583FCFC
+81D2DAFF5E5F259C9B9A5461FEB0C0F65740A70F
+81D9CDE02B21C18161324D2F0A48180CA5FDDAF6
+8206FFDB8FD4BC7E180A6776F46D629E73640C44
+82082842AC7EBCD4C5F759F1FC4EAF539A855806
+82352FEDA212B6B125FBADC1E8FB6A575494D6D6
+8268AE9024CE5883CBFA3515D8726E345FD30FB1
+8284FFE50C4CF99B71879A3F1FCCF6A06561F3DF
+8304FB874C49B207444ECAAB5A39A4DC7D4709C3
+84302B612C7862D46A0F3F8E85A87D3BFE0B31D9
+84B7EB57DBB8CF67D7761D0CB7CA323664106ADE
+84DFC589A906807DF0DB6796F666A614CA8967D1
+84E0890019D1B050CA6029B424CB1097E36DEE22
+84E96B0409E8D7FEA728E81AB3957276833E8584
+855DA1815DA0EBDB27B6F1277AC30C5A18F2657F
+8579B662E064425B7111850EE66241471730D196
+85906E8388C5D4014FF5A756777C018962054B58
+85A75B67788F35AED82B9F2725429C6918535082
+862AF285F0A708F9A0C8B88AC68C740B2E2A48A1
+862DD2A2674DEE5ABACC7754764C0F3CD92E163A
+866DA5448ACB0AD9914EAB30A24FAF277C81878D
+86A087A9021B5A72F90A7ED3E0C0EC3BA48E5D71
+86ABCD96A196889B17B20DB45A38A83EE770AB32
+86E0C9F24457EB07B5F31B6F6A15D00544C401D4
+86F220B57394A3836028BF552D42D8AFF7910D06
+876394B44902000C6FF29BAC771C1AE8C13463B0
+8794C53D5120EF9144ED3D04052582F0C2527B84
+87EF086DB3C951AD587C31F33D17EEBFC6D16D0A
+8812A8BC1B6E901B257A66C7FDDCDA4E47B92CD9
+881BF56270887466A5816FD0481BBF0017FF6DA3
+882DFEC1982011429211569142580E001480F4F5
+88590DCFA5B052E8BC0A28279F0F8282739B5B86
+889B2DD85EE7D9BFCE2EDDC2DD3112333730A7CE
+88A829B3D7F98872AFB69A162BBA36A6D6757BD7
+88D48CA057FF0802BEBB124E1A7342570E190919
+891ECE82608FA7ABA6301F8DD4717F0F58BC483F
+89307C258DCBEDD3E4DF601C95F8E2DA4C154550
+89422C103035FFE6B95E090F43FF5823482D0A6A
+895D5CC5714D3DF2C7CB26CAAD068777AE88BCA4
+898507F31F80A1DE5FF240DB39AAE715ACDDCF37
+899B97F46F37C364AAEFBB42FAF644420E2BC192
+89B074B97D7A653D112C8496070F6E1EC02615CA
+89F6E7C086DF8F0547041EE957B6B02FF375DC88
+8A02BD82FE1DAAD4F82E607932B4E3AA791EDCDA
+8A10490F0E8D27073EC37BFAFED49AF9E12C09AB
+8A3288E353E9490E2BD830AF8BA0AC5020902309
+8A34A84CD68293743A4C15DFA9B029086DA84CF9
+8A4B4295221F4FBDCEFC4ECAF4AECA9246E4F30D
+8A5A994144659A1F5EE5DCA29FEBDC665D23D357
+8A697B4E17A311A984AEF3B32B9A0DA814477198
+8A6C94D076D621AAAD4AAAD319FD09E2316F0CF0
+8AA249BC8FB68E87B67D21F3B72471E47C094634
+8B819657C320ADB517DEF0483D021893C6EDA616
+8BA1EC66EDCDA2F4BC354C3A2C3FCF44945B3440
+8BDB6A08DB6808EFEF30BF0D17CEAA6478F5176F
+8BF579D5EC084C42B2F6C1D58CACC213CD88B5E4
+8C8EF748EB820090EF4A554922953EBA9F9DB398
+8C98F893C7DC5F2C401AD1482A81572B54197408
+8CD452C12C78BBAB93069B2D1F093BA7A17DCDF7
+8D25BAD9072089034898D0BD38D7A5A63332F4AB
+8D595EF7DA5788F19B2AD0469DEFCC251CE17989
+8D7751EF0430D3D7AC8748CB1850EE0D5C234786
+8DA09718892A3B383AC2E336DE962CE3328750D3
+8DA905C85EAF36954E0168E04C0843505C236ADB
+8DE97375CB95FF0C1823EE3484758E773EDE2F9D
+8DF2BDDA777E49BF407E4FAEE29FD2242235DDAE
+8E2828E0453A52AA860623BD6E961F20F3E80571
+8E37D2CEF76CB604E64341055CB0FA7B53D6A294
+8E40DC6C36FC8B6C85BDE1CB75E42FD20A5FC6D9
+8E7A6F14994CB357D289B605F3AE15CCEB964D75
+8F43299B2BBC180803AAE2295F17077D2C87FC5E
+8F75D6B2F7F5952EB9C15683D9D502A27EE171A1
+8F7EAECBB6462E186430F7000BAC11CAE6DFF925
+8FAF6AA6C2C8E68FB022EC8396A2EFC3304BE179
+9030F20C6FB90D587A3B87F617002F48F6BACAE0
+906A475B597B15E63D6BF057DA8C78F76A303460
+90ACC0461B4B961FD478B6A9D6EDB10751C339FE
+920E81FC9E378DEA25A00185DACE35591009B588
+925698E1D78D04809E2BE9104E6F5AB41358D1F1
+9261176AAA2ED8F4314F9637795FAF88C51587E5
+92A4BAE93CAC41B003F311C4362CF6BF96E2A6F6
+934B9396B7137487C986DECD5638B768C871324E
+939F035DAB12566506003E6C93545EA187465A36
+93B79DBFEBC3DDB2E5AC439E06C1FF8439614A9E
+93B95B92B63A5C2327A8048A4BF57824C56B8CF1
+9411B8E0BF830FBA94E86CF120FF78553217476A
+94B7B334166F8C7A8A94A7ADB8DB70B087665300
+9548F9611999ED8CA357720E12017816424CFB6F
+9572467FD3CD06A2451A797EF89E68C5C92C70EB
+9581A11194E6C19CC3CBF8C999EFDEF359891ADA
+95F8C8E61C97602FDA298970145382C62C36B40C
+962DD60892EF7CD9B489006E699FF1729A520365
+9647CBCAD9844E9968F2E6C6C8E7AC0BE8CB5C61
+969872D7BFBA8DABC80759E60CAB5606E50905CA
+96A46B6E4251D445F5E87552B84FC536EA4030F2
+97421A03187B85B2E1E45A958C0FF9590D2FB204
+975065F2B6333B78135FB6FBEE7A6E4E80E3F437
+975CC122624C3B24B2BBC8B1A470EECEC5DC5EEA
+976143EA9644899E3DC7E9A214AB8BBF0B7FD3B6
+977B2BB93C46130DFF99AE6A77A86C193386B998
+978EAA4A9984F0BD0464FDC53803E5CD73E19CCD
+97AE667565B6120DDEBF42730CC21468FE5AC36E
+97C6B463F70725F677305D61617C5B2D111F9C44
+97CA63B6626FDFC00FE8A0EC8DBFC7F2399A4BA5
+97DD4051CEB1CC444E94E3950E39330E083C322E
+981CF2B03EFCB96F9F7895266993333E3A2C60B7
+983E7F2AA81AC4D28952713C06AF75550BA2F23D
+98583870FC02DBD11C90FC397D0E3D1B8B1BE967
+98C6582846F595B07C5FBF41CE191E86D5F45420
+9912370089DAC2E2599E7A31F2F099DDE315D327
+9963E2D0DD9E551FA0F008FCC1D116B281D6C05E
+99B75DB027F2D0192C941CF6457E3C75D29DABDF
+9A3E86E19D986FCABD36C5C901409239422797A9
+9A8B21F4AAAD1EC86057773CA1F741CC69AE8705
+9AEF87E05D68326AD9E51EA2B1521A8E6833BD5F
+9AFBF6C749191C55CBCF28E501892603232C31B2
+9BE398A2FCCC158642FB51DAB2CBBC79806BF33A
+9C05AA2ED9BB9A7E19F812D5A31FDD2CBFB17A72
+9C1CA4CB56508302646E18377ED031D957900692
+9C1E851A8AAB4F1BDF3FBDC2DEC27F1B00273288
+9C665A7D1A076B45B8F5397907959C9388C914CF
+9D346836D66C66794B73EBC439B08D7053CAA9D7
+9D35BC9206F3E13A1908A0AA1681B4EA75E233E0
+9D41EC8981AF17B8F2CC04F804C17892FD6C9124
+9D4EEFC474517BED5900F2F6A7F29872D0204911
+9D583DD5EBC7A2DD954F1EC3D377F78DD56656CD
+9D6DA144589989ACF3E0EC0D85C95E8DC8886CD5
+9DAA391AF58822879CA7088F583FE9873B4664F1
+9DB4F5B00D071A9C4FE6C9BC0390BCAD134FD232
+9DEFD7EFF219E6C6BB2C2C749C55936E4F418A1A
+9E12924E4D380BB5375FD113E1CBD302361D8472
+9E4E2DC02B069818F44DE435AF2BBA33CC87CCB6
+9F11F2B30ADFDCBCA30FC36C280DD9987D797561
+9F7AD64F29F927E9164DE2B5AFC25634E914C8A3
+9FB1711BEAD82C49152F95F29B859B7DC527CF8B
+A0388C60D9220FF1247D095B07D952954EC7BA06
+A085EC1DFDFD550E90133FC79446C08DDB807738
+A0CB09705DF7E7F8A8451265852B4849B8D55AFE
+A0D3E8DFCFC8ACC827E6E981161FBE5AB7BC7D41
+A21D6A116455E8BBE19E38B39D92E450B91C525E
+A25A3CF68BCDDD76811ED35BFC13A595764C324A
+A2C51A0A44B1D83E3990148A9507F5B27DF88F0E
+A2DA66DB7D08DAB7197581BB5BB031EB0E8D1EB3
+A30D0116A886D611EBD235E939596D540B5F9180
+A33435699677A36B56217734599DBD18D66F48BA
+A3BB1067EA28C7823EF5431A167690A275D69CFB
+A3D73255DFEBEC7C975C430A31D8B7332E6BEA3A
+A3D8F65825CD1EC03A250889A04FA2E207403A81
+A3EEE0FFD5465AD354E976F0CAB1EC6AFE354E95
+A40AFB76C79C86908D21DE6096473EF085714EED
+A42B742679A2ACC09C62F865DE6CBEF0E42B827F
+A4641465A23D8FAF0CEEA7CE80B5A7BABD679FD8
+A4AF89B536596D5CB25B20CE39DBF2A11755F303
+A4D43B455B860F022173E9D1BD23CE8DF1ED6DF8
+A50B61085454E89C8357C2E8EDC56039F6C62A57
+A52276642A418BC95D194C28EE1635E260875FCB
+A534C220437C71538F4752CB3D56F34C1964C6CB
+A5370A36F0F43866899E4EBA21449EDAF91C6D1C
+A562D5738BA91454A78EBA77CCEA092136D31140
+A5CE6011CBC78912C62950EF4D2F8EC1217240B0
+A5D81600664971C9BF9CAF06403098E1C66F1211
+A633C365C69A11E65A8D49DB2AD680C60B41A466
+A65FDD36C4D9552D13B014A34974CDAAF4FA8446
+A66E2F76681CF834C224868D8E76588DE1E0C127
+A689B0B46F923AA48B807FFD572F258070EB9E30
+A698B6CF98F43F9B0EE1C1DAF3F2CB9BFF09A47C
+A698B776B3955D0A1B02EA41E7B793CA10AC5854
+A6D8C3EBFAD394466546FE7B8EE076F8DBA55C23
+A6FAFF33C8559E377C6E174477D4EC60E05FDD1B
+A735BD0E244E22BA74F578A860158763E60683F7
+A7BCFCFEA3CA41D3C13DB8BE7151476E4E7F6736
+A7CDB3554431E3C2AE97662F8A2555741BF9D414
+A848BD64E5D9457BDDD61975D2137B1D30A1960E
+A8A4DE379BBA92005756B9133C7A9B0870533A6D
+A8CCCD0CDCD8B3AA763EB678682C1FA1BF2061D9
+A8EBC44EA2EDB715DB97797C493D6D2E0821577B
+A905E2ADFA43B6151FC9ED96C47D92B8AB0BFD3A
+A96172FD8DEDA3D23D9C4BF814B73135F40D4A51
+A9722C772AECE056B471DB3406FF0AACA0869D0A
+A9A714AF09C002DAF9C85C8E23CC98E685C7103D
+AA0DE1A1144FCBA0952F0ABE3B2D69AAAD18F734
+AA103CDF78F701DAC2B902775C73F5B97D7FEB57
+AA30D88C417BD5F44DAD042941FD5472412527DC
+AA3BDC978296A3BDDE0FE566C118288D216B5D4A
+AA50DE69E95D10A4255C182ACA307B955577D2B2
+AAF7BF1B40752EA04FF601A87EAEA5EB24F0DC81
+ABA24AAB8A9EA0E34C3E86EFD7EE2992CE614003
+ABB5062AAB4DDE84826D8DA60040D5DFD3B96E0D
+AC137775C620B100FFCD7278016986002E805369
+AC1BFB25824BAFFF22BE279CD0968B626CC65789
+AC8F071F56237863E7EA706BE6252ADD439DF110
+AD3EC4AF8B608A03CBA58BF79760EAB203473A90
+ADBDC89B86F0A27AE849087D4E8A5C7601E09BC5
+ADE4AEAB0F71C5939AEB84885BEDDD9FFCE2255A
+ADF4BEC6D7AD012015F158F40EDD4BF9ACC542CF
+AE16B2279A8AD04743E77CFEF1A74AD9A67130CA
+AE91B20EAC581C27F69F441744116AF23AE65150
+AEC14A1274E7C54D5250A95A4180FD73F3165F9C
+AEFF64C269532D58DDDDA1D069FD3ABD97FCE187
+AF3D286772C601B77184DF2DDA8ED91D1624DFDF
+AF55B7C829823BCD12E4C9ADEF0BF5B335E9D020
+AF5C288D051E2433E10481F098AC972B1EC034AD
+AF96DD8DD87BB45045CB5A7DEB7272D3733D7E7D
+B0007565E2B4F0A37612485C366063B1000DD80C
+B01267483DD9C499F8E5F258528B6E1D0C8FA22D
+B069DE54DFCA7559BE4AE47737AB9D766136CC25
+B06B8349306B8583114D40889D750D748FB249FC
+B0DE7B164B20682B86C9F5909FF7F83BE6899CFF
+B0EEBC540C7F9D9AB101942C88986F73A4C5EFE2
+B10F38DCD574461DD5C40377B10EAC3BD5E1B3C6
+B132BE656E457471C5F8B35CFC76121E9253CEAC
+B16C7F665D655C7BBE9F3D2119DADE6EBD74CB8D
+B17D709E3549286FEC82F19FC4927CC257A3538D
+B1B33AC886FA51996E15B75C229CA349DDC9A45A
+B1DA32470E60555862F524D8AA440F10C553006A
+B1F64D8A420610D4E1ADC78C2B2AFAC52A75D27C
+B1FE46E1727C9ED3B7A2F83F88982C9D04764A0B
+B20475003A2791566255B85A53F8641364E7E915
+B205041A2C45733D820E3C0EEBD68034E7C68ADC
+B22B0779CB0E674A156A2D8C29603BBD7A351D49
+B2BB17B9F8822AC95285CB28E5C5ECB4FD35081F
+B2C20BF13F408057119557FD47073EAB807E1C0C
+B2E1832045235FE8EB713AE01FA2792A9793884C
+B2EC0E5EBDC45E45E673AAAFB424EC163418F67E
+B31E27B8F15A3A70C6F6BE9072FC5D46A9CBCC14
+B356E465CE3A623003D87D498E598DDC4B9C8F4F
+B3768B9122CADC2BAD6529A595F5B38121C3401B
+B416C5F61846F805B3E6537D2440CFC10547D2F2
+B41C7329F660E92624C61816BED9D62A49D8FB2B
+B474CE94A49E3CE6A322F143BBBB003218E47342
+B493DD646B049BBB36583FD6AF7EAC83542CCBCF
+B49827655AF47687E82204D1442953635251F6B1
+B4E118ADCB2BFD2CC86D632155414F920E5D45D9
+B53B43DA6139C5EF5F1DD1B73FAD6822070D26B0
+B53C7F1B352DB37FC0A6F9EFABF06EA223EFCFC8
+B541AAB3084DFD5D2BB5C79A97296B3FC6F6A565
+B54ACC58335954C835B305E9A4E0A67DF81D763B
+B582F7EAE06174B5B4D2B02AAC4212E420F1DD43
+B597DA2E9B2D181DF7F2FB8D2BAEC133C8DBA0A3
+B5B5D4858276B2815CDBF92CCEF751CABCF2E5ED
+B5BEE06F869D3198D9A05F98F4BCC4E5E2238FEB
+B5C3109D53713A832971D24FDC110840B57CEBCE
+B5F1B5D61C060D470A65C0FCE5C1DC1EF919830B
+B601885E9553A14FB9AF322FD3BFD1E0D6206F14
+B677B774EB2CBEE70CDB5A786A783143D0316F40
+B69B8273EB321347E50807DE47928A1F5FF5FD08
+B6BFE98609300E964E05A15895E372FB9878D4BB
+B6D4DE470533041D8AABE14C9FE6A3FBCA55F03A
+B6E0A2847BCDF1825D18558EC883677154E3228D
+B6FCF5C798912D71175C2092C31A9B40F863BA7C
+B700965BF50556C31FB71262B974B5A3D517479F
+B700DE5EC5FDC06A5D60435A32EE6DA70601B673
+B720DD13697038CCD72C16D3D2481CB2F8F9E73B
+B7843147AEDA7E414C5AE21E48936A6F90B3D059
+B7BD4236ACB4005527CFC5E8550E2FE7B6EFCEB4
+B7C0DB306807338DD3DD2EA5F85FE93369F27231
+B7DB036074231ACC212F58CA5B8AF0545A418060
+B7F28D9484CD9020533348CB743B7C3E3C2DE766
+B8265A5FA0D9F8959D0E0551918C68C4FC28ADEF
+B83BFA5AF8927DE9F50CF24ACD36016DA7E79F5D
+B8429759BDD09C0520C610BE2E8589D34C0DA774
+B86919829A3FDB507927EC446592F1E9589F19D7
+B8A368725C163E1F29522060E5B219DD86053AA6
+B9CA329ACAF59FEC30EFD20E11D400A8FD25A8BC
+BA3014356B4F6ECADF1B5288B6841EB407783B99
+BA334A4C13CF4E9C50A4109710CCBDA3865D1505
+BA4B4CB9D4C61F0D6F50C224F9207EBB67460F75
+BAE4FD1C7910D94D5F64F9BEB3542836B56B08CB
+BB128ADDAF9F8A460ACD264BC487E9F51E22FE69
+BB27F94BEEC57DAF56BBC40981A4A8BF8F3192BF
+BB43AA3060B7BBCF7956F067A93A165B4AA039F8
+BB4E6F3BAEC9EFEED08BA34D79B8B3D6FA762528
+BB5BECC90B1298D9C247FB3F3C823EE280DFE7F8
+BB642DAC2F6F6542F9BF096B1C136EEE132EB10A
+BBB1C79EE95BF8360A11228B5E717987854AD821
+BBC487A501D0F74130D0B1CC0988ED80F5D57D9A
+BBD1EF16A96AFF786D2C8F1D06661E47ADE19851
+BBF9B5F2114B1A3E02244F36A033CE5B3E22A060
+BC0DB2DCC7DDA1F062297D286E5DBC9A40E66310
+BC64BB389F71A9FCC284B695EDB3747860A5B9C6
+BCC8B649D92030C1B4E171F0DC622B2AFCD3BD43
+BCD0B7500A2B30580C7A7D2C3F1C22CAB613E423
+BCE6E17170C8F1B6AA30922DE95881F7AC631AD2
+BCED223E8F1198EB5A9A4583B72AE671FDA2451D
+BD053CC3A7D1D4E7679797FF09614962DFFC970D
+BD75785200C0E1E894D78880C72AC03D1B02A575
+BD7805DC94E6C3E9F66340F6AA71A6006B5EA6C6
+BD7E8149DF5D5DEE5BBF21BEE019B45ABCEA8DF4
+BD815B5527152C2693A8E0F363478839B5AFE635
+BDA92C335A3D996B00838F9F75A815008D71CC48
+BDC19D84D28CCCF275E5A5BE58AEB9036DD35666
+BE055DDB4CD42F7125F45A77B62568FBD56300CF
+BE2B4503954E47DECD745D20D115E6F00170C4CC
+BE6361858B5D7F2CB8D0BCDA8B481FABA3FE9CD9
+BE8306E35E2E8CEF2AE4576E76C905205E832F79
+BE9812D760209756F6474A5D2F17D4FD7C801878
+BEB382BD4F5F01BA9119F5DDCF9D8CA1450F5837
+BEBF36B7C2AAE0F542AE2994D49B2C130EDEB100
+BF13DDDC114B55CF8532A4CD90403A99233AEC0E
+BF2895CA71DA5EDA67C5B44F3230111D3F531BD2
+BF2A0862364FBFAF78554581D024C5F67DEA1FAE
+BF7BB470BC7B9E2C1B4B6E06AC3756E6D06600D6
+BFE3769F2D543FA58CE5330083503FBD53DD7615
+BFECBCE6CCBD3E39A65C5F696E0FBC25E3EE407D
+C06C7F888B71FE61484343118D259EF80604BBB5
+C10F1407BD9F9AF6137D587F27F687685512F7CE
+C151C5645138D9876D67F8D2AA553E1A9C9B15B9
+C18EEDF999A3BB4D0EE17F2D3253A4221F384D84
+C19C44BFB565C3EB7FB5A2B2F6B611558D1C27EA
+C1B4B97C9F33EF23E161AEAF58C856751CB5C435
+C2072B895BB41A16FBE23140C5BA4C2F2A219BFB
+C21E011524C76BC6791488ED0387DE1FA1E2E062
+C267A750E4DD8B1231F2004AFC22D33B2EC1279D
+C27E8AB28783FDA53D812A0DFD3BD31B6FEA8876
+C2A8DB497CA2FF09EBCF251A353A04BE27CE318B
+C2E410F3EF6F9659ADE43340426F565A5EFF47DA
+C30BBC77B4CD928C6CFCD4CF31A1B37AA973F177
+C32E3EE98B6308007024F8E2A7AB093D22643715
+C39DC9AAC7BC9A7A5EA67AA27D95AC00A1547623
+C45C8D6D2C5E3E544C0BFEC906306D19BB91A524
+C476C60A424D470B3DC0FF6DAED44FC39B501608
+C4C6A014EF4AA23B1A126760BFA7A49B6F2574FC
+C51A095F6AEA02E5ACD367AD5F66B9A7B228B87B
+C6052954A58C53A64B245155DF3A661F477ED8AB
+C658304BF752A2F8F38985384B422B86F4F32D5F
+C65CB8EB8FF6EF99956C8F76198D72121D3306AF
+C692BC38E265926454CB6E391DD76BFA631279B4
+C6D2E596DF6AA3E63EB042CEFB9DE02A8DC8CA68
+C74FE93805CC136DEEC6AB954017FC16464362A0
+C7596D3AF81B9C4D9BAA497D0E7EB265B0384CCF
+C7954F380B79C89F6EF0122692EDB9E4CEDE67FA
+C7A09C27EB7145433102A82F445AEB694A0AC21C
+C7BCCD2D2CA294B38AE834D818CF5D5C0C7A65BE
+C844218D3D0392EAF64E703507B4111D27459DA7
+C87D27689DDEB56823C7215DB6C30A75A01CFA1F
+C886C15B36E63849FB9E86DCC97456303F590459
+C88FB939619B4C2D98F1A6222CD48DE8A93EB8B4
+C8A06117BE14F1EE05C520B52D0FA38B031D8B52
+C8A2042FC1741BC12D6959A86BCB3A82107F9BAC
+C9B1ADBE16F2A972D2BC0DD11E341238D26B9724
+C9E97352FBB3412657F14AA68ECFCB0DCB1237E1
+C9F13C2D0661B74524B819685CBCA9F3F6CC9B1A
+CA0A4813BBC48E2F7CE9394FB8360C1FF26D4E4B
+CA10C096C99DD6A70C588EB1C2FDE391327E18FA
+CA1BAEAE684D3F1E15F3AE2FB2194B143B29DEC0
+CA302F67F21FC2283B285F13F48B45CF1FFE8A69
+CAA6D2E44A86990BA66EB9B2E98E962FD63B590A
+CAAA15D48AAE7FC96E4E5CA82EBE7607F4366CAC
+CABAACF31E7CA6825CE2B8C7D26AF400CBDF904B
+CB25E967ED2342F2C02348107B2153BFC057BFA9
+CB4E6796FC0EB7A04CE423CA75D63E5CA6C291D5
+CB4F995D44803AB4BD590CE40CAA95BDFE8133C4
+CB5A4F33D4F9F4B6BA8DD50F46634FF3303B0DF1
+CB9504C82B042A096A0764D5C17CCC62CF7D404D
+CBC601A01A28047A2C60194DA011B7F49813FF21
+CBFBDA36B8A13502FB8A7161829854199FC5A946
+CC822E0B9DE14A05893A5AE29833AF53519F93AB
+CCA9A41E2D57D77817DF39A8B8B1EF8BE6F4FE84
+CCC0ED6F4F84D1D41814502F5CB42966FA24713F
+CCE3130B3AB979B8A8CB0751F06A38C7FF153DDA
+CCEBD22025B0B2551549F3C9D5178C5D084265CA
+CCFA098807FAFF56DAF35FFD1D3580019FA742C5
+CCFA4B9E955E1518219BE380900F5B31FFA85939
+CD1108D3E7807DD18E044F10ED0F5370D20A0E30
+CD5B6C9DB24BB47EC169B2D0C81BFD6F62202A8A
+CE1F73A8CE960ABC1F7EC125A43262197E41996B
+CE3FA93A8CC5867A7290DA6C847BB8138A90C453
+CE5C2F0A125D0CE4D1787EF3EA37A84730FEFF4E
+CEAFDC4B0FE8391704973AC702A720F993B50552
+CEF485CFF60A37B273481A1F292D079655A99F38
+CEF5ABA90676B8016D787C4B52C40CE4EAF5B271
+CF343EA81627937CE21D9D72B797A6A7431AE305
+CFC68914DBC811F47D8D855ECF460113DC9BB37F
+CFDCB2DCF3D8DDDA3C3FA629AAF7DC591C763DFF
+D0149C277DABB534F007AD88F4FD9CCAAFAF1628
+D027E7CC5F025DCE56E9DDB1AD1F5840F91A1F91
+D053DDA2E22058F726653A2FFE6C082B98CFB758
+D08C37EBC0BB4D723BC58FE567D066B3C59BE65C
+D0A4174A91C657132EC09F22643CD28A48884B5B
+D0CB6E59A9B721DE4BDB75C185C12C8C11B60367
+D0D86EFC28FA7F8F44A37A1EBF10C701D6513346
+D0EDDB11E309BD3C12209AA5F5A189D933A18855
+D11B1D2199A7FDB655262E915846F8E4B47E51D6
+D127E9C148F6C1B22978483911FC875F7600C1B3
+D12B04B07A8F78DD90B50AC8DA33BEB42F2320CF
+D13AA08B82024AE5B57DACED47678422F8E76FBB
+D18DF69E64F0C504899D1BF0929A917583F7C185
+D1AC2300AAA15947903C08B021BD9920F3F8D693
+D24312EB89D41474BD7BC51460C84CA9D3426A7E
+D256C9D07D5DFA032DD11B16DD868BDC3B5033B9
+D25A955CF4411A06D400C28B5FF33BA1ECC53762
+D28E7F73C49EEF9E61D22EACBDA510DE834B040B
+D294338455DB689697A4CF244B5986937B03CE17
+D2C8F6CE9F8229FF6F5B8175E65B717B596980B0
+D2D961A3B8DBE2F7047B169FDF3C3436D172D2C0
+D2F91C670EEC3492C9A3D2866030AF2D358B7835
+D323474A89C4D72014D9AC5D6C155B8B41143BAA
+D3343186082DD055FDB05E59BC5EFDB6A593A3EB
+D36A06D969E13686F8CA7412523D499F8B85E39C
+D3767DEB01D3E30801148594F2912310D658EE6E
+D381FB47D731C2651FB103E2F7BC18AF380F7B1F
+D382E2284FAF76AB22ED5A8F63F57EC374F56F6D
+D38B742107CD2C523D1FE758422A1790C09049A3
+D39BB94402F35514445FB7161708B7B70F8F671C
+D3FDCDD01ECC0EF3818257A0EEE2153CF9788A9D
+D459B4471BFCCDC26B8FBF76BB5B9076FA080C83
+D47EB26C8B7C3ADCCD667C2E41986016271F05EE
+D4879E13737DC5F928BE6358B000A45B74EFCD8C
+D4A5A1D9B24186B749B06D1294FE955B989FFAFC
+D4CF079AA9BF9C6A2BFD451545F16DA5274A5B4D
+D4D57990C5A8C7E4CAB3262B50E71C0586C9C956
+D4D7CBBBA2B56BBD30C48FC35E3D4144B7B306CA
+D51AA9E63FA4F948F6044E4AE8F594A82175262F
+D534B9CA170E671CCDB26A766179C3D03E664A83
+D54C16E345563462A2D755382192EB76561D5845
+D5927BAAD7B4A29055965BD123094FA499796725
+D5B8D748A861F3DE671FD2AAA53FD245CD31939E
+D5D7B247774E63182A9E2C82B62424AAB64C79A8
+D5DD9C8C8C19B0E5D25B8714AE95BAA11DB0543B
+D60F2DB318330F414BCDF67597DEF14B5C6ABDA8
+D62B56A3F8748FC2A19463D47D3CAF1129DE7FDF
+D65C9F7B03BC2900562B004EC5A91DD75FC229E4
+D69426807027B2EDDEEC1E82192372D2A0B25D22
+D69F5BD006AB836608FCD291DE970872D31A4742
+D6A76C57425BBD827AE28784D09B7CCD9FF339AF
+D6C3419F940266CFCBF3739A3C902285F9797CA0
+D6CA956226B32100F24176643E8F9ED259104AA6
+D6D7AC0B3D4DAC40D7A42CBE0FCCD3EF6B2BB312
+D6E73E0BDDB145E66D8C00E16218373409F9776C
+D752BBCF2E7D61DEFEDAEEE67708BB332890D107
+D7571151A7C3777E4D9F55D0C5B9044AF97369EC
+D76194750E61A5B8F52C35400430B13F7608CEE9
+D76F7195A5A6BD536C6C26BCE61CC4AB560DA259
+D77819389BB3BF32C26793DD58B34635CE3279BE
+D7AB03C63A16BEAF5470CEA5B1E5E91B0D62A3AD
+D7B6D9C4D9A1767EBF20EC8C180825843133C3A8
+D82CDD1929645DBA959F393C1BD27BB9D992CE93
+D889DF6E26231A57469A5307EAC9E5391B6A1308
+D8BEC1F31E2B8FC976F25FD470E251D8ECFD9984
+D8CC044500B261C6794589BED782B70836EAD65C
+D95F9D77F2799467DAB8452484116E475FA6E04F
+D972520B523CB084F0B9F530E1808491424849F5
+D99E43A1FBE6A61104AE09BCBEAFCC2FAE14A0E9
+D9DBCE9BD6EE4A31243F25EF51E9874E5D06785A
+D9FCF8E310397BF1F14CF1D297F8D882BF9B716B
+DA11692C3CB87732F7A009E2D6F4AA9D8D0A1B3B
+DA53B07195A9AA50629B6022BC94A70F67B29000
+DA732187A96A3758A23907EB4EFAFD12CC108251
+DAA4E4D48FC36A01C07020ED2AD7BFCD57ECD7FE
+DADD0E37E3E28B9FD33D2FF293EA8050328FB104
+DAE017B09F6C6B544B1C6A7036EB9212D13631BE
+DB466CECE7A19D783E7E0803BA6ED1C73D34FA88
+DC0B8AB1A6E8D4F23D362AC87ED02923A120E2E8
+DC0F74BCB654DB18DE91E5D6D69111FB087D32BB
+DC1B6EB21A231303BB27888B0DA9D34578DBA88B
+DC7A247C60269D22268FFC6A19B61BA4A213A4B0
+DD134CAA034E2737B935567DD131C12EA5083A5F
+DD1B0B141CFFCB875F96F970108998066853303D
+DD6B50F689749C67CEC09C9724C74713B4380C5B
+DD6F2BDE80D7C874CC220F23E6819C772F1EC563
+DD7955ED55E47999EA8C7EA435E8A9998516745D
+DE19E066442E7473AF1AD9BA7133BD25254623D3
+DE3BD50D7309CF64AF7B71E2598E8F822F6418B2
+DE7006F115DE906028D27E7BA0730E23D14918C2
+DE8D532FF7087409E23A15C8FA5B8B47C470CB7B
+DE9D300559047D3DA4F3AFBC46D73F55FB1E6051
+DF0E70A535AAF351905DB220E035296721C43B87
+DF4F07B9DE685350C2C4B4560FFA1C88A8568CE2
+DFBE07A248E71AD85D8992FBEC08BDA18B976DBE
+DFDDAB65711F65A9CBBD9B56477330F1587B3E40
+E037F95FD33B56AE9DA6BA99D3FBC5E2A37FF4F1
+E04E002359B75A9E5EDC7B19E02167E3475BDC6B
+E07C9D0B8D68C2D2F8429952143E98DB73354A0E
+E084B585BDAC86196079F75EB96F9C4F37443431
+E0A43A394502D9F8A3C31EF894962CD1C7C7F517
+E0C9407E53B168D10795FF1E402702B330462308
+E11D8B967FD8FD6E5CA62554A568097391C6ED90
+E188752503926582CADF5209ED1B53AD9F6FAA8C
+E1A3777A82478B22F7FC17DED0EE2341AAE0EB2B
+E1EFF8E4609E2D2518CD554889EEA1CE8D3F1F5C
+E281F4F98A60B49B088C6D02D2E172A617C0489D
+E284FE4BB93471F378B345C7D87BB1BA6EB09DB3
+E293DE1609300BB1B8A8CA45B3A45EB3CB38903B
+E29AA69EC09E1FE7DF5E56E7402F6EF73482D520
+E2D13376CC2033FC48A70CC8D12F359EA4D06D39
+E2F104B35B04E326788615CCB6C00467A9732628
+E325B486B777C14C29762600D998974140F8FD34
+E3410BB8AF6373B480BCF7D07A5377764892385F
+E3560EAC60CB04E397E72A1E68FAA83EFF34AFBF
+E35DC28E60BEE8D7C442D8AD64C044BF4BB26D13
+E39D33F9A6976FB70FE5844EB9C505B63AC7D572
+E3AC5AE444F30938F93C06D15C53A0D5524E4048
+E410549CFB7CFDE30595145DF8F9C2190C7328B8
+E41C822BA1342638FD4BFB434016803DBF1ACE76
+E43F376C0A5E459A6A8DCF0F4C631952E5127B3F
+E44B38DBA3C13435C694D7CD5224C91E93791F50
+E4AB1B3CC8A8AE8D30155916A8D4B7889A61942A
+E4B47E2B0D4792D06D3F0CDA0B0472B6980AFA56
+E4BAF58A91073200FDCEB96F6004F78632BE76C5
+E4C7A42AD52C9F4D90DA374037248F9CC59029AD
+E4E3E815AC7EF11500D3D0C9105A68F7F220ED07
+E4FA66EBA59F08E0B701EF9DBC2994EE54F34144
+E5615A04ABE2F08772C2CA11C3D11093510F4300
+E59C4C731883450D84A0BAE7FDD94546BBC8DE04
+E5B467B9A70623B164FB47D067F53857A4FC43B8
+E5FF32DB98262C7BEB80FF0EB70D64A2212D6885
+E691BE6C38ED40F8C735D1ED77D05BD12316992B
+E69E0A1B11751AA45E3B288C41DF70B8A625C359
+E6D66AFFD836C8C13B306AAB42C9C6E3425363B6
+E73E64C395E299C12CB8A8CBC9F550D6DAA1B9CE
+E7491734F28BF464941B872AEF270FBB88E411DD
+E752789950F2D903DDDCC747FB6ED0714EBB51E7
+E771454BB360CA5F7AA169E5416B493549BC2F59
+E7B50FB0526C45518CA79E744B90E1C267208638
+E7CDF97534E7B96C1931A1C06CF93A5C6B7CC068
+E7DB1242451025E641890010D310FAFF86D4741F
+E7DFF7E0DE0AF27333972595DA310299AB7C5B15
+E7EAFD1748127CEAA48DCDD05E7998E3CAA95B8C
+E837695887429E9FD325910E99076EB0F62E04E2
+E8422DCBE8771378E381DE2E3C0DF3E4803C9F2F
+E84E572BF6924AEC676798794DDD2C477F77CC6C
+E8913B776299E67E75FAEF11FC2D0A38881410DA
+E8934C9986C4E0DE2E4A33730E792206F7865627
+E8A7C39773727A625FEFC1D0105FAEF080DC087C
+E8DF799FC7F6073D4E4BE7C2DE32BB06EC18B84C
+E910D1FCE8BF27F5536B88567A4DC32624377CC3
+E933A1159F427202D7FB66D7E86C8E91ED78EC05
+E9AA9D3527DFAC29E9E6A07B3A4455BD0C7307D1
+E9B41DC835C813F9A26250C38492A7EA2EA53202
+E9D4997F6D3911BF92D60AE88591C2F6174CF730
+EA4BDD96A99F2941BC5DA00FED32F95FE5138B80
+EA56CB93CBFEFCFA8CA569CDF7901A0380EB4688
+EA66C541DE05AA2202B6E6F4250B5D4E55ED9EB6
+EA9C8762B112EF3F5242BC2CE1D148134A9C50DA
+EAB7452B9C9180AF6DB5A7AD8F303BF5E781F5B2
+EB119EFC2CF7E679FA09A5F01969350B0DFC891F
+EB1C014C03AB750D0DA1112EC5FA0DEDD3783266
+EB4910502FF894869D4904B3795475C011EDAC80
+EB928671D73A3D61F30643C5994EB9E28C5CF588
+EC0E3F599D573006808DFEB85ED630C883CBC843
+EC154409431D0DBD4329760DC438278D78EE98F6
+EC400B8669E97404A8B2F7539CE4F59AFE5F2149
+EC50AECA92A8DA3FF76BBFE1D87F77D5B828F26E
+EC5B0E52FD3299845DCADE33BFEBE09BDC8668C0
+EC67446489BC387F58EB149D80F324D0247B3518
+EC7797CA8A7C4F521C74E1A62B094350CFD7562D
+ED19AB587A59803CD29537E07E3E8F77B7768A18
+ED36251D8E84ECDA68A51F00ADD2EC3385E7A95B
+ED4B5EDE9281161CFEB56E86121B0C440892277D
+ED90F977B33258C07441DFF0EBF60C3FB0F1E6A0
+EDA1F918F7285C5FA922C57BD399048F8D394AAD
+EE070765E8F4BB0DDF7A018234FE7E7B8309AB6D
+EE16B48DF75C85B79D4865DD6D0788D13C6682D1
+EE2BB5E46742DB929BAC9C9DC327E41A5185F37D
+EF1A42B2896D934AD83679E603A281512FABF524
+EF8901F2AB4F21A46C5A0ECCA7C080C2B9D54795
+EFE73ED164C392A7A5E2CEC1E19B0A3422E5685E
+F02B7BC08A2BB16EAFCE03DCB19046D600ADDFF2
+F041E55877643E05DF7B3FF77118BF6471DC80A6
+F0BA6A9DC54D9FFC794724C55E096F320EBAA81F
+F17F04878A68505AE5481A71D8B733C5FFC6F285
+F18D85F52EBBBA2AB081EF739ED0D6E8A76D497C
+F20769343C751D35C40228916D93670DF6EA9BA3
+F24F99CA2E8A67F7BFF734751C026E496E74C9F0
+F27625EC6CB242724F9FDE2B36A1566E48643D8E
+F27B2B00B1BED0F07BA8A4AF79C26BEC86BAD107
+F29F0A5DB42E05705434DA387ADD28DD371DF39D
+F2AD831B8956F619A2957024E667C978A36CE2CD
+F2B2012D7028DA7C5D7D91BD3D36370A7352A81D
+F2C5F1BFAD76362701FCC2E37672ED27B18E95F9
+F2CFCA6D14DE5FA96E3127D89121F2E6F004D2CD
+F33654121E5FE1F33632D9BC08FDCEEED36343C2
+F3BF64166CBA1437CCDE5A210ABA2CE086ABF370
+F3D4C62D2B03C07B49AD784CCB81EABD8451B4DB
+F3D7D069FA5E593AEF9F6BF3CD6BE6339DE4BEF2
+F3E7366D5510DC6D8E9E615E6A0C64938EB71486
+F42C387786C8E3C9E14F6646F5F743E504AAC549
+F4754352506FC40628E43C7372BFD1C938C0D50D
+F4DA992AEB26B1E81AC76A4BA572E05578C046C8
+F57085566EB244787A444A600FE36310BDD51B0A
+F5C331A99F9277347B1DB4F4FC1AE42BECA3E14A
+F62BA629361D1E9A971E86C9841C1952A2A2AC66
+F637A604D4DFB9F94226AFCE26AB4F5A66F429A3
+F646A67D7B596E6AF633098C33D29EDEBFC6A8DE
+F6B9CB166B789724C98210F7E5B8FC8E426F72C4
+F6DD8D288A060D9806FE88950737956845ADE0B7
+F706D4A0644248B95A5C81CDA0B40F0EE6891F31
+F75F02596DA7222E35D9EB82F8A96937FF068EED
+F7672957F34ACE460C38D2680D82B86D3A467C02
+F76B6B9E743A5C65E66C7793D0BC0BD74AAD4236
+F77B1D2E99305CFB585C9E3BC20807E23B1E86EA
+F7AF6C744FA88E3C89EC109CACD093A5EE17AF2A
+F7B40C8CF373E1ADEDF60B679226046BFB47494A
+F7CBA01030DA8751818B47AADFE75CBA699886A6
+F856039C8401AD97B1B32124A166A835B2D0BBCC
+F88B867AC05D41AA56EDBA96A807AF5D7AB65484
+F8AC72083E334F70A553AE68455FBDF0E65C5221
+F914160ADB1F135F9F56E5E7892A8A4AA09B677D
+F94961E4339DED4BFF4D6C04DE8A3830B5C4725A
+F9619221FC7143DD04C891453536CEBF2FAB4617
+F97A3E3AA6F2329049D73ABC4A0C170809D0749E
+F9825E7F2B03B1E8575E08767D2F602ADE5F87B7
+F9CA95A9536027A9FCCF5FE080A81FE59543AB5C
+FA99BDDF334F88B199E1777D35EA3D14B6A28784
+FAD1415645B6D0C2D16E02D37F0D1A18341F80B1
+FADD27E1817F97569F6E13D814E093294555C884
+FAE5C5535A84B2029BEBDD8C19CFCF5B78AE5D7A
+FAF41F657616EEE0547F6A5438D805837813C1ED
+FB0F31D791C14760E8317834509E14CB8C5CF250
+FB2034709772BBEE146A74388B0779F154E6899A
+FB25ED17B2817B9B52B7C96877882CE57F08EAD5
+FB34707AD5EAB5EB6BE22DFD80CB4C26B1329B2D
+FB4F26725D59CD3DF9BB548EEF18C1AC21B0C336
+FBF58D0A089E89CAAFE598DC33564AD3C96E31A5
+FC26A59619A82F30015BDEF01AE5AF357BD9C803
+FC5B9DDA0F548AD0F4FBE0F60CCB21420877BC30
+FCA2CF2A4F559B8495A3AA271E54AC5A587671F4
+FD3ECCC528461F45E97D1201673E4230C45CB8BA
+FDC3B15021334899A237DFCA5F836700E1F0ABD2
+FDE826EF51B963D40A8A300B2FD33F971862FBAB
+FE248C85D24646A0C691E26E02510D69D989B82E
+FF0790FD998E22E8A6B4CCB379FD8D1943EC90ED
+FF245FD2F103536F3551A4B9BFF41ECFC6E6BC35
+FF347F55474655D688EC6B702AC3ADA975C899D0
+FF5BBE3C7CF62D08786A859C61A3946578252E2F
+FF7FB456DA748F6AA6DD97DBD76C109E0A5D0264
+FFCDB9494C290F2EA1651710F84EE6B3A565D5AB
+FFDB0945C0FCD93B310BD61F0A1DEA5F392DDBBC
+
+/home/baodkpro000/.cache/mozilla/firefox/kyl0ccrd.default/OfflineCache:
+[01;34m.[0m  [01;34m..[0m  index.sqlite
+
+/home/baodkpro000/.cache/mozilla/firefox/kyl0ccrd.default/safebrowsing:
+[01;34m.[0m                                      mozplugin-block-digest256.pset
+[01;34m..[0m                                     mozplugin-block-digest256.sbstore
+allow-flashallow-digest256.pset        mozstd-trackwhite-digest256.pset
+allow-flashallow-digest256.sbstore     mozstd-trackwhite-digest256.sbstore
+base-track-digest256.pset              test-block-simple.pset
+base-track-digest256.sbstore           test-block-simple.sbstore
+block-flash-digest256.pset             test-harmful-simple.pset
+block-flash-digest256.sbstore          test-harmful-simple.sbstore
+block-flashsubdoc-digest256.pset       test-malware-simple.pset
+block-flashsubdoc-digest256.sbstore    test-malware-simple.sbstore
+except-flashallow-digest256.pset       test-phish-simple.pset
+except-flashallow-digest256.sbstore    test-phish-simple.sbstore
+except-flash-digest256.pset            test-track-simple.pset
+except-flash-digest256.sbstore         test-track-simple.sbstore
+except-flashinfobar-digest256.pset     test-trackwhite-simple.pset
+except-flashinfobar-digest256.sbstore  test-trackwhite-simple.sbstore
+except-flashsubdoc-digest256.pset      test-unwanted-simple.pset
+except-flashsubdoc-digest256.sbstore   test-unwanted-simple.sbstore
+[01;34mgoogle4[0m
+
+/home/baodkpro000/.cache/mozilla/firefox/kyl0ccrd.default/safebrowsing/google4:
+[01;34m.[0m                                  goog-malware-proto.metadata
+[01;34m..[0m                                 goog-malware-proto.pset
+goog-badbinurl-proto.metadata      goog-phish-proto.metadata
+goog-badbinurl-proto.pset          goog-phish-proto.pset
+goog-downloadwhite-proto.metadata  goog-unwanted-proto.metadata
+goog-downloadwhite-proto.pset      goog-unwanted-proto.pset
+
+/home/baodkpro000/.cache/mozilla/firefox/kyl0ccrd.default/startupCache:
+[01;34m.[0m   scriptCache-child-current.bin  startupCache.8.little  urlCache-current.bin
+[01;34m..[0m  scriptCache-current.bin        urlCache.bin           [01;31mwebext.sc.lz4[0m
+
+/home/baodkpro000/.cache/mozilla/firefox/kyl0ccrd.default/thumbnails:
+[01;34m.[0m                                     [01;35mc46263f4a4247699a33492325bd27eb6.png[0m
+[01;34m..[0m                                    [01;35md0871a4abb77a57d78b4f90fff9b24ba.png[0m
+[01;35m1c242b40f3834c2ae169aaccfdd97003.png[0m  [01;35md938da585b8a501970b7959ddfb6d345.png[0m
+[01;35m2173284e3f80fce4f2e5c72d685c2b9c.png[0m  [01;35mfe9f74c596fa2f8956a231229d336692.png[0m
+[01;35mad5a4453bea49203135688a7b8db842d.png[0m  [01;35mff90821feeb2b02a33a6f9fc8e5f3fcd.png[0m
+[01;35mb6213f775489cc3e6280072de1f6a3cd.png[0m
+
+/home/baodkpro000/.cache/thumbnails:
+[01;34m.[0m  [01;34m..[0m  [01;34mlarge[0m
+
+/home/baodkpro000/.cache/thumbnails/large:
+[01;34m.[0m  [01;34m..[0m  [01;35m14c667875dab3d9c99e02c8d98538fc8.png[0m
+
+/home/baodkpro000/.cache/update-manager-core:
+[01;34m.[0m  [01;34m..[0m  meta-release-lts
+
+/home/baodkpro000/.cache/upstart:
+[01;34m.[0m                           [01;31mssh-agent.log.3.gz[0m
+[01;34m..[0m                          unity7.log
+[01;31mat-spi2-registryd.log.1.gz[0m  [01;31munity7.log.1.gz[0m
+[01;31mbamfdaemon.log.1.gz[0m         [01;31munity7.log.2.gz[0m
+dbus.log                    [01;31munity7.log.3.gz[0m
+[01;31mdbus.log.1.gz[0m               unity-panel-service.log
+[01;31mdbus.log.2.gz[0m               [01;31munity-panel-service.log.1.gz[0m
+[01;31mdbus.log.3.gz[0m               [01;31munity-panel-service.log.2.gz[0m
+[01;31mgnome-keyring-ssh.log.1.gz[0m  [01;31munity-panel-service.log.3.gz[0m
+[01;31mgnome-keyring-ssh.log.2.gz[0m  unity-settings-daemon.log
+[01;31mgnome-keyring-ssh.log.3.gz[0m  [01;31munity-settings-daemon.log.1.gz[0m
+[01;31mgpg-agent.log.1.gz[0m          [01;31munity-settings-daemon.log.2.gz[0m
+[01;31mgpg-agent.log.2.gz[0m          [01;31munity-settings-daemon.log.3.gz[0m
+[01;31mgpg-agent.log.3.gz[0m          update-notifier-release.log
+hud.log                     [01;31mupdate-notifier-release.log.1.gz[0m
+[01;31mhud.log.1.gz[0m                [01;31mupstart-event-bridge.log.1.gz[0m
+[01;31mhud.log.2.gz[0m                [01;31mupstart-event-bridge.log.2.gz[0m
+[01;31mindicator-sound.log.1.gz[0m    [01;31mupstart-event-bridge.log.3.gz[0m
+[01;31mindicator-sound.log.2.gz[0m    [01;31mwindow-stack-bridge.log.1.gz[0m
+[01;31mindicator-sound.log.3.gz[0m    [01;31mwindow-stack-bridge.log.2.gz[0m
+[01;31mssh-agent.log.1.gz[0m          [01;31mwindow-stack-bridge.log.3.gz[0m
+[01;31mssh-agent.log.2.gz[0m
+
+/home/baodkpro000/.cache/wallpaper:
+[01;34m.[0m  [01;34m..[0m  0_5_800_600_792beab7550410d531e55f95b449f135
+
+/home/baodkpro000/.config:
+[01;34m.[0m         [01;34mevolution[0m      [01;34mibus[0m              [01;34munity[0m            user-dirs.locale
+[01;34m..[0m        [01;34mgedit[0m          [01;34mlibaccounts-glib[0m  [01;34mupdate-notifier[0m
+[01;34mcompiz-1[0m  [01;34mgnome-session[0m  [01;34mnautilus[0m          [01;34mupstart[0m
+[01;34mdconf[0m     [01;34mgtk-3.0[0m        [01;34mpulse[0m             user-dirs.dirs
+
+/home/baodkpro000/.config/compiz-1:
+[01;34m.[0m  [01;34m..[0m  [01;34mcompizconfig[0m
+
+/home/baodkpro000/.config/compiz-1/compizconfig:
+[01;34m.[0m  [01;34m..[0m  config  done_upgrades
+
+/home/baodkpro000/.config/dconf:
+[01;34m.[0m  [01;34m..[0m  user
+
+/home/baodkpro000/.config/evolution:
+[01;34m.[0m  [01;34m..[0m  [01;34msources[0m
+
+/home/baodkpro000/.config/evolution/sources:
+[01;34m.[0m  [01;34m..[0m  system-proxy.source
+
+/home/baodkpro000/.config/gedit:
+[01;34m.[0m  [01;34m..[0m  accels
+
+/home/baodkpro000/.config/gnome-session:
+[01;34m.[0m  [01;34m..[0m  [01;34msaved-session[0m
+
+/home/baodkpro000/.config/gnome-session/saved-session:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.config/gtk-3.0:
+[01;34m.[0m  [01;34m..[0m  bookmarks
+
+/home/baodkpro000/.config/ibus:
+[01;34m.[0m  [01;34m..[0m  [01;34mbus[0m
+
+/home/baodkpro000/.config/ibus/bus:
+[01;34m.[0m  [01;34m..[0m  bda25c895363466188a94e37d330d863-unix-0
+
+/home/baodkpro000/.config/libaccounts-glib:
+[01;34m.[0m  [01;34m..[0m  accounts.db
+
+/home/baodkpro000/.config/nautilus:
+[01;34m.[0m  [01;34m..[0m  accels  desktop-metadata
+
+/home/baodkpro000/.config/pulse:
+[01;34m.[0m
+[01;34m..[0m
+bda25c895363466188a94e37d330d863-card-database.tdb
+bda25c895363466188a94e37d330d863-default-sink
+bda25c895363466188a94e37d330d863-default-source
+bda25c895363466188a94e37d330d863-device-volumes.tdb
+bda25c895363466188a94e37d330d863-stream-volumes.tdb
+cookie
+
+/home/baodkpro000/.config/unity:
+[01;34m.[0m  [01;34m..[0m  first_run.stamp
+
+/home/baodkpro000/.config/update-notifier:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.config/upstart:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/Desktop:
+[01;34m.[0m  [01;34m..[0m  [01;32mvd.sh[0m
+
+/home/baodkpro000/Documents:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/Downloads:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.gconf:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.gnupg:
+[01;34m.[0m  [01;34m..[0m  [01;34mprivate-keys-v1.d[0m  [01;35mS.gpg-agent[0m
+
+/home/baodkpro000/.gnupg/private-keys-v1.d:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/LINUX:
+[01;34m.[0m  [01;34m..[0m  vd1.txt  [01;32mvd.sh[0m  vd.txt
+
+/home/baodkpro000/.local:
+[01;34m.[0m  [01;34m..[0m  [01;34mshare[0m
+
+/home/baodkpro000/.local/share:
+[01;34m.[0m                       [01;34mgvfs-metadata[0m             [01;34msounds[0m
+[01;34m..[0m                      [01;34micc[0m                       [01;34mTrash[0m
+[01;34mapplications[0m            [01;34mkeyrings[0m                  [01;34munity-settings-daemon[0m
+.converted-launchers    [01;34mnautilus[0m                  [01;34mzeitgeist[0m
+[01;34mevolution[0m               recently-used.xbel
+gsettings-data-convert  session_migration-ubuntu
+
+/home/baodkpro000/.local/share/applications:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.local/share/evolution:
+[01;34m.[0m  [01;34m..[0m  [01;34maddressbook[0m  [01;34mcalendar[0m  [01;34mmail[0m  [01;34mmemos[0m  [01;34mtasks[0m
+
+/home/baodkpro000/.local/share/evolution/addressbook:
+[01;34m.[0m  [01;34m..[0m  [01;34msystem[0m  [01;34mtrash[0m
+
+/home/baodkpro000/.local/share/evolution/addressbook/system:
+[01;34m.[0m  [01;34m..[0m  contacts.db  [01;34mphotos[0m
+
+/home/baodkpro000/.local/share/evolution/addressbook/system/photos:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.local/share/evolution/addressbook/trash:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.local/share/evolution/calendar:
+[01;34m.[0m  [01;34m..[0m  [01;34msystem[0m  [01;34mtrash[0m
+
+/home/baodkpro000/.local/share/evolution/calendar/system:
+[01;34m.[0m  [01;34m..[0m  calendar.ics
+
+/home/baodkpro000/.local/share/evolution/calendar/trash:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.local/share/evolution/mail:
+[01;34m.[0m  [01;34m..[0m  [01;34mtrash[0m
+
+/home/baodkpro000/.local/share/evolution/mail/trash:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.local/share/evolution/memos:
+[01;34m.[0m  [01;34m..[0m  [01;34mtrash[0m
+
+/home/baodkpro000/.local/share/evolution/memos/trash:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.local/share/evolution/tasks:
+[01;34m.[0m  [01;34m..[0m  [01;34msystem[0m  [01;34mtrash[0m
+
+/home/baodkpro000/.local/share/evolution/tasks/system:
+[01;34m.[0m  [01;34m..[0m  tasks.ics
+
+/home/baodkpro000/.local/share/evolution/tasks/trash:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.local/share/gvfs-metadata:
+[01;34m.[0m  [01;34m..[0m  home  home-3e0eaf9a.log
+
+/home/baodkpro000/.local/share/icc:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.local/share/keyrings:
+[01;34m.[0m  [01;34m..[0m  login.keyring  user.keystore
+
+/home/baodkpro000/.local/share/nautilus:
+[01;34m.[0m  [01;34m..[0m  [01;34mscripts[0m
+
+/home/baodkpro000/.local/share/nautilus/scripts:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.local/share/sounds:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.local/share/Trash:
+[01;34m.[0m  [01;34m..[0m  [01;34mfiles[0m  [01;34minfo[0m
+
+/home/baodkpro000/.local/share/Trash/files:
+[01;34m.[0m             [01;34mdir1[0m         Test1-1.2       [01;34mTest2-1-QuocBao-57131557[0m
+[01;34m..[0m            [01;34mlinux2002[0m    Test1-1.3       [01;34mtestdir[0m
+[01;34mathena[0m        [01;34mnewdir[0m       Test2-1-cau4    thegioimang.txt
+bootlist.txt  qb1.txt      Test2-1-cau5    tmp.txt
+catcnt.txt    qb2.txt      Test2-1-cau6    [01;34mtouched[0m
+cnt.txt       tailing.txt  Test2-1-cau6.2  Untitled Document
+count.txt     Test1-1      Test2-1-cau6.3
+
+/home/baodkpro000/.local/share/Trash/files/athena:
+[01;34m.[0m  [01;34m..[0m  [01;34mclass1[0m  [01;34mclass2[0m  [01;34mclass3[0m  [01;34mclass4[0m  [01;34mclass5[0m  [01;34mclass6[0m
+
+/home/baodkpro000/.local/share/Trash/files/athena/class1:
+[01;34m.[0m  [01;34m..[0m  thegioimang.txt
+
+/home/baodkpro000/.local/share/Trash/files/athena/class2:
+[01;34m.[0m  [01;34m..[0m  [01;34mbasic_network[0m  thegioimang.txt
+
+/home/baodkpro000/.local/share/Trash/files/athena/class2/basic_network:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.local/share/Trash/files/athena/class3:
+[01;34m.[0m  [01;34m..[0m  thegioimang.txt
+
+/home/baodkpro000/.local/share/Trash/files/athena/class4:
+[01;34m.[0m  [01;34m..[0m  thegioimang.txt
+
+/home/baodkpro000/.local/share/Trash/files/athena/class5:
+[01;34m.[0m  [01;34m..[0m  [01;34mccnp[0m  qb1.txt
+
+/home/baodkpro000/.local/share/Trash/files/athena/class5/ccnp:
+[01;34m.[0m  [01;34m..[0m  [01;34mccna[0m
+
+/home/baodkpro000/.local/share/Trash/files/athena/class5/ccnp/ccna:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.local/share/Trash/files/athena/class6:
+[01;34m.[0m  [01;34m..[0m  [01;34mceh[0m  [01;34mmcsa[0m  qb2.txt
+
+/home/baodkpro000/.local/share/Trash/files/athena/class6/ceh:
+[01;34m.[0m  [01;34m..[0m  [01;34mLinux[0m
+
+/home/baodkpro000/.local/share/Trash/files/athena/class6/ceh/Linux:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.local/share/Trash/files/athena/class6/mcsa:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.local/share/Trash/files/dir1:
+[01;34m.[0m  [01;34m..[0m  [01;34mdir2[0m
+
+/home/baodkpro000/.local/share/Trash/files/dir1/dir2:
+[01;34m.[0m  [01;34m..[0m  [01;34mdir3[0m
+
+/home/baodkpro000/.local/share/Trash/files/dir1/dir2/dir3:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.local/share/Trash/files/linux2002:
+[01;34m.[0m  [01;34m..[0m  hello  hello1  helloABC  [01;31mlinux2002.tar.gz[0m
+
+/home/baodkpro000/.local/share/Trash/files/newdir:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.local/share/Trash/files/Test2-1-QuocBao-57131557:
+[01;34m.[0m  [01;34m..[0m  Test2-1-cau4  Test2-1-cau5  Test2-1-cau6
+
+/home/baodkpro000/.local/share/Trash/files/testdir:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.local/share/Trash/files/touched:
+[01;34m.[0m  [01;34m..[0m  1.conf  2.conf  kim  today.txt  yesterday.txt
+
+/home/baodkpro000/.local/share/Trash/info:
+[01;34m.[0m                       Test1-1.3.trashinfo
+[01;34m..[0m                      Test1-1.trashinfo
+athena.trashinfo        Test2-1-cau4.trashinfo
+bootlist.txt.trashinfo  Test2-1-cau5.trashinfo
+catcnt.txt.trashinfo    Test2-1-cau6.2.trashinfo
+cnt.txt.trashinfo       Test2-1-cau6.3.trashinfo
+count.txt.trashinfo     Test2-1-cau6.trashinfo
+dir1.trashinfo          Test2-1-QuocBao-57131557.trashinfo
+linux2002.trashinfo     testdir.trashinfo
+newdir.trashinfo        thegioimang.txt.trashinfo
+qb1.txt.trashinfo       tmp.txt.trashinfo
+qb2.txt.trashinfo       touched.trashinfo
+tailing.txt.trashinfo   Untitled Document.trashinfo
+Test1-1.2.trashinfo
+
+/home/baodkpro000/.local/share/unity-settings-daemon:
+[01;34m.[0m  [01;34m..[0m  input-sources-converted
+
+/home/baodkpro000/.local/share/zeitgeist:
+[01;34m.[0m  [01;34m..[0m  activity.sqlite  activity.sqlite-shm  activity.sqlite-wal  [01;34mfts.index[0m
+
+/home/baodkpro000/.local/share/zeitgeist/fts.index:
+[01;34m.[0m          position.baseA  postlist.baseB  record.DB
+[01;34m..[0m         position.baseB  postlist.DB     termlist.baseA
+flintlock  position.DB     record.baseA    termlist.baseB
+iamchert   postlist.baseA  record.baseB    termlist.DB
+
+/home/baodkpro000/.mozilla:
+[01;34m.[0m  [01;34m..[0m  [01;34mextensions[0m  [01;34mfirefox[0m  [01;34msystemextensionsdev[0m
+
+/home/baodkpro000/.mozilla/extensions:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.mozilla/firefox:
+[01;34m.[0m  [01;34m..[0m  [01;34mCrash Reports[0m  [01;34mkyl0ccrd.default[0m  [01;34mPending Pings[0m  profiles.ini
+
+/home/baodkpro000/.mozilla/firefox/Crash Reports:
+[01;34m.[0m  [01;34m..[0m  [01;34mevents[0m  InstallTime20180208175058  InstallTime20180404120016
+
+/home/baodkpro000/.mozilla/firefox/Crash Reports/events:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default:
+[01;34m.[0m                      [01;34mdatareporting[0m       prefs.js
+[01;34m..[0m                     extensions.json     revocations.txt
+addons.json            favicons.sqlite     [01;34msaved-telemetry-pings[0m
+[01;31maddonStartup.json.lz4[0m  formhistory.sqlite  search.json.mozlz4
+AlternateServices.txt  [01;34mgmp[0m                 SecurityPreloadState.txt
+[01;34mblocklists[0m             [01;34mgmp-gmpopenh264[0m     sessionCheckpoints.json
+blocklist.xml          handlers.json       [01;34msessionstore-backups[0m
+[01;34mbookmarkbackups[0m        key4.db             sessionstore.jsonlz4
+cert9.db               kinto.sqlite        shield-preference-experiments.json
+cert_override.txt      logins.json         SiteSecurityServiceState.txt
+compatibility.ini      [01;34mminidumps[0m           [01;34mstorage[0m
+containers.json        .parentlock         storage.sqlite
+content-prefs.sqlite   permissions.sqlite  [01;32mtimes.json[0m
+cookies.sqlite         pkcs11.txt          webappsstore.sqlite
+[01;34mcrashes[0m                places.sqlite       xulstore.json
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/blocklists:
+[01;34m.[0m  [01;34m..[0m  addons.json  plugins.json
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/bookmarkbackups:
+[01;34m.[0m  [01;34m..[0m  bookmarks-2018-05-21_19_FoblyguPiLe9fqwxim-btw==.jsonlz4
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/crashes:
+[01;34m.[0m  [01;34m..[0m  [01;34mevents[0m  store.json.mozlz4
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/crashes/events:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/datareporting:
+[01;34m.[0m  [01;34m..[0m  [01;34marchived[0m  session-state.json  state.json
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/datareporting/archived:
+[01;34m.[0m  [01;34m..[0m  [01;34m2018-04[0m  [01;34m2018-05[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/datareporting/archived/2018-04:
+[01;34m.[0m
+[01;34m..[0m
+1523361516770.a10a4b5f-fc62-463a-9c78-697581013b82.new-profile.jsonlz4
+1523361516796.dbb23b5e-1a2d-4967-b49b-948d9d839a78.main.jsonlz4
+1523361516798.109cabf3-6883-4a94-9ff3-55383de31dfa.first-shutdown.jsonlz4
+1524381460930.adf3b05f-5532-4327-8fff-44230366f0f3.main.jsonlz4
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/datareporting/archived/2018-05:
+[01;34m.[0m
+[01;34m..[0m
+1526907509816.58f3db77-0c8e-4b82-ba64-8c8e4ad5f165.health.jsonlz4
+1526907532202.ab2b973c-8097-4d08-b765-8764fa6aad2f.health.jsonlz4
+1526907532230.9b8c37e6-af5a-4893-a413-68a102df9810.main.jsonlz4
+1526907804030.1470091c-d5eb-45f6-874c-e5e1c60dcaf9.main.jsonlz4
+1526907918988.352ada28-93f4-4fac-8857-25672924f18b.main.jsonlz4
+1526911565388.586834b6-b162-4263-afb1-3136803e0182.modules.jsonlz4
+1526911660186.79dc8758-9933-4bcd-b8a2-b477092d806b.main.jsonlz4
+1526987208040.26e87e51-1964-42fb-9c13-6281a52b390a.health.jsonlz4
+1526987208070.96e50810-4c2f-49b6-a93a-ea7f26ebe490.health.jsonlz4
+1526987208124.765bd50e-06f6-498b-b1ba-7114e1237205.main.jsonlz4
+1526988754108.41d5f152-3ad4-498e-b4b6-8bb87ea37e47.main.jsonlz4
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/gmp:
+[01;34m.[0m  [01;34m..[0m  [01;34mLinux_x86_64-gcc3[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/gmp/Linux_x86_64-gcc3:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/gmp-gmpopenh264:
+[01;34m.[0m  [01;34m..[0m  [01;34m1.7.1[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/gmp-gmpopenh264/1.7.1:
+[01;34m.[0m  [01;34m..[0m  [01;32mgmpopenh264.info[0m  [01;32mlibgmpopenh264.so[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/minidumps:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/saved-telemetry-pings:
+[01;34m.[0m  [01;34m..[0m  41d5f152-3ad4-498e-b4b6-8bb87ea37e47
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/sessionstore-backups:
+[01;34m.[0m  [01;34m..[0m  previous.jsonlz4  upgrade.jsonlz4-20180404120016
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage:
+[01;34m.[0m  [01;34m..[0m  [01;34mdefault[0m  [01;34mpermanent[0m  [01;34mtemporary[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default:
+[01;34m.[0m   [01;34mabout+newtab[0m              [01;34mhttps+++mail.google.com[0m
+[01;34m..[0m  [01;34mhttps+++drive.google.com[0m  [01;34mmoz-safe-about+home[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default/about+newtab:
+[01;34m.[0m  [01;34m..[0m  [01;34midb[0m  .metadata  .metadata-v2
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default/about+newtab/idb:
+[01;34m.[0m  [01;34m..[0m  [01;34m3312185054sbndi_pspte.files[0m  3312185054sbndi_pspte.sqlite
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default/about+newtab/idb/3312185054sbndi_pspte.files:
+[01;34m.[0m  [01;34m..[0m  4  [01;34mjournals[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default/about+newtab/idb/3312185054sbndi_pspte.files/journals:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default/https+++drive.google.com:
+[01;34m.[0m  [01;34m..[0m  [01;34midb[0m  .metadata  .metadata-v2
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default/https+++drive.google.com/idb:
+[01;34m.[0m  [01;34m..[0m  [01;34m4041069256GsoDoegvlierD.files[0m  4041069256GsoDoegvlierD.sqlite
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default/https+++drive.google.com/idb/4041069256GsoDoegvlierD.files:
+[01;34m.[0m  [01;34m..[0m  2  4  [01;34mjournals[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default/https+++drive.google.com/idb/4041069256GsoDoegvlierD.files/journals:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default/https+++mail.google.com:
+[01;34m.[0m  [01;34m..[0m  [01;34mcache[0m  [01;34midb[0m  .metadata  .metadata-v2
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default/https+++mail.google.com/cache:
+[01;34m.[0m  [01;34m..[0m  caches.sqlite  [01;34mmorgue[0m  .padding
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default/https+++mail.google.com/cache/morgue:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default/https+++mail.google.com/idb:
+[01;34m.[0m  [01;34m..[0m  [01;34m953658429glmaaviyle-ks-w.files[0m  953658429glmaaviyle-ks-w.sqlite
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default/https+++mail.google.com/idb/953658429glmaaviyle-ks-w.files:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default/moz-safe-about+home:
+[01;34m.[0m  [01;34m..[0m  [01;34midb[0m  .metadata  .metadata-v2
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default/moz-safe-about+home/idb:
+[01;34m.[0m  [01;34m..[0m  [01;34m3312185054sbndi_pspte.files[0m  3312185054sbndi_pspte.sqlite
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default/moz-safe-about+home/idb/3312185054sbndi_pspte.files:
+[01;34m.[0m  [01;34m..[0m  1  [01;34mjournals[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/default/moz-safe-about+home/idb/3312185054sbndi_pspte.files/journals:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/permanent:
+[01;34m.[0m  [01;34m..[0m  [01;34mchrome[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/permanent/chrome:
+[01;34m.[0m  [01;34m..[0m  [01;34midb[0m  .metadata  .metadata-v2
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/permanent/chrome/idb:
+[01;34m.[0m   [01;34m2918063365piupsah.files[0m   [01;34m3561288849sdhlie.files[0m
+[01;34m..[0m  2918063365piupsah.sqlite  3561288849sdhlie.sqlite
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/permanent/chrome/idb/2918063365piupsah.files:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/permanent/chrome/idb/3561288849sdhlie.files:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.mozilla/firefox/kyl0ccrd.default/storage/temporary:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.mozilla/firefox/Pending Pings:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/.mozilla/systemextensionsdev:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/Music:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/Pictures:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/Public:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/Python:
+[01;34m.[0m   chcn.py   hcn.py   Hello.py  Khoa.pyc     SinhVien.pyc
+[01;34m..[0m  chcn.pyc  hcn.pyc  Khoa.py   [01;34m__pycache__[0m
+
+/home/baodkpro000/Python/__pycache__:
+[01;34m.[0m  [01;34m..[0m  SinhVien.cpython-35.pyc
+
+/home/baodkpro000/Templates:
+[01;34m.[0m  [01;34m..[0m
+
+/home/baodkpro000/Test1-2:
+[01;34m.[0m  [01;34m..[0m  Test1-2a  Test1-2b
+
+/home/baodkpro000/Videos:
+[01;34m.[0m  [01;34m..[0m
+]0;baodkpro000@ubuntu: /usr/lib[01;32mbaodkpro000@ubuntu[00m:[01;34m/usr/lib[00m$ alias lietke = "ls -l"
+bash: alias: lietke: not found
+bash: alias: =: not found
+bash: alias: ls -l: not found
+]0;baodkpro000@ubuntu: /usr/lib[01;32mbaodkpro000@ubuntu[00m:[01;34m/usr/lib[00m$ alias lietke = "ls -l"[K > home.list"
+bash: alias: lietke: not found
+bash: alias: =: not found
+bash: alias: ls -l > home.list: not found
+]0;baodkpro000@ubuntu: /usr/lib[01;32mbaodkpro000@ubuntu[00m:[01;34m/usr/lib[00m$ mv home.list homelist.txt
+mv: cannot stat 'home.list': No such file or directory
+]0;baodkpro000@ubuntu: /usr/lib[01;32mbaodkpro000@ubuntu[00m:[01;34m/usr/lib[00m$ mkdir $HOME/linux2002
+]0;baodkpro000@ubuntu: /usr/lib[01;32mbaodkpro000@ubuntu[00m:[01;34m/usr/lib[00m$ cp homelist.txt $HOME/linux2002
+cp: cannot stat 'homelist.txt': No such file or directory
+]0;baodkpro000@ubuntu: /usr/lib[01;32mbaodkpro000@ubuntu[00m:[01;34m/usr/lib[00m$ ls -la /etc/[bkm[Kn]*
+-rw-r--r-- 1 root root  2188 Aug 31  2015 /etc/bash.bashrc
+-rw-r--r-- 1 root root    45 Aug 12  2015 /etc/bash_completion
+-rw-r--r-- 1 root root   367 Jan 27  2016 /etc/bindresvport.blacklist
+-rw-r--r-- 1 root root    33 Feb 28 10:42 /etc/brlapi.key
+-rw-r--r-- 1 root root 23444 Apr 28  2016 /etc/brltty.conf
+-rw-r--r-- 1 root root   110 Apr  2 19:52 /etc/kernel-img.conf
+-rw-r--r-- 1 root root  1308 Mar 10  2016 /etc/kerneloops.conf
+-rw-r--r-- 1 root root  8338 Feb 15  2017 /etc/nanorc
+-rw-r--r-- 1 root root    91 Oct 22  2015 /etc/networks
+-rw-r--r-- 1 root root   529 Feb 28 10:39 /etc/nsswitch.conf
+
+/etc/bash_completion.d:
+total 56
+drwxr-xr-x   2 root root  4096 Apr 10 05:05 [0m[01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root  6636 Mar 31  2016 apport_completion
+-rw-r--r--   1 root root   323 Mar 18  2016 desktop-file-validate
+-rw-r--r--   1 root root   439 Oct  4  2017 git-prompt
+-rw-r--r--   1 root root 11144 Feb  8 06:55 grub
+-rw-r--r--   1 root root   736 May  6  2013 insserv
+-rw-r--r--   1 root root  6596 Feb 19 13:06 libreoffice.sh
+
+/etc/binfmt.d:
+total 16
+drwxr-xr-x   2 root root  4096 Apr 12  2016 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+
+/etc/bluetooth:
+total 32
+drwxr-xr-x   2 root root  4096 Feb 28 10:39 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   397 May 19  2014 input.conf
+-rw-r--r--   1 root root  3874 Sep 28  2015 main.conf
+-rw-r--r--   1 root root   120 Dec 24  2012 network.conf
+-rw-r--r--   1 root root   258 Dec 24  2012 proximity.conf
+
+/etc/brltty:
+total 36
+drwxr-xr-x   7 root root  4096 Feb 28 10:35 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:42 [01;34mAttributes[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:42 [01;34mContraction[0m
+drwxr-xr-x  40 root root  4096 Feb 28 10:42 [01;34mInput[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:42 [01;34mKeyboard[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:42 [01;34mText[0m
+
+/etc/kbd:
+total 24
+drwxr-xr-x   2 root root  4096 Feb 28 10:27 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root  3066 Sep 16  2015 config
+-rw-r--r--   1 root root   170 Sep 16  2015 remap
+
+/etc/kernel:
+total 24
+drwxr-xr-x   4 root root  4096 Feb 28 10:25 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+drwxr-xr-x   2 root root  4096 Apr 10 06:03 [01;34mpostinst.d[0m
+drwxr-xr-x   2 root root  4096 Apr 10 06:03 [01;34mpostrm.d[0m
+
+/etc/network:
+total 40
+drwxr-xr-x   7 root root  4096 Feb 28 10:26 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+drwxr-xr-x   2 root root  4096 Apr 10 06:03 [01;34mif-down.d[0m
+drwxr-xr-x   2 root root  4096 Apr 10 06:02 [01;34mif-post-down.d[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:42 [01;34mif-pre-up.d[0m
+drwxr-xr-x   2 root root  4096 Apr 10 06:03 [01;34mif-up.d[0m
+-rw-r--r--   1 root root    82 Apr  3 02:34 interfaces
+drwxr-xr-x   2 root root  4096 Jan 24  2016 [01;34minterfaces.d[0m
+
+/etc/newt:
+total 20
+drwxr-xr-x   2 root root  4096 Feb 28 10:26 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+lrwxrwxrwx   1 root root    30 Apr  2 19:34 [01;36mpalette[0m -> /etc/alternatives/newt-palette
+-rw-r--r--   1 root root     0 Jul 25  2015 palette.original
+-rw-r--r--   1 root root   160 Jul 25  2015 palette.ubuntu
+]0;baodkpro000@ubuntu: /usr/lib[01;32mbaodkpro000@ubuntu[00m:[01;34m/usr/lib[00m$ ls -la /etc/[bkn]*[1P]*[1P]*[1P]*m]*-]*t]*
+-r--r--r-- 1 root root      33 Apr  2 19:54 /etc/machine-id
+-rw-r--r-- 1 root root     111 Nov 20  2015 /etc/magic
+-rw-r--r-- 1 root root     111 Nov 20  2015 /etc/magic.mime
+-rw-r--r-- 1 root root   49031 Apr 10 06:02 /etc/mailcap
+-rw-r--r-- 1 root root     449 Oct 30  2015 /etc/mailcap.order
+-rw-r--r-- 1 root root    5170 Nov  6  2015 /etc/manpath.config
+-rw-r--r-- 1 root root   24241 Oct 30  2015 /etc/mime.types
+-rw-r--r-- 1 root root     967 Oct 30  2015 /etc/mke2fs.conf
+-rw-r--r-- 1 root root     195 Feb 28 10:26 /etc/modules
+lrwxrwxrwx 1 root root      19 Apr  2 19:51 [0m[01;36m/etc/mtab[0m -> ../proc/self/mounts
+-rw-r--r-- 1 root root     624 Aug  8  2007 /etc/mtools.conf
+-rw-r--r-- 1 root root    8338 Feb 15  2017 /etc/nanorc
+-rw-r--r-- 1 root root      91 Oct 22  2015 /etc/networks
+-rw-r--r-- 1 root root     529 Feb 28 10:39 /etc/nsswitch.conf
+lrwxrwxrwx 1 root root      21 Apr  2 19:34 [01;36m/etc/os-release[0m -> ../usr/lib/os-release
+-rw-r--r-- 1 root root     552 Mar 16  2016 /etc/pam.conf
+-rw-rw-r-- 1 root root       7 Apr  2 19:51 /etc/papersize
+-rw-r--r-- 1 root root    2253 Apr  2 19:46 /etc/passwd
+-rw------- 1 root root    2253 Apr  2 19:46 /etc/passwd-
+-rw-r--r-- 1 root root    7649 Feb 28 10:41 /etc/pnm2ppa.conf
+-rw-rw-r-- 1 root root     350 Apr  2 19:51 /etc/popularity-contest.conf
+-rw-r--r-- 1 root root     575 Oct 22  2015 /etc/profile
+-rw-r--r-- 1 root root    2932 Oct 25  2014 /etc/protocols
+-rw-rw-r-- 1 root root     299 Apr  2 19:53 /etc/rc.local
+lrwxrwxrwx 1 root root      29 Apr  2 19:40 [01;36m/etc/resolv.conf[0m -> ../run/resolvconf/resolv.conf
+-rwxr-xr-x 1 root root     268 Nov 10  2015 [01;32m/etc/rmt[0m
+-rw-r--r-- 1 root root     887 Oct 25  2014 /etc/rpc
+-rw-r--r-- 1 root root    1371 Jan 27  2016 /etc/rsyslog.conf
+-rw-r--r-- 1 root root    4038 Mar 29  2016 /etc/securetty
+-rw-r--r-- 1 root root   10368 Oct  2  2015 /etc/sensors3.conf
+-rw-r--r-- 1 root root   19605 Oct 25  2014 /etc/services
+-rw-r----- 1 root shadow  1188 Apr  2 19:46 /etc/shadow
+-rw------- 1 root root    1155 Apr  2 19:46 /etc/shadow-
+-rw-r--r-- 1 root root      73 Feb 28 10:25 /etc/shells
+-rw-r--r-- 1 root root    1803 Nov  6  2015 /etc/signond.conf
+-rw-r--r-- 1 root root      25 Apr  2 19:46 /etc/subgid
+-rw------- 1 root root       0 Feb 28 10:25 /etc/subgid-
+-rw-r--r-- 1 root root      25 Apr  2 19:46 /etc/subuid
+-rw------- 1 root root       0 Feb 28 10:25 /etc/subuid-
+-r--r----- 1 root root     755 Jul  4  2017 /etc/sudoers
+-rw-r--r-- 1 root root    2084 Sep  5  2015 /etc/sysctl.conf
+-rw-r--r-- 1 root root      20 Apr  2 19:46 /etc/timezone
+
+/etc/modprobe.d:
+total 60
+drwxr-xr-x   2 root root  4096 Apr 10 06:02 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root  2507 Jul 30  2015 alsa-base.conf
+-rw-r--r--   1 root root   325 Mar 13  2016 blacklist-ath_pci.conf
+-rw-r--r--   1 root root  1603 Mar 13  2016 blacklist.conf
+-rw-r--r--   1 root root   210 Mar 13  2016 blacklist-firewire.conf
+-rw-r--r--   1 root root   697 Mar 13  2016 blacklist-framebuffer.conf
+-rw-r--r--   1 root root   156 Jul 30  2015 blacklist-modem.conf
+lrwxrwxrwx   1 root root    41 Apr  2 19:34 [01;36mblacklist-oss.conf[0m -> /lib/linux-sound-base/noOSS.modprobe.conf
+-rw-r--r--   1 root root   583 Mar 13  2016 blacklist-rare-network.conf
+-rw-r--r--   1 root root  1077 Mar 13  2016 blacklist-watchdog.conf
+-rw-r--r--   1 root root   390 Apr 12  2016 fbdev-blacklist.conf
+-rw-r--r--   1 root root   347 Mar 13  2016 iwlwifi.conf
+-rw-r--r--   1 root root   104 Mar 13  2016 mlx4.conf
+
+/etc/modules-load.d:
+total 20
+drwxr-xr-x   2 root root  4096 Apr 10 06:02 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   119 Aug 22  2016 cups-filters.conf
+lrwxrwxrwx   1 root root    10 Mar  8 09:51 [01;36mmodules.conf[0m -> ../modules
+
+/etc/network:
+total 40
+drwxr-xr-x   7 root root  4096 Feb 28 10:26 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+drwxr-xr-x   2 root root  4096 Apr 10 06:03 [01;34mif-down.d[0m
+drwxr-xr-x   2 root root  4096 Apr 10 06:02 [01;34mif-post-down.d[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:42 [01;34mif-pre-up.d[0m
+drwxr-xr-x   2 root root  4096 Apr 10 06:03 [01;34mif-up.d[0m
+-rw-r--r--   1 root root    82 Apr  3 02:34 interfaces
+drwxr-xr-x   2 root root  4096 Jan 24  2016 [01;34minterfaces.d[0m
+
+/etc/NetworkManager:
+total 44
+drwxr-xr-x   8 root root  4096 Feb 28 10:39 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:39 [01;34mconf.d[0m
+drwxr-xr-x   5 root root  4096 Feb 28 10:39 [01;34mdispatcher.d[0m
+drwxr-xr-x   2 root root  4096 Nov 16  2017 [01;34mdnsmasq.d[0m
+drwxr-xr-x   2 root root  4096 Nov 16  2017 [01;34mdnsmasq-shared.d[0m
+-rw-r--r--   1 root root    76 Jan 11  2017 NetworkManager.conf
+drwxr-xr-x   2 root root  4096 Nov 16  2017 [01;34msystem-connections[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:41 [01;34mVPN[0m
+
+/etc/newt:
+total 20
+drwxr-xr-x   2 root root  4096 Feb 28 10:26 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+lrwxrwxrwx   1 root root    30 Apr  2 19:34 [01;36mpalette[0m -> /etc/alternatives/newt-palette
+-rw-r--r--   1 root root     0 Jul 25  2015 palette.original
+-rw-r--r--   1 root root   160 Jul 25  2015 palette.ubuntu
+
+/etc/opt:
+total 16
+drwxr-xr-x   2 root root  4096 Feb 28 10:25 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+
+/etc/pam.d:
+total 128
+drwxr-xr-x   2 root root  4096 Apr 10 06:03 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   384 Nov 12  2015 chfn
+-rw-r--r--   1 root root    92 Nov 12  2015 chpasswd
+-rw-r--r--   1 root root   581 Nov 12  2015 chsh
+-rw-r--r--   1 root root  1208 Apr 10 06:02 common-account
+-rw-r--r--   1 root root  1221 Apr 10 06:02 common-auth
+-rw-r--r--   1 root root  1480 Apr 10 06:02 common-password
+-rw-r--r--   1 root root  1470 Apr 10 06:02 common-session
+-rw-r--r--   1 root root  1435 Apr 10 06:02 common-session-noninteractive
+-rw-r--r--   1 root root   606 Apr  5  2016 cron
+-rw-r--r--   1 root root    69 Feb 13  2016 cups
+-rw-r--r--   1 root root    56 Jan 26  2015 gnome-screensaver
+-rw-r--r--   1 root root   884 Mar 31  2017 lightdm
+-rw-r--r--   1 root root   551 Mar 31  2017 lightdm-autologin
+-rw-r--r--   1 root root   727 Mar 31  2017 lightdm-greeter
+-rw-r--r--   1 root root  4866 Jan 29  2016 login
+-rw-r--r--   1 root root    92 Nov 12  2015 newusers
+-rw-r--r--   1 root root   520 Mar 16  2016 other
+-rw-r--r--   1 root root    92 Nov 12  2015 passwd
+-rw-r--r--   1 root root   255 Jan 17  2016 polkit-1
+-rw-r--r--   1 root root   168 Jan 27  2016 ppp
+-rw-r--r--   1 root root   143 Mar 12  2016 runuser
+-rw-r--r--   1 root root   138 Mar 12  2016 runuser-l
+-rw-r--r--   1 root root  2257 Nov 12  2015 su
+-rw-r--r--   1 root root   239 Mar 30  2016 sudo
+-rw-r--r--   1 root root   251 Apr 12  2016 systemd-user
+-rw-r--r--   1 root root    56 Dec  1 10:45 unity
+-rw-r--r--   1 root root    55 Feb 15 10:56 vmtoolsd
+
+/etc/pcmcia:
+total 20
+drwxr-xr-x   2 root root  4096 Feb 28 10:38 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root  1117 Jun 28  2012 config.opts
+
+/etc/perl:
+total 24
+drwxr-xr-x   4 root root  4096 Feb 28 10:29 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+drwxr-xr-x   2 root root  4096 Nov 10  2017 [01;34mCPAN[0m
+drwxr-xr-x   2 root root  4096 Apr 22 00:00 [01;34mNet[0m
+
+/etc/pki:
+total 24
+drwxr-xr-x   4 root root  4096 Feb 28 10:32 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+drwxr-xr-x   2 root root  4096 Apr 10 06:03 [01;34mfwupd[0m
+drwxr-xr-x   2 root root  4096 Apr 10 06:03 [01;34mfwupd-metadata[0m
+lrwxrwxrwx   1 root root    14 Apr  2 19:34 [01;36mnssdb[0m -> [01;34m/var/lib/nssdb[0m
+
+/etc/pm:
+total 28
+drwxr-xr-x   5 root root  4096 Feb 28 10:34 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+drwxr-xr-x   2 root root  4096 Feb 15  2016 [01;34mconfig.d[0m
+drwxr-xr-x   2 root root  4096 Feb 15  2016 [01;34mpower.d[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:42 [01;34msleep.d[0m
+
+/etc/polkit-1:
+total 28
+drwxr-xr-x   5 root root  4096 Feb 28 10:31 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+drwx------   7 root root  4096 Feb 28 10:31 [01;34mlocalauthority[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:39 [01;34mlocalauthority.conf.d[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:39 [01;34mnullbackend.conf.d[0m
+
+/etc/ppp:
+total 84
+drwxr-xr-x   8 root root  4096 Feb 28 10:41 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-------   1 root root    80 Feb 28 10:41 chap-secrets
+-rwxr-xr-x   1 root root  1754 Jan 27  2016 [01;32mip-down[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:41 [01;34mip-down.d[0m
+-rwxr-xr-x   1 root root  1892 Jan 27  2016 [01;32mip-up[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:41 [01;34mip-up.d[0m
+-rwxr-xr-x   1 root root   784 Jan 27  2016 [01;32mipv6-down[0m
+drwxr-xr-x   2 root root  4096 Jan 29  2016 [01;34mipv6-down.d[0m
+-rwxr-xr-x   1 root root   922 Jan 27  2016 [01;32mipv6-up[0m
+drwxr-xr-x   2 root root  4096 Jan 29  2016 [01;34mipv6-up.d[0m
+-rw-r--r--   1 root root 13209 Jan 27  2016 options
+-rw-r--r--   1 root root  2151 May 29  2015 options.pptp
+-rw-------   1 root root  1628 Feb 28 10:41 pap-secrets
+drwxr-s---   2 root dip   4096 Feb 28 10:41 [01;34mpeers[0m
+drwxr-xr-x   2 root root  4096 Oct 23  2015 [01;34mresolv[0m
+
+/etc/profile.d:
+total 36
+drwxr-xr-x   2 root root  4096 Feb 28 10:42 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root    40 Feb 16  2017 appmenu-qt5.sh
+-rw-r--r--   1 root root   580 Nov 30 11:48 apps-bin-path.sh
+-rw-r--r--   1 root root   663 May 18  2016 bash_completion.sh
+-rw-r--r--   1 root root  1003 Dec 29  2015 cedilla-portuguese.sh
+-rw-r--r--   1 root root  1941 Mar 16  2016 vte-2.91.sh
+
+/etc/pulse:
+total 36
+drwxr-xr-x   2 root root  4096 Feb 28 10:39 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root  1201 Feb 15 03:34 client.conf
+-rw-r--r--   1 root root  2282 Feb 15 03:34 daemon.conf
+-rw-r--r--   1 root root  5709 Feb 15 03:34 default.pa
+-rw-r--r--   1 root root  2046 Feb 15 03:34 system.pa
+
+/etc/python:
+total 20
+drwxr-xr-x   2 root root  4096 Feb 28 10:35 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root    94 Feb 28 10:35 debian_config
+
+/etc/python2.7:
+total 20
+drwxr-xr-x   2 root root  4096 Feb 28 10:28 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   155 Dec  4 10:10 sitecustomize.py
+
+/etc/python3:
+total 20
+drwxr-xr-x   2 root root  4096 Feb 28 10:26 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root    94 Feb 28 10:26 debian_config
+
+/etc/python3.5:
+total 20
+drwxr-xr-x   2 root root  4096 Feb 28 10:27 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   155 Mar 31  2016 sitecustomize.py
+
+/etc/rc0.d:
+total 20
+drwxr-xr-x   2 root root  4096 Apr  2 19:55 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mK01alsa-utils[0m -> [01;32m../init.d/alsa-utils[0m
+lrwxrwxrwx   1 root root    19 Apr  2 19:34 [01;36mK01bluetooth[0m -> [01;32m../init.d/bluetooth[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mK01cups-browsed[0m -> [01;32m../init.d/cups-browsed[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mK01irqbalance[0m -> [01;32m../init.d/irqbalance[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mK01kerneloops[0m -> [01;32m../init.d/kerneloops[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mK01lightdm[0m -> [01;32m../init.d/lightdm[0m
+lrwxrwxrwx   1 root root    23 Apr  2 19:55 [01;36mK01open-vm-tools[0m -> [01;32m../init.d/open-vm-tools[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mK01plymouth[0m -> [01;32m../init.d/plymouth[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mK01resolvconf[0m -> [01;32m../init.d/resolvconf[0m
+lrwxrwxrwx   1 root root    27 Apr  2 19:34 [01;36mK01speech-dispatcher[0m -> [01;32m../init.d/speech-dispatcher[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mK01thermald[0m -> [01;32m../init.d/thermald[0m
+lrwxrwxrwx   1 root root    29 Apr  2 19:34 [01;36mK01unattended-upgrades[0m -> [01;32m../init.d/unattended-upgrades[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mK01urandom[0m -> [01;32m../init.d/urandom[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mK01uuidd[0m -> [01;32m../init.d/uuidd[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mK02avahi-daemon[0m -> [01;32m../init.d/avahi-daemon[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mK03sendsigs[0m -> [01;32m../init.d/sendsigs[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mK04rsyslog[0m -> [01;32m../init.d/rsyslog[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mK05hwclock.sh[0m -> [01;32m../init.d/hwclock.sh[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mK05umountnfs.sh[0m -> [01;32m../init.d/umountnfs.sh[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mK06networking[0m -> [01;32m../init.d/networking[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mK07umountfs[0m -> [01;32m../init.d/umountfs[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:52 [01;36mK08umountroot[0m -> [01;32m../init.d/umountroot[0m
+lrwxrwxrwx   1 root root    14 Apr  2 19:52 [01;36mK09halt[0m -> [01;32m../init.d/halt[0m
+-rw-r--r--   1 root root   353 Jan 19  2016 README
+
+/etc/rc1.d:
+total 20
+drwxr-xr-x   2 root root  4096 Apr  2 19:55 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mK01alsa-utils[0m -> [01;32m../init.d/alsa-utils[0m
+lrwxrwxrwx   1 root root    19 Apr  2 19:34 [01;36mK01bluetooth[0m -> [01;32m../init.d/bluetooth[0m
+lrwxrwxrwx   1 root root    14 Apr  2 19:34 [01;36mK01cups[0m -> [01;32m../init.d/cups[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mK01cups-browsed[0m -> [01;32m../init.d/cups-browsed[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mK01irqbalance[0m -> [01;32m../init.d/irqbalance[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mK01kerneloops[0m -> [01;32m../init.d/kerneloops[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mK01lightdm[0m -> [01;32m../init.d/lightdm[0m
+lrwxrwxrwx   1 root root    23 Apr  2 19:55 [01;36mK01open-vm-tools[0m -> [01;32m../init.d/open-vm-tools[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mK01saned[0m -> [01;32m../init.d/saned[0m
+lrwxrwxrwx   1 root root    27 Apr  2 19:34 [01;36mK01speech-dispatcher[0m -> [01;32m../init.d/speech-dispatcher[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mK01thermald[0m -> [01;32m../init.d/thermald[0m
+lrwxrwxrwx   1 root root    13 Apr  2 19:34 [01;36mK01ufw[0m -> [01;32m../init.d/ufw[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mK01uuidd[0m -> [01;32m../init.d/uuidd[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mK01whoopsie[0m -> [01;32m../init.d/whoopsie[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mK02avahi-daemon[0m -> [01;32m../init.d/avahi-daemon[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mK04rsyslog[0m -> [01;32m../init.d/rsyslog[0m
+-rw-r--r--   1 root root   369 Jan 19  2016 README
+lrwxrwxrwx   1 root root    19 Apr  2 19:34 [01;36mS01killprocs[0m -> [01;32m../init.d/killprocs[0m
+lrwxrwxrwx   1 root root    16 Apr  2 19:34 [01;36mS02single[0m -> [01;32m../init.d/single[0m
+
+/etc/rc2.d:
+total 20
+drwxr-xr-x   2 root root  4096 Apr  2 19:55 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   677 Feb  5  2016 README
+lrwxrwxrwx   1 root root    16 Apr  2 19:34 [01;36mS01apport[0m -> [01;32m../init.d/apport[0m
+lrwxrwxrwx   1 root root    23 Apr  2 19:55 [01;36mS01open-vm-tools[0m -> [01;32m../init.d/open-vm-tools[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mS01rsyslog[0m -> [01;32m../init.d/rsyslog[0m
+lrwxrwxrwx   1 root root    29 Apr  2 19:34 [01;36mS01unattended-upgrades[0m -> [01;32m../init.d/unattended-upgrades[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mS01uuidd[0m -> [01;32m../init.d/uuidd[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mS02acpid[0m -> [01;32m../init.d/acpid[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mS02anacron[0m -> [01;32m../init.d/anacron[0m
+lrwxrwxrwx   1 root root    14 Apr  2 19:34 [01;36mS02cron[0m -> [01;32m../init.d/cron[0m
+lrwxrwxrwx   1 root root    14 Apr  2 19:34 [01;36mS02dbus[0m -> [01;32m../init.d/dbus[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mS02irqbalance[0m -> [01;32m../init.d/irqbalance[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mS02kerneloops[0m -> [01;32m../init.d/kerneloops[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mS02rsync[0m -> [01;32m../init.d/rsync[0m
+lrwxrwxrwx   1 root root    27 Apr  2 19:34 [01;36mS02speech-dispatcher[0m -> [01;32m../init.d/speech-dispatcher[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS02thermald[0m -> [01;32m../init.d/thermald[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS02whoopsie[0m -> [01;32m../init.d/whoopsie[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mS03avahi-daemon[0m -> [01;32m../init.d/avahi-daemon[0m
+lrwxrwxrwx   1 root root    19 Apr  2 19:34 [01;36mS03bluetooth[0m -> [01;32m../init.d/bluetooth[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mS03lightdm[0m -> [01;32m../init.d/lightdm[0m
+lrwxrwxrwx   1 root root    14 Apr  2 19:34 [01;36mS04cups[0m -> [01;32m../init.d/cups[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mS04cups-browsed[0m -> [01;32m../init.d/cups-browsed[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mS04saned[0m -> [01;32m../init.d/saned[0m
+lrwxrwxrwx   1 root root    21 Apr  2 19:34 [01;36mS05grub-common[0m -> [01;32m../init.d/grub-common[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS05ondemand[0m -> [01;32m../init.d/ondemand[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS05plymouth[0m -> [01;32m../init.d/plymouth[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:55 [01;36mS14rc.local[0m -> [01;32m../init.d/rc.local[0m
+
+/etc/rc3.d:
+total 20
+drwxr-xr-x   2 root root  4096 Apr  2 19:55 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   677 Feb  5  2016 README
+lrwxrwxrwx   1 root root    16 Apr  2 19:34 [01;36mS01apport[0m -> [01;32m../init.d/apport[0m
+lrwxrwxrwx   1 root root    23 Apr  2 19:55 [01;36mS01open-vm-tools[0m -> [01;32m../init.d/open-vm-tools[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mS01rsyslog[0m -> [01;32m../init.d/rsyslog[0m
+lrwxrwxrwx   1 root root    29 Apr  2 19:34 [01;36mS01unattended-upgrades[0m -> [01;32m../init.d/unattended-upgrades[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mS01uuidd[0m -> [01;32m../init.d/uuidd[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mS02acpid[0m -> [01;32m../init.d/acpid[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mS02anacron[0m -> [01;32m../init.d/anacron[0m
+lrwxrwxrwx   1 root root    14 Apr  2 19:34 [01;36mS02cron[0m -> [01;32m../init.d/cron[0m
+lrwxrwxrwx   1 root root    14 Apr  2 19:34 [01;36mS02dbus[0m -> [01;32m../init.d/dbus[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mS02irqbalance[0m -> [01;32m../init.d/irqbalance[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mS02kerneloops[0m -> [01;32m../init.d/kerneloops[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mS02rsync[0m -> [01;32m../init.d/rsync[0m
+lrwxrwxrwx   1 root root    27 Apr  2 19:34 [01;36mS02speech-dispatcher[0m -> [01;32m../init.d/speech-dispatcher[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS02thermald[0m -> [01;32m../init.d/thermald[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS02whoopsie[0m -> [01;32m../init.d/whoopsie[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mS03avahi-daemon[0m -> [01;32m../init.d/avahi-daemon[0m
+lrwxrwxrwx   1 root root    19 Apr  2 19:34 [01;36mS03bluetooth[0m -> [01;32m../init.d/bluetooth[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mS03lightdm[0m -> [01;32m../init.d/lightdm[0m
+lrwxrwxrwx   1 root root    14 Apr  2 19:34 [01;36mS04cups[0m -> [01;32m../init.d/cups[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mS04cups-browsed[0m -> [01;32m../init.d/cups-browsed[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mS04saned[0m -> [01;32m../init.d/saned[0m
+lrwxrwxrwx   1 root root    21 Apr  2 19:34 [01;36mS05grub-common[0m -> [01;32m../init.d/grub-common[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS05ondemand[0m -> [01;32m../init.d/ondemand[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS05plymouth[0m -> [01;32m../init.d/plymouth[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:55 [01;36mS14rc.local[0m -> [01;32m../init.d/rc.local[0m
+
+/etc/rc4.d:
+total 20
+drwxr-xr-x   2 root root  4096 Apr  2 19:55 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   677 Feb  5  2016 README
+lrwxrwxrwx   1 root root    16 Apr  2 19:34 [01;36mS01apport[0m -> [01;32m../init.d/apport[0m
+lrwxrwxrwx   1 root root    23 Apr  2 19:55 [01;36mS01open-vm-tools[0m -> [01;32m../init.d/open-vm-tools[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mS01rsyslog[0m -> [01;32m../init.d/rsyslog[0m
+lrwxrwxrwx   1 root root    29 Apr  2 19:34 [01;36mS01unattended-upgrades[0m -> [01;32m../init.d/unattended-upgrades[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mS01uuidd[0m -> [01;32m../init.d/uuidd[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mS02acpid[0m -> [01;32m../init.d/acpid[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mS02anacron[0m -> [01;32m../init.d/anacron[0m
+lrwxrwxrwx   1 root root    14 Apr  2 19:34 [01;36mS02cron[0m -> [01;32m../init.d/cron[0m
+lrwxrwxrwx   1 root root    14 Apr  2 19:34 [01;36mS02dbus[0m -> [01;32m../init.d/dbus[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mS02irqbalance[0m -> [01;32m../init.d/irqbalance[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mS02kerneloops[0m -> [01;32m../init.d/kerneloops[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mS02rsync[0m -> [01;32m../init.d/rsync[0m
+lrwxrwxrwx   1 root root    27 Apr  2 19:34 [01;36mS02speech-dispatcher[0m -> [01;32m../init.d/speech-dispatcher[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS02thermald[0m -> [01;32m../init.d/thermald[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS02whoopsie[0m -> [01;32m../init.d/whoopsie[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mS03avahi-daemon[0m -> [01;32m../init.d/avahi-daemon[0m
+lrwxrwxrwx   1 root root    19 Apr  2 19:34 [01;36mS03bluetooth[0m -> [01;32m../init.d/bluetooth[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mS03lightdm[0m -> [01;32m../init.d/lightdm[0m
+lrwxrwxrwx   1 root root    14 Apr  2 19:34 [01;36mS04cups[0m -> [01;32m../init.d/cups[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mS04cups-browsed[0m -> [01;32m../init.d/cups-browsed[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mS04saned[0m -> [01;32m../init.d/saned[0m
+lrwxrwxrwx   1 root root    21 Apr  2 19:34 [01;36mS05grub-common[0m -> [01;32m../init.d/grub-common[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS05ondemand[0m -> [01;32m../init.d/ondemand[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS05plymouth[0m -> [01;32m../init.d/plymouth[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:55 [01;36mS14rc.local[0m -> [01;32m../init.d/rc.local[0m
+
+/etc/rc5.d:
+total 20
+drwxr-xr-x   2 root root  4096 Apr  2 19:55 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   677 Feb  5  2016 README
+lrwxrwxrwx   1 root root    16 Apr  2 19:34 [01;36mS01apport[0m -> [01;32m../init.d/apport[0m
+lrwxrwxrwx   1 root root    23 Apr  2 19:55 [01;36mS01open-vm-tools[0m -> [01;32m../init.d/open-vm-tools[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mS01rsyslog[0m -> [01;32m../init.d/rsyslog[0m
+lrwxrwxrwx   1 root root    29 Apr  2 19:34 [01;36mS01unattended-upgrades[0m -> [01;32m../init.d/unattended-upgrades[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mS01uuidd[0m -> [01;32m../init.d/uuidd[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mS02acpid[0m -> [01;32m../init.d/acpid[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mS02anacron[0m -> [01;32m../init.d/anacron[0m
+lrwxrwxrwx   1 root root    14 Apr  2 19:34 [01;36mS02cron[0m -> [01;32m../init.d/cron[0m
+lrwxrwxrwx   1 root root    14 Apr  2 19:34 [01;36mS02dbus[0m -> [01;32m../init.d/dbus[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mS02irqbalance[0m -> [01;32m../init.d/irqbalance[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mS02kerneloops[0m -> [01;32m../init.d/kerneloops[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mS02rsync[0m -> [01;32m../init.d/rsync[0m
+lrwxrwxrwx   1 root root    27 Apr  2 19:34 [01;36mS02speech-dispatcher[0m -> [01;32m../init.d/speech-dispatcher[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS02thermald[0m -> [01;32m../init.d/thermald[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS02whoopsie[0m -> [01;32m../init.d/whoopsie[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mS03avahi-daemon[0m -> [01;32m../init.d/avahi-daemon[0m
+lrwxrwxrwx   1 root root    19 Apr  2 19:34 [01;36mS03bluetooth[0m -> [01;32m../init.d/bluetooth[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mS03lightdm[0m -> [01;32m../init.d/lightdm[0m
+lrwxrwxrwx   1 root root    14 Apr  2 19:34 [01;36mS04cups[0m -> [01;32m../init.d/cups[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mS04cups-browsed[0m -> [01;32m../init.d/cups-browsed[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mS04saned[0m -> [01;32m../init.d/saned[0m
+lrwxrwxrwx   1 root root    21 Apr  2 19:34 [01;36mS05grub-common[0m -> [01;32m../init.d/grub-common[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS05ondemand[0m -> [01;32m../init.d/ondemand[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS05plymouth[0m -> [01;32m../init.d/plymouth[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:55 [01;36mS14rc.local[0m -> [01;32m../init.d/rc.local[0m
+
+/etc/rc6.d:
+total 20
+drwxr-xr-x   2 root root  4096 Apr  2 19:55 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mK01alsa-utils[0m -> [01;32m../init.d/alsa-utils[0m
+lrwxrwxrwx   1 root root    19 Apr  2 19:34 [01;36mK01bluetooth[0m -> [01;32m../init.d/bluetooth[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mK01cups-browsed[0m -> [01;32m../init.d/cups-browsed[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mK01irqbalance[0m -> [01;32m../init.d/irqbalance[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mK01kerneloops[0m -> [01;32m../init.d/kerneloops[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mK01lightdm[0m -> [01;32m../init.d/lightdm[0m
+lrwxrwxrwx   1 root root    23 Apr  2 19:55 [01;36mK01open-vm-tools[0m -> [01;32m../init.d/open-vm-tools[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mK01plymouth[0m -> [01;32m../init.d/plymouth[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mK01resolvconf[0m -> [01;32m../init.d/resolvconf[0m
+lrwxrwxrwx   1 root root    27 Apr  2 19:34 [01;36mK01speech-dispatcher[0m -> [01;32m../init.d/speech-dispatcher[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mK01thermald[0m -> [01;32m../init.d/thermald[0m
+lrwxrwxrwx   1 root root    29 Apr  2 19:34 [01;36mK01unattended-upgrades[0m -> [01;32m../init.d/unattended-upgrades[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mK01urandom[0m -> [01;32m../init.d/urandom[0m
+lrwxrwxrwx   1 root root    15 Apr  2 19:34 [01;36mK01uuidd[0m -> [01;32m../init.d/uuidd[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mK02avahi-daemon[0m -> [01;32m../init.d/avahi-daemon[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mK03sendsigs[0m -> [01;32m../init.d/sendsigs[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mK04rsyslog[0m -> [01;32m../init.d/rsyslog[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mK05hwclock.sh[0m -> [01;32m../init.d/hwclock.sh[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mK05umountnfs.sh[0m -> [01;32m../init.d/umountnfs.sh[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mK06networking[0m -> [01;32m../init.d/networking[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mK07umountfs[0m -> [01;32m../init.d/umountfs[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:52 [01;36mK08umountroot[0m -> [01;32m../init.d/umountroot[0m
+lrwxrwxrwx   1 root root    16 Apr  2 19:52 [01;36mK09reboot[0m -> [01;32m../init.d/reboot[0m
+-rw-r--r--   1 root root   351 Jan 19  2016 README
+
+/etc/rcS.d:
+total 20
+drwxr-xr-x   2 root root  4096 Apr  2 19:55 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   447 Jan 19  2016 README
+lrwxrwxrwx   1 root root    23 Apr  2 19:34 [01;36mS01console-setup[0m -> [01;32m../init.d/console-setup[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mS02alsa-utils[0m -> [01;32m../init.d/alsa-utils[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS02apparmor[0m -> [01;32m../init.d/apparmor[0m
+lrwxrwxrwx   1 root root    19 Apr  2 19:34 [01;36mS02dns-clean[0m -> [01;32m../init.d/dns-clean[0m
+lrwxrwxrwx   1 root root    21 Apr  2 19:34 [01;36mS02hostname.sh[0m -> [01;32m../init.d/hostname.sh[0m
+lrwxrwxrwx   1 root root    24 Apr  2 19:34 [01;36mS02mountkernfs.sh[0m -> [01;32m../init.d/mountkernfs.sh[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mS02plymouth-log[0m -> [01;32m../init.d/plymouth-log[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:34 [01;36mS02pppd-dns[0m -> [01;32m../init.d/pppd-dns[0m
+lrwxrwxrwx   1 root root    13 Apr  2 19:34 [01;36mS02ufw[0m -> [01;32m../init.d/ufw[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mS02x11-common[0m -> [01;32m../init.d/x11-common[0m
+lrwxrwxrwx   1 root root    14 Apr  2 19:34 [01;36mS03udev[0m -> [01;32m../init.d/udev[0m
+lrwxrwxrwx   1 root root    24 Apr  2 19:34 [01;36mS04keyboard-setup[0m -> [01;32m../init.d/keyboard-setup[0m
+lrwxrwxrwx   1 root root    16 Apr  2 19:34 [01;36mS05brltty[0m -> [01;32m../init.d/brltty[0m
+lrwxrwxrwx   1 root root    26 Apr  2 19:34 [01;36mS05mountdevsubfs.sh[0m -> [01;32m../init.d/mountdevsubfs.sh[0m
+lrwxrwxrwx   1 root root    16 Apr  2 19:34 [01;36mS05procps[0m -> [01;32m../init.d/procps[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mS05resolvconf[0m -> [01;32m../init.d/resolvconf[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:34 [01;36mS06hwclock.sh[0m -> [01;32m../init.d/hwclock.sh[0m
+lrwxrwxrwx   1 root root    22 Apr  2 19:34 [01;36mS07checkroot.sh[0m -> [01;32m../init.d/checkroot.sh[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:52 [01;36mS08checkfs.sh[0m -> [01;32m../init.d/checkfs.sh[0m
+lrwxrwxrwx   1 root root    32 Apr  2 19:34 [01;36mS09checkroot-bootclean.sh[0m -> [01;32m../init.d/checkroot-bootclean.sh[0m
+lrwxrwxrwx   1 root root    14 Apr  2 19:34 [01;36mS09kmod[0m -> [01;32m../init.d/kmod[0m
+lrwxrwxrwx   1 root root    17 Apr  2 19:34 [01;36mS09urandom[0m -> [01;32m../init.d/urandom[0m
+lrwxrwxrwx   1 root root    21 Apr  2 19:52 [01;36mS10mountall.sh[0m -> [01;32m../init.d/mountall.sh[0m
+lrwxrwxrwx   1 root root    20 Apr  2 19:52 [01;36mS10networking[0m -> [01;32m../init.d/networking[0m
+lrwxrwxrwx   1 root root    31 Apr  2 19:52 [01;36mS11mountall-bootclean.sh[0m -> [01;32m../init.d/mountall-bootclean.sh[0m
+lrwxrwxrwx   1 root root    21 Apr  2 19:52 [01;36mS11mountnfs.sh[0m -> [01;32m../init.d/mountnfs.sh[0m
+lrwxrwxrwx   1 root root    31 Apr  2 19:52 [01;36mS12mountnfs-bootclean.sh[0m -> [01;32m../init.d/mountnfs-bootclean.sh[0m
+lrwxrwxrwx   1 root root    21 Apr  2 19:52 [01;36mS13bootmisc.sh[0m -> [01;32m../init.d/bootmisc.sh[0m
+lrwxrwxrwx   1 root root    18 Apr  2 19:55 [01;36mS14rc.local[0m -> [01;32m../init.d/rc.local[0m
+
+/etc/resolvconf:
+total 32
+drwxr-xr-x   5 root root  4096 Feb 28 10:30 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   511 Jun  3  2015 interface-order
+drwxr-xr-x   2 root root  4096 Feb 28 10:52 [01;34mresolv.conf.d[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:27 [01;34mupdate.d[0m
+drwxr-xr-x   2 root root  4096 Apr 10 06:03 [01;34mupdate-libc.d[0m
+
+/etc/rsyslog.d:
+total 24
+drwxr-xr-x   2 root root  4096 Feb 28 10:38 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   314 Sep  8  2015 20-ufw.conf
+-rw-r--r--   1 root root  1655 Dec  2  2015 50-default.conf
+
+/etc/sane.d:
+total 340
+drwxr-xr-x   3 root root  4096 Feb 28 10:41 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root    25 Mar 30  2017 abaton.conf
+-rw-r--r--   1 root root    14 Mar 30  2017 agfafocus.conf
+-rw-r--r--   1 root root    24 Mar 30  2017 apple.conf
+-rw-r--r--   1 root root    26 Mar 30  2017 artec.conf
+-rw-r--r--   1 root root  4140 Mar 30  2017 artec_eplus48u.conf
+-rw-r--r--   1 root root   548 Mar 30  2017 avision.conf
+-rw-r--r--   1 root root    29 Mar 30  2017 bh.conf
+-rw-r--r--   1 root root   193 Mar 30  2017 canon630u.conf
+-rw-r--r--   1 root root    26 Mar 30  2017 canon.conf
+-rw-r--r--   1 root root  3885 Mar 30  2017 canon_dr.conf
+-rw-r--r--   1 root root  1160 Mar 30  2017 canon_pp.conf
+-rw-r--r--   1 root root   509 Mar 30  2017 cardscan.conf
+-rw-r--r--   1 root root   754 Mar 30  2017 coolscan2.conf
+-rw-r--r--   1 root root   754 Mar 30  2017 coolscan3.conf
+-rw-r--r--   1 root root    34 Mar 30  2017 coolscan.conf
+-rw-r--r--   1 root root   984 Mar 30  2017 dc210.conf
+-rw-r--r--   1 root root   984 Mar 30  2017 dc240.conf
+-rw-r--r--   1 root root   704 Mar 30  2017 dc25.conf
+-rw-r--r--   1 root root   492 Mar 30  2017 dell1600n_net.conf
+-rw-r--r--   1 root root  1098 Mar 30  2017 dll.conf
+drwxr-xr-x   2 root root  4096 Feb 28 10:39 [01;34mdll.d[0m
+-rw-r--r--   1 root root    12 Mar 30  2017 dmc.conf
+-rw-r--r--   1 root root  2569 Mar 30  2017 epjitsu.conf
+-rw-r--r--   1 root root   376 Mar 30  2017 epson2.conf
+-rw-r--r--   1 root root   793 Mar 30  2017 epson.conf
+-rw-r--r--   1 root root   221 Mar 30  2017 epsonds.conf
+-rw-r--r--   1 root root  2248 Mar 30  2017 fujitsu.conf
+-rw-r--r--   1 root root  2008 Mar 30  2017 genesys.conf
+-rw-r--r--   1 root root  1149 Mar 30  2017 gphoto2.conf
+-rw-r--r--   1 root root  7795 Mar 30  2017 gt68xx.conf
+-rw-r--r--   1 root root   396 Mar 30  2017 hp3900.conf
+-rw-r--r--   1 root root    76 Mar 30  2017 hp4200.conf
+-rw-r--r--   1 root root   238 Mar 30  2017 hp5400.conf
+-rw-r--r--   1 root root   497 Mar 30  2017 hp.conf
+-rw-r--r--   1 root root    22 Mar 30  2017 hpsj5s.conf
+-rw-r--r--   1 root root    24 Mar 30  2017 hs2p.conf
+-rw-r--r--   1 root root    38 Mar 30  2017 ibm.conf
+-rw-r--r--   1 root root  2599 Mar 30  2017 kodakaio.conf
+-rw-r--r--   1 root root   367 Mar 30  2017 kodak.conf
+-rw-r--r--   1 root root   113 Mar 30  2017 leo.conf
+-rw-r--r--   1 root root   119 Mar 30  2017 lexmark.conf
+-rw-r--r--   1 root root   187 Mar 30  2017 ma1509.conf
+-rw-r--r--   1 root root  1254 Mar 30  2017 magicolor.conf
+-rw-r--r--   1 root root   666 Mar 30  2017 matsushita.conf
+-rw-r--r--   1 root root   279 Mar 30  2017 microtek2.conf
+-rw-r--r--   1 root root   268 Mar 30  2017 microtek.conf
+-rw-r--r--   1 root root  2125 Mar 30  2017 mustek.conf
+-rw-r--r--   1 root root  3824 Mar 30  2017 mustek_pp.conf
+-rw-r--r--   1 root root   809 Mar 30  2017 mustek_usb.conf
+-rw-r--r--   1 root root    13 Mar 30  2017 nec.conf
+-rw-r--r--   1 root root   573 Mar 30  2017 net.conf
+-rw-r--r--   1 root root   365 Mar 30  2017 p5.conf
+-rw-r--r--   1 root root    75 Mar 30  2017 pie.conf
+-rw-r--r--   1 root root   492 Mar 30  2017 pixma.conf
+-rw-r--r--   1 root root  4142 Mar 30  2017 plustek.conf
+-rw-r--r--   1 root root   943 Mar 30  2017 plustek_pp.conf
+-rw-r--r--   1 root root   391 Mar 30  2017 qcam.conf
+-rw-r--r--   1 root root    29 Mar 30  2017 ricoh.conf
+-rw-r--r--   1 root root   183 Mar 30  2017 rts8891.conf
+-rw-r--r--   1 root root    13 Mar 30  2017 s9036.conf
+-rw-r--r--   1 root root  1052 Mar 30  2017 saned.conf
+-rw-r--r--   1 root root    48 Mar 30  2017 sceptre.conf
+-rw-r--r--   1 root root  1464 Mar 30  2017 sharp.conf
+-rw-r--r--   1 root root   115 Mar 30  2017 sm3840.conf
+-rw-r--r--   1 root root  2239 Mar 30  2017 snapscan.conf
+-rw-r--r--   1 root root    10 Mar 30  2017 sp15c.conf
+-rw-r--r--   1 root root  2224 Mar 30  2017 st400.conf
+-rw-r--r--   1 root root   178 Mar 30  2017 stv680.conf
+-rw-r--r--   1 root root    28 Mar 30  2017 tamarack.conf
+-rw-r--r--   1 root root   355 Mar 30  2017 teco1.conf
+-rw-r--r--   1 root root   636 Mar 30  2017 teco2.conf
+-rw-r--r--   1 root root   217 Mar 30  2017 teco3.conf
+-rw-r--r--   1 root root  1807 Mar 30  2017 test.conf
+-rw-r--r--   1 root root  1495 Mar 30  2017 u12.conf
+-rw-r--r--   1 root root   386 Mar 30  2017 umax1220u.conf
+-rw-r--r--   1 root root  3094 Mar 30  2017 umax.conf
+-rw-r--r--   1 root root  1684 Mar 30  2017 umax_pp.conf
+-rw-r--r--   1 root root  3424 Mar 30  2017 xerox_mfp.conf
+
+/etc/security:
+total 64
+drwxr-xr-x   4 root root  4096 Feb 28 10:39 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root  4620 Mar 16  2016 access.conf
+-rw-r--r--   1 root root  3635 Mar 16  2016 group.conf
+-rw-r--r--   1 root root  2150 Mar 16  2016 limits.conf
+drwxr-xr-x   2 root root  4096 Mar 16  2016 [01;34mlimits.d[0m
+-rw-r--r--   1 root root  1440 Mar 16  2016 namespace.conf
+drwxr-xr-x   2 root root  4096 Mar 16  2016 [01;34mnamespace.d[0m
+-rwxr-xr-x   1 root root  1019 Mar 16  2016 [01;32mnamespace.init[0m
+-rw-------   1 root root     0 Feb 28 10:25 opasswd
+-rw-r--r--   1 root root  2972 Mar 16  2016 pam_env.conf
+-rw-r--r--   1 root root  1718 Oct 26  2015 pwquality.conf
+-rw-r--r--   1 root root   419 Mar 16  2016 sepermit.conf
+-rw-r--r--   1 root root  2179 Mar 16  2016 time.conf
+
+/etc/selinux:
+total 20
+drwxr-xr-x   2 root root  4096 Feb 28 10:25 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root  1888 Apr 20  2016 semanage.conf
+
+/etc/sensors.d:
+total 16
+drwxr-xr-x   2 root root  4096 Feb 28 10:38 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root     0 Oct  2  2015 .placeholder
+
+/etc/sgml:
+total 24
+drwxr-xr-x   2 root root  4096 Feb 28 10:39 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+lrwxrwxrwx   1 root root    31 Apr  2 19:34 [01;36mcatalog[0m -> /var/lib/sgml-base/supercatalog
+-rw-r--r--   1 root root    48 Mar 23  2017 metacity-common.cat
+-rw-r--r--   1 root root    45 Nov  7  2012 xml-core.cat
+
+/etc/signon-ui:
+total 20
+drwxr-xr-x   3 root root  4096 Feb 28 10:30 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:42 [01;34mwebkit-options.d[0m
+
+/etc/skel:
+total 40
+drwxr-xr-x   2 root root  4096 Feb 28 10:39 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   220 Aug 31  2015 .bash_logout
+-rw-r--r--   1 root root  3771 Aug 31  2015 .bashrc
+-rw-r--r--   1 root root  8980 Apr 20  2016 examples.desktop
+-rw-r--r--   1 root root   655 May 16  2017 .profile
+
+/etc/speech-dispatcher:
+total 36
+drwxr-xr-x   4 root root  4096 Feb 28 10:39 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:39 [01;34mclients[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:39 [01;34mmodules[0m
+-rw-r--r--   1 root root  9728 Feb 18  2016 speechd.conf
+
+/etc/ssh:
+total 316
+drwxr-xr-x   2 root root   4096 Feb 28 10:38 [01;34m.[0m
+drwxr-xr-x 131 root root  12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root 300261 Jan 18 06:15 moduli
+-rw-r--r--   1 root root   1756 Jan 18 06:15 ssh_config
+
+/etc/ssl:
+total 52
+drwxr-xr-x   4 root root      4096 Apr 22 00:00 [01;34m.[0m
+drwxr-xr-x 131 root root     12288 Apr 22 00:00 [01;34m..[0m
+drwxr-xr-x   2 root root     20480 Apr  2 19:51 [01;34mcerts[0m
+-rw-r--r--   1 root root     10835 Dec  7 13:08 openssl.cnf
+drwx--x---   2 root ssl-cert  4096 Apr  2 19:51 [01;34mprivate[0m
+
+/etc/sudoers.d:
+total 20
+drwxr-xr-x   2 root root  4096 Feb 28 10:27 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-r--r-----   1 root root   958 Mar 30  2016 README
+
+/etc/sysctl.d:
+total 52
+drwxr-xr-x   2 root root  4096 Apr 10 06:02 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root    77 Jan 13  2016 10-console-messages.conf
+-rw-r--r--   1 root root   490 Jan 13  2016 10-ipv6-privacy.conf
+-rw-r--r--   1 root root   726 Jan 13  2016 10-kernel-hardening.conf
+-rw-r--r--   1 root root   257 Jan 13  2016 10-link-restrictions.conf
+-rw-r--r--   1 root root  1184 Jan 13  2016 10-magic-sysrq.conf
+-rw-r--r--   1 root root   509 Jan 13  2016 10-network-security.conf
+-rw-r--r--   1 root root  1292 Jan 13  2016 10-ptrace.conf
+-rw-r--r--   1 root root   506 Jan 13  2016 10-zeropage.conf
+lrwxrwxrwx   1 root root    14 Mar  8 09:51 [01;36m99-sysctl.conf[0m -> ../sysctl.conf
+-rw-r--r--   1 root root   519 Jan 13  2016 README
+
+/etc/systemd:
+total 56
+drwxr-xr-x   5 root root  4096 Apr 10 06:02 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   720 Apr 12  2016 bootchart.conf
+-rw-r--r--   1 root root  1011 Apr 12  2016 journald.conf
+-rw-r--r--   1 root root   986 Apr 12  2016 logind.conf
+drwxr-xr-x   2 root root  4096 Apr 12  2016 [01;34mnetwork[0m
+-rw-r--r--   1 root root   610 Apr 12  2016 resolved.conf
+drwxr-xr-x  18 root root  4096 Apr  2 19:52 [01;34msystem[0m
+-rw-r--r--   1 root root  1537 Feb  1 06:31 system.conf
+-rw-r--r--   1 root root   534 Apr 12  2016 timesyncd.conf
+drwxr-xr-x   2 root root  4096 Apr 12  2016 [01;34muser[0m
+-rw-r--r--   1 root root  1127 Apr 12  2016 user.conf
+
+/etc/terminfo:
+total 20
+drwxr-xr-x   2 root root  4096 Feb 28 10:25 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   212 Feb 19  2016 README
+
+/etc/thermald:
+total 28
+drwxr-xr-x   2 root root  4096 Feb 28 10:41 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root  4605 Apr 18  2017 thermal-conf.xml
+-rw-r--r--   1 root root   508 Apr 18  2017 thermal-cpu-cdev-order.xml
+
+/etc/thunderbird:
+total 20
+drwxr-xr-x   2 root root  4096 Apr  2 19:51 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   163 Jan 24 06:34 syspref.js
+
+/etc/tmpfiles.d:
+total 16
+drwxr-xr-x   2 root root  4096 Apr 12  2016 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+]0;baodkpro000@ubuntu: /usr/lib[01;32mbaodkpro000@ubuntu[00m:[01;34m/usr/lib[00m$ ls -la /etc/[m-t]*[K[K[K[K[K[K?h*
+-rw-r----- 1 root shadow 1188 Apr  2 19:46 /etc/shadow
+-rw------- 1 root root   1155 Apr  2 19:46 /etc/shadow-
+-rw-r--r-- 1 root root     73 Feb 28 10:25 /etc/shells
+
+/etc/chatscripts:
+total 28
+drwxr-s---   2 root dip   4096 Feb 28 10:41 [0m[01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   950 Jan 27  2016 gprs
+-rw-r--r--   1 root root   653 Jan 27  2016 pap
+-rw-r-----   1 root dip    656 Feb 28 10:41 provider
+
+/etc/dhcp:
+total 32
+drwxr-xr-x   4 root root  4096 Apr 10 06:03 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root  1426 Oct  3  2015 debug
+-rw-r--r--   1 root root  1735 Jan 13  2016 dhclient.conf
+drwxr-xr-x   2 root root  4096 Apr 10 06:03 [01;34mdhclient-enter-hooks.d[0m
+drwxr-xr-x   2 root root  4096 Apr 10 06:03 [01;34mdhclient-exit-hooks.d[0m
+
+/etc/ghostscript:
+total 24
+drwxr-xr-x   4 root root  4096 Feb 28 10:30 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:38 [01;34mcidfmap.d[0m
+drwxr-xr-x   2 root root  4096 Feb 28 10:39 [01;34mfontmap.d[0m
+
+/etc/thermald:
+total 28
+drwxr-xr-x   2 root root  4096 Feb 28 10:41 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root  4605 Apr 18  2017 thermal-conf.xml
+-rw-r--r--   1 root root   508 Apr 18  2017 thermal-cpu-cdev-order.xml
+
+/etc/thunderbird:
+total 20
+drwxr-xr-x   2 root root  4096 Apr  2 19:51 [01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root   163 Jan 24 06:34 syspref.js
+]0;baodkpro000@ubuntu: /usr/lib[01;32mbaodkpro000@ubuntu[00m:[01;34m/usr/lib[00m$ ls -la /etc/?h*[K[K[K*a
+total 20
+drwxr-xr-x   2 root root  4096 Feb 28 10:38 [0m[01;34m.[0m
+drwxr-xr-x 131 root root 12288 Apr 22 00:00 [01;34m..[0m
+-rw-r--r--   1 root root  1117 Jun 28  2012 config.opts
+]0;baodkpro000@ubuntu: /usr/lib[01;32mbaodkpro000@ubuntu[00m:[01;34m/usr/lib[00m$ [ad-e]*
+accountsservice: command not found
+]0;baodkpro000@ubuntu: /usr/lib[01;32mbaodkpro000@ubuntu[00m:[01;34m/usr/lib[00m$ touch $HOME/-myfile
+]0;baodkpro000@ubuntu: /usr/lib[01;32mbaodkpro000@ubuntu[00m:[01;34m/usr/lib[00m$ touch $HOME/-myfile[C[1P $HOME/-myfile[1P $HOME/-myfile[1P $HOME/-myfile[1P $HOME/-myfile[1P $HOME/-myfiler $HOME/-myfilem $HOME/-myfile
+]0;baodkpro000@ubuntu: /usr/lib[01;32mbaodkpro000@ubuntu[00m:[01;34m/usr/lib[00m$ cd %[K$HOME/linux2002/
+]0;baodkpro000@ubuntu: ~/linux2002[01;32mbaodkpro000@ubuntu[00m:[01;34m~/linux2002[00m$ touch hello hello1 helloA[Kabc
+]0;baodkpro000@ubuntu: ~/linux2002[01;32mbaodkpro000@ubuntu[00m:[01;34m~/linux2002[00m$ ls -l home
+ls: cannot access 'home': No such file or directory
+]0;baodkpro000@ubuntu: ~/linux2002[01;32mbaodkpro000@ubuntu[00m:[01;34m~/linux2002[00m$ ls -l home>[K?
+ls: cannot access 'home?': No such file or directory
+]0;baodkpro000@ubuntu: ~/linux2002[01;32mbaodkpro000@ubuntu[00m:[01;34m~/linux2002[00m$ ls -l home?[K*
+ls: cannot access 'home*': No such file or directory
+]0;baodkpro000@ubuntu: ~/linux2002[01;32mbaodkpro000@ubuntu[00m:[01;34m~/linux2002[00m$ ls -r /boot > $HOME/bootlius[K[Kst.txt
+]0;baodkpro000@ubuntu: ~/linux2002[01;32mbaodkpro000@ubuntu[00m:[01;34m~/linux2002[00m$ grep sv /etc/passwd
+]0;baodkpro000@ubuntu: ~/linux2002[01;32mbaodkpro000@ubuntu[00m:[01;34m~/linux2002[00m$ grep /bin/bash /etc/passwd
+root:x:0:0:root:/root:[01;31m[K/bin/bash[m[K
+baodkpro000:x:1000:1000:BaoBao,,,:/home/baodkpro000:[01;31m[K/bin/bash[m[K
+]0;baodkpro000@ubuntu: ~/linux2002[01;32mbaodkpro000@ubuntu[00m:[01;34m~/linux2002[00m$ grep /bin/bash /etc/passwd[1P /etc/passwd[1P /etc/passwd[1P /etc/passwd[1P /etc/passwdf /etc/passwda /etc/passwdl /etc/passwds /etc/passwde /etc/passwd
+systemd-timesync:x:100:102:systemd Time Synchronization,,,:/run/systemd:[01;31m[K/bin/false[m[K
+systemd-network:x:101:103:systemd Network Management,,,:/run/systemd/netif:[01;31m[K/bin/false[m[K
+systemd-resolve:x:102:104:systemd Resolver,,,:/run/systemd/resolve:[01;31m[K/bin/false[m[K
+systemd-bus-proxy:x:103:105:systemd Bus Proxy,,,:/run/systemd:[01;31m[K/bin/false[m[K
+syslog:x:104:108::/home/syslog:[01;31m[K/bin/false[m[K
+_apt:x:105:65534::/nonexistent:[01;31m[K/bin/false[m[K
+messagebus:x:106:110::/var/run/dbus:[01;31m[K/bin/false[m[K
+uuidd:x:107:111::/run/uuidd:[01;31m[K/bin/false[m[K
+lightdm:x:108:114:Light Display Manager:/var/lib/lightdm:[01;31m[K/bin/false[m[K
+whoopsie:x:109:117::/nonexistent:[01;31m[K/bin/false[m[K
+avahi-autoipd:x:110:119:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:[01;31m[K/bin/false[m[K
+avahi:x:111:120:Avahi mDNS daemon,,,:/var/run/avahi-daemon:[01;31m[K/bin/false[m[K
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:[01;31m[K/bin/false[m[K
+colord:x:113:123:colord colour management daemon,,,:/var/lib/colord:[01;31m[K/bin/false[m[K
+speech-dispatcher:x:114:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:[01;31m[K/bin/false[m[K
+hplip:x:115:7:HPLIP system user,,,:/var/run/hplip:[01;31m[K/bin/false[m[K
+kernoops:x:116:65534:Kernel Oops Tracking Daemon,,,:/:[01;31m[K/bin/false[m[K
+pulse:x:117:124:PulseAudio daemon,,,:/var/run/pulse:[01;31m[K/bin/false[m[K
+rtkit:x:118:126:RealtimeKit,,,:/proc:[01;31m[K/bin/false[m[K
+saned:x:119:127::/var/lib/saned:[01;31m[K/bin/false[m[K
+usbmux:x:120:46:usbmux daemon,,,:/var/lib/usbmux:[01;31m[K/bin/false[m[K
+]0;baodkpro000@ubuntu: ~/linux2002[01;32mbaodkpro000@ubuntu[00m:[01;34m~/linux2002[00m$ chmod 640 $HOME/*.ttf
+chmod: cannot access '/home/baodkpro000/*.ttf': No such file or directory
+]0;baodkpro000@ubuntu: ~/linux2002[01;32mbaodkpro000@ubuntu[00m:[01;34m~/linux2002[00m$ cat /etc/services|cat -n20
+cat: invalid option -- '2'
+Try 'cat --help' for more information.
+]0;baodkpro000@ubuntu: ~/linux2002[01;32mbaodkpro000@ubuntu[00m:[01;34m~/linux2002[00m$ cat /etc/services|cat -n20[C[1P -n20[1P -n20[1P -n20t -n20i -n20l -n20[1P -n20[1P -n20a -n20i -n20l -n20
+smsqp		11201/udp
+xpilot		15345/tcp			# XPilot Contact Port
+xpilot		15345/udp
+sgi-cmsd	17001/udp		# Cluster membership services daemon
+sgi-crsd	17002/udp
+sgi-gcd		17003/udp			# SGI Group membership daemon
+sgi-cad		17004/tcp			# Cluster Admin daemon
+isdnlog		20011/tcp			# isdn logging system
+isdnlog		20011/udp
+vboxd		20012/tcp			# voice box system
+vboxd		20012/udp
+binkp		24554/tcp			# binkp fidonet protocol
+asp		27374/tcp			# Address Search Protocol
+asp		27374/udp
+csync2		30865/tcp			# cluster synchronization tool
+dircproxy	57000/tcp			# Detachable IRC Proxy
+tfido		60177/tcp			# fidonet EMSI over telnet
+fido		60179/tcp			# fidonet EMSI over TCP
+
+# Local services
+]0;baodkpro000@ubuntu: ~/linux2002[01;32mbaodkpro000@ubuntu[00m:[01;34m~/linux2002[00m$ cat /etc/services|tail -n20[1P -n20[1P -n20[1P -n20[1P -n20h -n20e -n20a -n20d -n20
+# Network services, Internet style
+#
+# Note that it is presently the policy of IANA to assign a single well-known
+# port number for both TCP and UDP; hence, officially ports have two entries
+# even if the protocol doesn't support UDP operations.
+#
+# Updated from http://www.iana.org/assignments/port-numbers and other
+# sources like http://www.freebsd.org/cgi/cvsweb.cgi/src/etc/services .
+# New ports will be added on request if they have been officially assigned
+# by IANA and used in the real-world or are needed by a debian package.
+# If you need a huge list of used numbers please install the nmap package.
+
+tcpmux		1/tcp				# TCP port service multiplexer
+echo		7/tcp
+echo		7/udp
+discard		9/tcp		sink null
+discard		9/udp		sink null
+systat		11/tcp		users
+daytime		13/tcp
+daytime		13/udp
+]0;baodkpro000@ubuntu: ~/linux2002[01;32mbaodkpro000@ubuntu[00m:[01;34m~/linux2002[00m$ who
+baodkpro000 tty7         2018-04-17 04:47 (:0)
+]0;baodkpro000@ubuntu: ~/linux2002[01;32mbaodkpro000@ubuntu[00m:[01;34m~/linux2002[00m$ tar -cvf linux2002.tar.gz $HOME/linux2002
+tar: Removing leading `/' from member names
+/home/baodkpro000/linux2002/
+tar: /home/baodkpro000/linux2002/linux2002.tar.gz: file is the archive; not dumped
+/home/baodkpro000/linux2002/hello1
+/home/baodkpro000/linux2002/helloabc
+/home/baodkpro000/linux2002/hello
+]0;baodkpro000@ubuntu: ~/linux2002[01;32mbaodkpro000@ubuntu[00m:[01;34m~/linux2002[00m$ clear
+[3;J[H[2J]0;baodkpro000@ubuntu: ~/linux2002[01;32mbaodkpro000@ubuntu[00m:[01;34m~/linux2002[00m$ c[Kexit
+exit
+
+Script done on Tue 22 May 2018 05:08:03 AM PDT
